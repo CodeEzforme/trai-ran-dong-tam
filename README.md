@@ -32,7 +32,7 @@ Không cần cài Node modules để chạy website. Three.js 0.186.1, phông ch
 - Mục Vườn thuốc nam nằm ngay sau Sản phẩm trên menu, với 6 ảnh do chủ dự án cung cấp và trình xem ảnh lớn có điều khiển bằng bàn phím.
 - Tìm kiếm tiếng Việt không dấu, lọc danh mục, phân trang, trạng thái không có kết quả, URL giữ bộ lọc và trang hiện tại.
 - Three.js hiển thị mô hình rắn GLB với texture, normal map, ánh sáng trực tiếp và bóng đổ. Camera tự fit theo khung desktop/mobile; thanh xoay/zoom/reset nằm riêng. Chỉ ẩn ảnh khi đã kiểm tra được khung hình 3D. Có timeout tải, ảnh thay thế, nút thử lại và xử lý mất WebGL context. Nguồn CC0 tại [docs/3D-ASSETS.md](docs/3D-ASSETS.md).
-- Trang chủ dùng hai ảnh bìa do chủ dự án cung cấp, chuyển ảnh nhẹ với nút chọn và tạm dừng; bản điện thoại dùng ảnh tối ưu riêng và bố cục giữ rõ biển hiệu. Bên dưới có lưới trải nghiệm và dải động vật kéo ngang. View Transitions tạo chuyển trang; reduced motion tắt tự chuyển ảnh và hiệu ứng.
+- Trang chủ dùng hai ảnh bìa do chủ dự án cung cấp, tự chuyển mỗi 5 giây kể cả khi rê chuột hoặc đặt focus trên bìa. Có ảnh thu nhỏ để chọn, thanh tiến trình và nút tạm dừng; bản điện thoại dùng ảnh tối ưu riêng. Chế độ giảm chuyển động giữ lịch đổi ảnh nhưng tắt hiệu ứng mờ. Bên dưới có lưới trải nghiệm, dải động vật kéo ngang và chuyển trang bằng View Transitions.
 - Menu desktop/mobile, hộp tìm kiếm có điều khiển bàn phím, FAQ, nội dung dựng sẵn cho SEO, sitemap XML và trang 404.
 - Biểu mẫu có kiểm tra trường bắt buộc, tạo bản nháp email qua `mailto:` và liên kết dự phòng. Website không báo đã gửi email hoặc đã xác nhận lịch.
 - 7 skill GitHub được cài trong `.agents/skills/`. Nguồn, vai trò và giấy phép ở [docs/SKILLS.md](docs/SKILLS.md).

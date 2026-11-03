@@ -160,7 +160,7 @@ def search_dialog():
 def shell(name,body,path='/',desc='',extra=''):
     d=desc or plain(body)[:155]
     if path == '/':
-        extra += '<link rel="stylesheet" href="/assets/cover.css?v=1"><script defer src="/assets/cover.js?v=1"></script>'
+        extra += '<link rel="stylesheet" href="/assets/cover.css?v=2"><script defer src="/assets/cover.js?v=2"></script>'
     if path in ['/vuon-thuoc-nam/', '/dieu-tri-ran-can/']:
         extra += '<link rel="stylesheet" href="/assets/garden.css?v=2"><script defer src="/assets/garden.js?v=1"></script>'
     return '<!doctype html><html lang="vi" id="top"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#163e2d"><title>'+ESC(name)+' | Trại rắn Đồng Tâm</title><meta name="description" content="'+ESC(d[:170])+'"><link rel="canonical" href="https://trairandongtam.vn'+ESC(path)+'"><link rel="icon" href="'+image_url(LOGO)+'"><link rel="stylesheet" href="/assets/style.css?v=3"><link rel="stylesheet" href="/assets/refinements.css?v=3"><link rel="stylesheet" href="/assets/experience.css?v=4"><script type="importmap">{"imports":{"three":"/assets/vendor/three.module.js","three/addons/":"/assets/vendor/","three/addons/controls/OrbitControls.js":"/assets/vendor/OrbitControls.js"}}</script><script defer src="/assets/app.js?v=4"></script><script defer src="/assets/motion.js?v=3"></script>'+extra+'</head><body class="'+('page-home' if path=='/' else 'page-inner')+'">'+header(path)+'<main id="main">'+body+'</main>'+footer()+search_dialog()+'</body></html>'

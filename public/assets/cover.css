@@ -1,63 +1,83 @@
-/* Two owner-supplied photographs form the homepage cover. */
-.hero-cover.hero { position: relative; isolation: isolate; background: #183c2d; color: #fffdf3; margin: 0; border-radius: 0; min-height: 0; overflow: hidden; padding: 0 0 26px; }
+/* A brighter photographic cover, with a quieter type treatment and warm accents. */
+.hero-cover.hero { position: relative; isolation: isolate; margin: 0; padding: 0 0 24px; min-height: 0; border-radius: 0; overflow: hidden; background: #193c2b; color: #fffdf5; }
 .cover-slides,.cover-slide,.cover-shade { position: absolute; inset: 0; }
 .cover-slides { z-index: -2; }
-.cover-slide { opacity: 0; transition: opacity 1.2s ease; }
+.cover-slide { opacity: 0; transition: opacity .9s ease; }
 .cover-slide.is-active { opacity: 1; }
 .cover-slide picture,.cover-slide img { display: block; width: 100%; height: 100%; }
-.cover-slide img { object-fit: cover; object-position: 56% 48%; }
-.cover-slide:nth-child(2) img { object-position: 55% 45%; }
-.cover-shade { z-index: -1; background: linear-gradient(90deg,#10291ee8 0%,#10291ec7 29%,#10291e55 59%,#10291e14 84%),linear-gradient(0deg,#10291ec2,transparent 62%); }
-.hero-cover-content { position: relative; padding-top: 64px; padding-bottom: 28px; min-height: 456px; display: flex; align-items: center; }
-.hero-cover .hero-copy { max-width: 640px; padding: 0; }
-.hero-cover .hero-tag { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 22px; padding: 7px 12px; background: #eff4df12; border: 1px solid #e7edda4d; color: #f2f4e7; border-radius: 30px; font-size: 11px; }
-.hero-cover .hero-tag .icon { width: 15px; height: 15px; }
-.hero-cover h1 { margin: 0; color: #fffdf3; font-size: clamp(48px,4.9vw,72px); font-weight: 650; line-height: 1.12; letter-spacing: -.055em; text-shadow: 0 2px 24px #071b1926; }
+.cover-slide img { object-fit: cover; object-position: 58% 34%; }
+.cover-slide:nth-child(2) img { object-position: 55% 42%; }
+.cover-shade { z-index: -1; background: linear-gradient(90deg,#10291ed9 0%,#10291e9e 28%,#10291e2b 58%,#10291e00 83%),linear-gradient(0deg,#0c251bb8,transparent 42%); }
+.hero-cover-content { position: relative; display: flex; align-items: center; min-height: 466px; padding-top: 48px; padding-bottom: 24px; }
+.hero-cover .hero-copy { max-width: 600px; padding: 0; }
+.hero-cover .hero-tag { display: inline-flex; align-items: center; gap: 9px; padding: 0; margin-bottom: 24px; border: 0; border-radius: 0; background: none; color: #f4e2bb; font-size: 12px; font-weight: 500; }
+.hero-cover .hero-tag .icon { width: 17px; height: 17px; color: #edc982; }
+.hero-cover h1 { margin: 0; color: #fffdf5; font-size: clamp(48px,4.35vw,66px); font-weight: 500; line-height: 1.13; letter-spacing: -.055em; text-shadow: 0 2px 22px #0a27192b; }
 .hero-cover h1 span { display: block; }
-.hero-cover .hero-copy > p { margin-top: 21px; max-width: 430px; color: #eff1e6; font-size: 14px; line-height: 1.9; }
-.hero-cover .hero-actions { display: flex; align-items: center; flex-wrap: wrap; flex-direction: row; gap: 23px; margin-top: 26px; }
-.hero-cover .button.primary { background: #eff3de; border-color: #eff3de; color: #183c2d; box-shadow: 0 5px 20px #061b1222; }
-.hero-cover .button.primary:hover { background: #fffdf2; border-color: #fffdf2; }
-.hero-cover .hero-secondary { display: inline-flex; align-items: center; gap: 9px; color: #fffdf3; font-size: 12px; }
-.hero-cover .hero-secondary .icon { width: 19px; height: 19px; }
-.hero-cover a:focus-visible,.cover-controls button:focus-visible { outline: 3px solid #edc779; outline-offset: 5px; }
-.cover-footer { position: relative; display: flex; align-items: center; justify-content: flex-end; gap: 16px; padding-bottom: 20px; min-height: 57px; }
-.hero-cover .cover-caption { font-size: 11px; line-height: 1.5; color: #fbf8e9; margin: 0; max-width: none; text-shadow: 0 1px 8px #0006; }
-.cover-controls { display: flex; align-items: center; gap: 7px; }
+.hero-cover .hero-copy > p { margin-top: 24px; max-width: 365px; color: #f4f3e8; font-size: 13px; font-weight: 400; line-height: 1.95; text-shadow: 0 1px 12px #08211655; }
+.hero-cover .hero-actions { display: flex; align-items: center; flex-direction: row; flex-wrap: wrap; gap: 24px; margin-top: 27px; }
+.hero-cover .button.primary { min-height: 48px; padding: 13px 23px; background: #edc47b; color: #203d2b; border-color: #edc47b; box-shadow: 0 4px 16px #10231826; font-size: 12px; font-weight: 600; }
+.hero-cover .button.primary:hover { background: #ffdfa2; border-color: #ffdfa2; }
+.hero-cover .hero-secondary { display: inline-flex; align-items: center; gap: 9px; color: #fffdf5; font-size: 12px; }
+.hero-cover .hero-secondary .icon { width: 35px; height: 35px; padding: 8px; border: 1px solid #f7f5e666; border-radius: 50%; }
+.hero-cover a:focus-visible,.cover-controls button:focus-visible { outline: 3px solid #f4cf8a; outline-offset: 5px; }
+.cover-footer { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 68px; padding-bottom: 22px; }
+.cover-story { display: flex; align-items: center; gap: 17px; }
+.cover-counter { white-space: nowrap; font-size: 10px; color: #e6e9db99; font-variant-numeric: tabular-nums; letter-spacing: .04em; }
+.cover-counter [data-cover-current] { font-size: 16px; font-weight: 500; color: #fffdf5; }
+.hero-cover .cover-caption { max-width: none; margin: 0; padding-left: 16px; border-left: 1px solid #edf0df47; font-size: 11px; font-weight: 400; line-height: 1.5; color: #f3f3e7; text-shadow: 0 1px 8px #0006; }
+.cover-controls { display: flex; align-items: center; gap: 9px; }
 .cover-controls[hidden] { display: none; }
-.cover-controls button { display: grid; place-items: center; flex-shrink: 0; background: #102a2059; border: 1px solid #e9eede66; color: #fffdf3; border-radius: 50%; padding: 0; width: 32px; height: 32px; }
-.cover-controls button:hover { background: #eff3de2b; }
-.cover-controls .cover-dot { width: 29px; height: 29px; }
-.cover-dot::after { content: ''; width: 5px; height: 5px; border-radius: 50%; background: #f1f4e49c; }
-.cover-dot[aria-pressed=true] { border-color: #f1f4e4; background: #eff3de24; }
-.cover-dot[aria-pressed=true]::after { width: 7px; height: 7px; background: #fffdf3; }
-.cover-controls [data-cover-pause] { font: 500 12px sans-serif; margin-left: 5px; }
-.cover-controls [data-cover-pause][hidden] { display: none; }
+.cover-controls button { display: grid; place-items: center; flex-shrink: 0; padding: 0; width: 34px; height: 34px; border: 1px solid #e9eddf70; border-radius: 50%; color: #fffdf5; background: #173b2a4d; }
+.cover-controls .cover-dot { position: relative; width: 64px; height: 42px; padding: 3px; border-radius: 7px; border-color: #ecf0e14d; opacity: .65; overflow: hidden; transition: border-color .2s,opacity .2s; }
+.cover-dot img { width: 100%; height: 100%; display: block; object-fit: cover; border-radius: 3px; }
+.cover-dot::after { display: none; }
+.cover-controls .cover-dot:hover,.cover-controls .cover-dot[aria-pressed=true] { opacity: 1; border-color: #edc47b; }
+.cover-progress { position: absolute; left: 3px; bottom: 2px; height: 2px; width: calc(100% - 6px); background: #f4d292; transform: scaleX(0); transform-origin: left; border-radius: 1px; }
+.cover-dot:not([aria-pressed=true]) .cover-progress { visibility: hidden; }
+.cover-controls [data-cover-pause] { font: 500 12px sans-serif; margin-left: 5px; background: #173b2a80; }
+.cover-controls [data-cover-pause]:hover { background: #42684b; }
 .page-home .hero-cover .visit-strip { position: relative; padding: 0; border: 0; background: none; }
-.page-home .hero-cover .visit-strip > .container { background: #fbfcefef; border-color: #e1e9d38c; box-shadow: 0 8px 30px #06170d18; color: #284331; }
+.page-home .hero-cover .visit-strip > .container { padding: 19px 26px; background: #f9faef; border: 0; border-radius: 10px; box-shadow: 0 8px 30px #0a24191c; color: #29442f; }
+.hero-cover .visit-strip strong { display: block; font-size: 12px; line-height: 1.55; font-weight: 550; }
+.hero-cover .visit-strip small { font-size: 9px; line-height: 1.5; margin-bottom: 4px; color: #74816b; }
 @media (min-width: 1700px) { .hero-cover-content { min-height: 510px; } }
 @media (max-width: 1100px) and (min-width: 761px) {
-  .hero-cover-content { padding-top: 48px; min-height: 440px; }
-  .hero-cover .hero-copy { max-width: 580px; }
-  .cover-shade { background: linear-gradient(90deg,#10291eeb,#10291e99 55%,#10291e26),linear-gradient(0deg,#10291e99,transparent 65%); }
+  .hero-cover-content { min-height: 430px; padding-top: 38px; }
+  .hero-cover h1 { font-size: 54px; }
+  .hero-cover .hero-copy { max-width: 540px; }
+  .cover-shade { background: linear-gradient(90deg,#10291ee0,#10291e88 52%,#10291e0a),linear-gradient(0deg,#10291e99,transparent 45%); }
 }
 @media (max-width: 760px) {
   .hero-cover.hero { padding-bottom: 16px; }
-  .cover-slides { bottom: auto; height: 355px; }
-  .cover-slide img,.cover-slide:nth-child(2) img { object-position: 50% 45%; }
-  .cover-shade { background: linear-gradient(180deg,#183c2d00 80px,#183c2d12 145px,#183c2da6 235px,#183c2d 350px); }
-  .hero-cover-content { display: block; min-height: 0; padding-top: 226px; padding-bottom: 24px; }
-  .hero-cover .hero-tag { margin-bottom: 16px; font-size: 10px; padding: 6px 11px; background: #1434226b; }
-  .hero-cover h1 { font-size: clamp(37px,10.6vw,46px); line-height: 1.13; }
-  .hero-cover .hero-copy > p { font-size: 13px; line-height: 1.85; margin-top: 17px; max-width: 420px; }
-  .hero-cover .hero-actions { gap: 20px; margin-top: 23px; }
-  .hero-cover .button.primary { font-size: 12px; min-height: 45px; padding: 12px 19px; }
-  .hero-cover .hero-secondary { font-size: 11px; gap: 7px; }
-  .cover-footer { justify-content: space-between; gap: 10px; padding-bottom: 16px; min-height: 47px; }
-  .hero-cover .cover-caption { font-size: 10px; }
+  .cover-slides { bottom: auto; height: 336px; }
+  .cover-slide img,.cover-slide:nth-child(2) img { object-position: 50% 44%; }
+  .cover-shade { background: linear-gradient(180deg,#193c2b00 100px,#193c2b12 160px,#193c2b9c 230px,#193c2b 332px); }
+  .hero-cover-content { display: block; min-height: 0; padding-top: 220px; padding-bottom: 24px; }
+  .hero-cover .hero-tag { margin-bottom: 17px; font-size: 10px; color: #f5e2b8; text-shadow: 0 1px 12px #0d271b; }
+  .hero-cover .hero-tag .icon { width: 15px; height: 15px; }
+  .hero-cover h1 { font-size: clamp(37px,10.35vw,46px); font-weight: 500; line-height: 1.12; }
+  .hero-cover .hero-copy > p { max-width: 350px; font-size: 12px; line-height: 1.9; margin-top: 18px; }
+  .hero-cover .hero-actions { gap: 18px; margin-top: 22px; }
+  .hero-cover .button.primary { min-height: 44px; padding: 12px 17px; font-size: 11px; }
+  .hero-cover .hero-secondary { gap: 7px; font-size: 10px; }
+  .hero-cover .hero-secondary .icon { width: 31px; height: 31px; padding: 7px; }
+  .cover-footer { gap: 14px; min-height: 58px; padding-bottom: 19px; align-items: center; }
+  .cover-story { gap: 9px; max-width: 190px; }
+  .cover-counter { font-size: 8px; }
+  .cover-counter [data-cover-current] { font-size: 12px; }
+  .hero-cover .cover-caption { font-size: 9px; line-height: 1.6; padding-left: 9px; }
   .cover-controls { gap: 6px; }
-  .cover-controls button { width: 30px; height: 30px; }
-  .cover-controls .cover-dot { width: 27px; height: 27px; }
-  .page-home .hero-cover .visit-strip > .container { padding: 16px; }
+  .cover-controls .cover-dot { width: 43px; height: 32px; padding: 2px; border-radius: 5px; }
+  .cover-dot img { border-radius: 2px; }
+  .cover-controls [data-cover-pause] { width: 28px; height: 28px; margin-left: 2px; font-size: 10px; }
+  .cover-progress { left: 2px; bottom: 1px; width: calc(100% - 4px); }
+  .page-home .hero-cover .visit-strip > .container { padding: 16px; gap: 14px; }
+  .hero-cover .visit-strip .container > div,.hero-cover .visit-strip .container > a { gap: 9px; padding-inline: 10px; }
+  .hero-cover .visit-strip .container > div:first-child { padding-left: 0; }
+  .hero-cover .visit-strip .container > a:last-child { padding-inline: 0; padding-top: 12px; }
+  .hero-cover .visit-strip .icon { width: 20px; height: 20px; flex-shrink: 0; }
+  .hero-cover .visit-strip small { font-size: 8px; line-height: 1.4; margin-bottom: 3px; }
+  .hero-cover .visit-strip strong { font-size: 10px; line-height: 1.5; }
 }
-@media (prefers-reduced-motion: reduce) { .cover-slide { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .cover-slide,.cover-controls .cover-dot { transition: none; } }
