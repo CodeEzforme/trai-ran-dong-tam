@@ -19,6 +19,7 @@
 .garden-figure figcaption strong { display: block; color: #294633; font-size: 13px; font-weight: 600; }
 .garden-figure figcaption span { display: block; font-size: 11px; color: #70806a; margin-top: 3px; }
 .garden-gallery-section { padding-top: 46px; padding-bottom: 48px; scroll-margin-top: 95px; }
+.treatment-gallery { padding-top: 0; }
 .garden-gallery-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 24px; }
 .garden-gallery-heading h2 { font-size: clamp(26px, 3vw, 36px); letter-spacing: -.035em; color: var(--forest); }
 .garden-gallery-heading p { margin-top: 9px; color: #70806a; font-size: 13px; }

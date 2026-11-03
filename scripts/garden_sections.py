@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""The medicinal garden page, using the six photographs supplied by the owner."""
+"""Owner-supplied photographs for the garden and snakebite treatment pages."""
 
 PHOTOS = [
     ('vuon-thuoc-nam-05-cong-vuon.webp', 'Cổng Vườn thuốc nam', 'Lối vào Vườn thuốc nam trong không gian xanh của Đồng Tâm.', 1920, 1280),
@@ -11,16 +11,28 @@ PHOTOS = [
 ]
 
 
-def garden_page(c):
-    esc, icon, button = c['ESC'], c['icon'], c['btn']
+def photo_figure(c, item, eager=False):
+    esc, icon = c['ESC'], c['icon']
+    name, title, caption, width, height = item
+    url = '/assets/images/' + name
+    loading = 'fetchpriority="high"' if eager else 'loading="lazy"'
+    return ('<figure class="garden-figure"><a class="garden-photo" href="' + url + '" data-garden-photo data-caption="' + esc(title) + '" aria-label="Xem ảnh lớn: ' + esc(title) + '">'
+            '<img src="' + url + '" alt="' + esc(caption) + '" width="' + str(width) + '" height="' + str(height) + '" ' + loading + ' decoding="async">'
+            '<span class="garden-zoom" aria-hidden="true">' + icon('search') + '</span></a><figcaption><strong>' + esc(title) + '</strong><span>' + esc(caption) + '</span></figcaption></figure>')
 
+
+def photo_viewer(c, label):
+    icon = c['icon']
+    return ('<dialog class="garden-lightbox" id="garden-lightbox" aria-label="' + c['ESC'](label) + '">'
+            '<div class="garden-lightbox-top"><span id="garden-photo-count" aria-live="polite"></span><button type="button" data-garden-close aria-label="Đóng ảnh">' + icon('close') + '</button></div>'
+            '<div class="garden-lightbox-stage"><button type="button" data-garden-previous aria-label="Ảnh trước">' + icon('chevron') + '</button><img alt="">'
+            '<button type="button" data-garden-next aria-label="Ảnh tiếp theo">' + icon('chevron') + '</button></div><p id="garden-photo-caption" aria-live="polite"></p></dialog>')
+
+
+def garden_page(c):
+    icon, button = c['icon'], c['btn']
     def photo(item, eager=False):
-        name, title, caption, width, height = item
-        url = '/assets/images/' + name
-        loading = 'fetchpriority="high"' if eager else 'loading="lazy"'
-        return ('<figure class="garden-figure"><a class="garden-photo" href="' + url + '" data-garden-photo data-caption="' + esc(title) + '" aria-label="Xem ảnh lớn: ' + esc(title) + '">'
-                '<img src="' + url + '" alt="' + esc(caption) + '" width="' + str(width) + '" height="' + str(height) + '" ' + loading + ' decoding="async">'
-                '<span class="garden-zoom" aria-hidden="true">' + icon('search') + '</span></a><figcaption><strong>' + esc(title) + '</strong><span>' + esc(caption) + '</span></figcaption></figure>')
+        return photo_figure(c, item, eager)
 
     hero = ('<section class="container garden-intro">' + c['breadcrumb']('Vườn thuốc nam') + '<div class="garden-hero">'
             '<div class="garden-copy"><span class="pill">' + icon('leaf') + ' Khám phá Đồng Tâm</span>'
@@ -30,8 +42,15 @@ def garden_page(c):
     gallery = ('<section class="container garden-gallery-section" id="hinh-anh"><div class="garden-gallery-heading"><div><h2>Ghé thăm vườn thuốc</h2>'
                '<p>Không gian khu vườn cùng những hình ảnh hoạt động tại Đồng Tâm.</p></div><span>' + icon('search') + ' Chạm vào ảnh để xem lớn</span></div>'
                '<div class="garden-gallery">' + ''.join(photo(item) for item in PHOTOS[1:]) + '</div></section>')
-    viewer = ('<dialog class="garden-lightbox" id="garden-lightbox" aria-label="Xem ảnh Vườn thuốc nam">'
-              '<div class="garden-lightbox-top"><span id="garden-photo-count" aria-live="polite"></span><button type="button" data-garden-close aria-label="Đóng ảnh">' + icon('close') + '</button></div>'
-              '<div class="garden-lightbox-stage"><button type="button" data-garden-previous aria-label="Ảnh trước">' + icon('chevron') + '</button><img alt="">'
-              '<button type="button" data-garden-next aria-label="Ảnh tiếp theo">' + icon('chevron') + '</button></div><p id="garden-photo-caption" aria-live="polite"></p></dialog>')
-    return hero + gallery + viewer
+    return hero + gallery + photo_viewer(c, 'Xem ảnh Vườn thuốc nam')
+
+
+def treatment_gallery(c):
+    photos = [
+        ('dieu-tri-ran-can-01-tham-kham.webp', 'Thăm khám bàn tay', 'Nhân viên y tế kiểm tra bàn tay người bệnh bằng kính lúp.', 1920, 1280),
+        ('dieu-tri-ran-can-02-cham-soc.webp', 'Chăm sóc người bệnh', 'Nhân viên y tế chăm sóc người bệnh tại giường.', 1920, 1280),
+        ('dieu-tri-ran-can-03-tham-hoi.webp', 'Thăm hỏi tại buồng bệnh', 'Nhân viên y tế thăm hỏi người bệnh trong buồng bệnh.', 1920, 1280),
+    ]
+    return ('<section class="container garden-gallery-section treatment-gallery" id="hinh-anh-dieu-tri"><div class="garden-gallery-heading"><div>'
+            '<h2>Hình ảnh điều trị rắn cắn</h2><p>Hoạt động thăm khám và chăm sóc người bệnh tại Đồng Tâm.</p></div><span>' + c['icon']('search') + ' Chạm vào ảnh để xem lớn</span></div>'
+            '<div class="garden-gallery">' + ''.join(photo_figure(c, item) for item in photos) + '</div></section>' + photo_viewer(c, 'Xem ảnh điều trị rắn cắn'))

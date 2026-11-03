@@ -9,7 +9,7 @@ from pathlib import Path
 from urllib.parse import urlparse, unquote
 from bs4 import BeautifulSoup
 from home_sections import homepage, exhibit
-from garden_sections import garden_page
+from garden_sections import garden_page, treatment_gallery
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'dist'
@@ -159,8 +159,8 @@ def search_dialog():
 
 def shell(name,body,path='/',desc='',extra=''):
     d=desc or plain(body)[:155]
-    if path == '/vuon-thuoc-nam/':
-        extra += '<link rel="stylesheet" href="/assets/garden.css?v=1"><script defer src="/assets/garden.js?v=1"></script>'
+    if path in ['/vuon-thuoc-nam/', '/dieu-tri-ran-can/']:
+        extra += '<link rel="stylesheet" href="/assets/garden.css?v=2"><script defer src="/assets/garden.js?v=1"></script>'
     return '<!doctype html><html lang="vi" id="top"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#163e2d"><title>'+ESC(name)+' | Trại rắn Đồng Tâm</title><meta name="description" content="'+ESC(d[:170])+'"><link rel="canonical" href="https://trairandongtam.vn'+ESC(path)+'"><link rel="icon" href="'+image_url(LOGO)+'"><link rel="stylesheet" href="/assets/style.css?v=3"><link rel="stylesheet" href="/assets/refinements.css?v=3"><link rel="stylesheet" href="/assets/experience.css?v=4"><script type="importmap">{"imports":{"three":"/assets/vendor/three.module.js","three/addons/":"/assets/vendor/","three/addons/controls/OrbitControls.js":"/assets/vendor/OrbitControls.js"}}</script><script defer src="/assets/app.js?v=4"></script><script defer src="/assets/motion.js?v=3"></script>'+extra+'</head><body class="'+('page-home' if path=='/' else 'page-inner')+'">'+header(path)+'<main id="main">'+body+'</main>'+footer()+search_dialog()+'</body></html>'
 
 def breadcrumb(name):
@@ -240,7 +240,7 @@ def empty_page(p):
     if slug=='bang-gia-dich-vu':
         return intro('Bảng giá dịch vụ','Liên hệ Đồng Tâm để nhận thông tin giá vé, dịch vụ và tư vấn lịch phù hợp với chuyến đi của bạn.')+'<section class="section"><div class="container service-grid">'+''.join('<article class="service-panel">'+icon(sym)+'<h2>'+label+'</h2><p>'+desc+'</p>'+btn('Liên hệ tư vấn','/contact/#len-lich')+'</article>' for sym,label,desc in [('leaf','Khách tham quan','Hỏi thông tin vé vào cổng và các trải nghiệm đang hoạt động.'),('calendar','Đoàn & trường học','Trao đổi số lượng khách, ngày dự kiến và nhu cầu của đoàn.'),('book','Dịch vụ tại Đồng Tâm','Tìm hiểu nhà hàng, bảo tàng và các dịch vụ trong khu tham quan.')])+'</div><p class="container muted service-note">Trang gốc chưa công bố bảng giá chi tiết. Giá và dịch vụ được xác nhận trực tiếp bởi Đồng Tâm.</p></section>'+cta()
     if slug=='dieu-tri-ran-can':
-        return intro(n,'Thông tin liên hệ Trung tâm Nuôi trồng, nghiên cứu, chế biến dược liệu — Trại rắn Đồng Tâm.')+'<section class="section"><div class="container info-panel"><div>'+icon('phone')+'<h2>Liên hệ trung tâm</h2><p>Website gốc giới thiệu hoạt động tiếp nhận, khám chữa bệnh cho bệnh nhân bị rắn độc cắn tại đơn vị. Trang chuyên mục hiện chưa công bố hướng dẫn hoặc lịch tiếp nhận chi tiết.</p><p>Vui lòng liên hệ trực tiếp để được cung cấp thông tin chuyên môn và tiếp nhận phù hợp.</p>'+btn('Gọi 0273 3853 204','tel:+842733853204')+'</div><div><h3>Địa chỉ Đồng Tâm</h3><p>Ấp Tân Thuận B, xã Kim Sơn, tỉnh Đồng Tháp</p><a class="text-link" href="/contact/">Thông tin liên hệ '+icon('arrow')+'</a></div></div></section>'
+        return intro(n,'Thông tin liên hệ Trung tâm Nuôi trồng, nghiên cứu, chế biến dược liệu — Trại rắn Đồng Tâm.')+'<section class="section"><div class="container info-panel"><div>'+icon('phone')+'<h2>Liên hệ trung tâm</h2><p>Website gốc giới thiệu hoạt động tiếp nhận, khám chữa bệnh cho bệnh nhân bị rắn độc cắn tại đơn vị. Trang chuyên mục hiện chưa công bố hướng dẫn hoặc lịch tiếp nhận chi tiết.</p><p>Vui lòng liên hệ trực tiếp để được cung cấp thông tin chuyên môn và tiếp nhận phù hợp.</p>'+btn('Gọi 0273 3853 204','tel:+842733853204')+'</div><div><h3>Địa chỉ Đồng Tâm</h3><p>Ấp Tân Thuận B, xã Kim Sơn, tỉnh Đồng Tháp</p><a class="text-link" href="/contact/">Thông tin liên hệ '+icon('arrow')+'</a></div></div></section>'+treatment_gallery(globals())
     aliases={'ran-ho-meo-ho-mang-xiem':'ho-mang-xiem-ran-ho-meo'}
     matching=next((x for x in PRODUCTS if unquote(x['slug'])==aliases.get(slug,slug)),None)
     if matching:return product_page(matching,n)
