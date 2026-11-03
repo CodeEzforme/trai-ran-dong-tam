@@ -1,0 +1,70 @@
+/* Let the six owner-supplied photographs carry the garden page. */
+.garden-intro { padding-top: 28px; }
+.garden-intro .breadcrumb { margin-bottom: 23px; }
+.garden-hero { display: grid; grid-template-columns: .8fr 1.2fr; gap: 50px; align-items: center; }
+.garden-copy .pill { color: #48663d; background: #edf3e7; border-color: #d3dfc9; }
+.garden-copy h1 { font-size: clamp(38px, 4.6vw, 62px); line-height: 1.1; letter-spacing: -.045em; color: var(--forest); margin: 20px 0; max-width: 480px; }
+.garden-copy > p { color: #63745c; max-width: 430px; line-height: 1.9; font-size: 14px; }
+.garden-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; margin-top: 25px; }
+.garden-actions .text-link { font-size: 12px; }
+.garden-figure { min-width: 0; margin: 0; }
+.garden-photo { position: relative; display: block; overflow: hidden; border-radius: 12px; background: #e6edde; }
+.garden-hero .garden-photo { border-top-right-radius: 65px; }
+.garden-photo img { display: block; width: 100%; height: auto; transition: filter .2s; }
+.garden-photo:hover img { filter: brightness(.94); }
+.garden-photo:focus-visible { outline: 3px solid #7a965e; outline-offset: 5px; }
+.garden-zoom { position: absolute; right: 13px; bottom: 13px; width: 36px; height: 36px; display: grid; place-items: center; background: #fff; color: var(--forest); border-radius: 50%; box-shadow: 0 3px 15px #173e2d20; }
+.garden-zoom .icon { width: 17px; height: 17px; }
+.garden-figure figcaption { padding-top: 12px; line-height: 1.7; }
+.garden-figure figcaption strong { display: block; color: #294633; font-size: 13px; font-weight: 600; }
+.garden-figure figcaption span { display: block; font-size: 11px; color: #70806a; margin-top: 3px; }
+.garden-gallery-section { padding-top: 46px; padding-bottom: 48px; scroll-margin-top: 95px; }
+.garden-gallery-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 24px; }
+.garden-gallery-heading h2 { font-size: clamp(26px, 3vw, 36px); letter-spacing: -.035em; color: var(--forest); }
+.garden-gallery-heading p { margin-top: 9px; color: #70806a; font-size: 13px; }
+.garden-gallery-heading > span { display: inline-flex; align-items: center; gap: 7px; font-size: 11px; color: #6a7c60; flex-shrink: 0; padding-bottom: 3px; }
+.garden-gallery-heading > span .icon { width: 15px; height: 15px; }
+.garden-gallery { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 28px 20px; align-items: start; }
+.garden-gallery .garden-figure { grid-column: span 2; }
+.garden-gallery .garden-figure:nth-child(n+4) { grid-column: span 3; }
+.garden-lightbox { width: min(1180px,calc(100vw - 32px)); max-width: none; max-height: calc(100dvh - 28px); padding: 16px; border: 0; border-radius: 16px; background: #122d22; color: #f4f7ed; box-shadow: 0 20px 80px #0005; }
+.garden-lightbox::backdrop { background: #06140fe8; }
+body:has(.garden-lightbox[open]) { overflow: hidden; }
+.garden-lightbox-top { display: flex; justify-content: space-between; align-items: center; min-height: 36px; margin-bottom: 10px; font-size: 12px; }
+.garden-lightbox button { width: 38px; height: 38px; display: grid; place-items: center; border: 1px solid #ffffff40; border-radius: 50%; color: #fff; flex-shrink: 0; background: #244e39; }
+.garden-lightbox button:hover { background: #426b47; }
+.garden-lightbox button:focus-visible { outline: 3px solid #e6b65f; outline-offset: 3px; }
+.garden-lightbox-stage { display: grid; grid-template-columns: 38px minmax(0,1fr) 38px; align-items: center; gap: 12px; }
+.garden-lightbox-stage img { display: block; width: 100%; height: auto; max-height: 72dvh; object-fit: contain; }
+[data-garden-previous] .icon { transform: rotate(90deg); }
+[data-garden-next] .icon { transform: rotate(-90deg); }
+#garden-photo-caption { text-align: center; font-size: 13px; line-height: 1.7; padding: 12px 32px 2px; }
+@media (max-width: 1000px) {
+  .garden-hero { gap: 30px; grid-template-columns: .9fr 1.1fr; }
+  .garden-copy > p { font-size: 12px; }
+  .garden-actions { gap: 14px; }
+  .garden-actions .button { padding-inline: 18px; font-size: 12px; }
+}
+@media (max-width: 760px) {
+  .garden-intro { padding-top: 20px; }
+  .garden-intro .breadcrumb { margin-bottom: 22px; }
+  .garden-hero { grid-template-columns: minmax(0,1fr); gap: 25px; }
+  .garden-copy h1 { font-size: 42px; margin: 16px 0; }
+  .garden-copy > p { font-size: 13px; max-width: none; }
+  .garden-actions { margin-top: 20px; gap: 16px; }
+  .garden-gallery-section { padding-block: 32px; }
+  .garden-gallery-heading { display: block; margin-bottom: 20px; }
+  .garden-gallery-heading p { font-size: 12px; line-height: 1.8; }
+  .garden-gallery-heading > span { margin-top: 12px; font-size: 10px; }
+  .garden-gallery { grid-template-columns: minmax(0,1fr); gap: 25px; }
+  .garden-gallery .garden-figure, .garden-gallery .garden-figure:nth-child(n+4) { grid-column: auto; }
+  .garden-figure figcaption strong { font-size: 13px; }
+  .garden-figure figcaption span { font-size: 11px; }
+  .garden-lightbox { width: calc(100vw - 16px); padding: 10px; border-radius: 10px; }
+  .garden-lightbox-stage { grid-template-columns: minmax(0,1fr); position: relative; }
+  .garden-lightbox-stage img { grid-area: 1/1; max-height: 68dvh; }
+  .garden-lightbox-stage button { grid-area: 1/1; z-index: 1; background: #173e2ddd; }
+  [data-garden-next] { justify-self: end; }
+  #garden-photo-caption { font-size: 11px; padding-inline: 4px; }
+}
+@media (prefers-reduced-motion: reduce) { .garden-photo img { transition: none; } }

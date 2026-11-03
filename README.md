@@ -28,7 +28,8 @@ Không cần cài Node modules để chạy website. Three.js 0.186.1, phông ch
 
 - Trang chủ mới và các giao diện cho trang nội dung, danh mục, hồ sơ loài, sản phẩm, bài viết, liên hệ, bảng giá và bảo tàng.
 - Giữ 214 đường dẫn được lấy từ API công khai: 92 trang, 12 bài viết, 96 mục động vật/sản phẩm, 9 danh mục sản phẩm và 5 danh mục bài viết.
-- Thêm trang tìm kiếm toàn website và sơ đồ website: tổng cộng 216 đường dẫn.
+- Thêm trang tìm kiếm toàn website, sơ đồ website và Vườn thuốc nam: tổng cộng 217 đường dẫn.
+- Mục Vườn thuốc nam nằm ngay sau Sản phẩm trên menu, với 6 ảnh do chủ dự án cung cấp và trình xem ảnh lớn có điều khiển bằng bàn phím.
 - Tìm kiếm tiếng Việt không dấu, lọc danh mục, phân trang, trạng thái không có kết quả, URL giữ bộ lọc và trang hiện tại.
 - Three.js hiển thị mô hình rắn GLB với texture, normal map, ánh sáng trực tiếp và bóng đổ. Camera tự fit theo khung desktop/mobile; thanh xoay/zoom/reset nằm riêng. Chỉ ẩn ảnh khi đã kiểm tra được khung hình 3D. Có timeout tải, ảnh thay thế, nút thử lại và xử lý mất WebGL context. Nguồn CC0 tại [docs/3D-ASSETS.md](docs/3D-ASSETS.md).
 - Trang chủ dùng bố cục chữ/ảnh bất đối xứng, ảnh tham quan nổi, lưới trải nghiệm và dải động vật kéo ngang. View Transitions native tạo chuyển trang; ảnh nghiêng nhẹ theo chuột, các nhóm nội dung xuất hiện khi cuộn. Reduced motion tắt hiệu ứng.
@@ -70,7 +71,7 @@ npm run build
 npm run check
 ```
 
-Kiểm tra tĩnh đối chiếu đủ đường dẫn nguồn, liên kết nội bộ, ảnh cục bộ, tiêu đề và main landmark trên toàn bộ 216 trang.
+Kiểm tra tĩnh đối chiếu đủ đường dẫn nguồn, liên kết nội bộ, ảnh cục bộ, tiêu đề và main landmark trên toàn bộ 217 trang.
 
 Đã chạy kiểm tra trình duyệt bằng Playwright với Microsoft Edge trên máy hiện tại. Script: `scripts/browser-check.cjs`. Kết quả: `artifacts/browser-check.json`; ảnh xem trước: `artifacts/home-desktop.png`, `artifacts/home-mobile.png`, `artifacts/snake-3d.png`. Các thư viện kiểm thử nằm ở `.tools/`, tách khỏi mã chạy website.
 

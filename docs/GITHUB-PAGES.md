@@ -6,7 +6,7 @@
 
 GitHub Pages lưu bản website trên tài khoản GitHub của chủ dự án. Bản này không dùng cơ chế demo 60 phút của Vercel Drop hoặc Netlify Drop.
 
-Mỗi lần đẩy lên nhánh `main`, workflow `.github/workflows/pages.yml` cài Python 3.12 và thư viện, build 216 đường dẫn cùng trang 404, kiểm tra liên kết và chuẩn bị các URL cho đường dẫn repository. Chỉ thư mục website đã build được tải lên Pages. Có thể chạy lại bằng nút **Run workflow** trong tab Actions.
+Mỗi lần đẩy lên nhánh `main`, workflow `.github/workflows/pages.yml` cài Python 3.12 và thư viện, build 217 đường dẫn cùng trang 404, kiểm tra liên kết và chuẩn bị các URL cho đường dẫn repository. Chỉ thư mục website đã build được tải lên Pages. Có thể chạy lại bằng nút **Run workflow** trong tab Actions.
 
 `scripts/prepare-pages.py` điều chỉnh liên kết HTML, import map, module JavaScript, tìm kiếm, font và đường dẫn GLB theo `base_path` GitHub cung cấp. Dữ liệu tìm kiếm sinh liên kết đúng dưới `/trai-ran-dong-tam/`; trang 404 dùng cùng đường dẫn tài nguyên. Bản dùng tên miền riêng hoặc localhost ở thư mục gốc vẫn build bằng `python scripts/build.py`.
 
@@ -24,8 +24,8 @@ git push origin main
 
 ## Kiểm tra đã chuẩn bị
 
-- `python scripts/check.py`: 214/214 đường dẫn nguồn, 216 đường dẫn tổng cộng, không có liên kết nội bộ hỏng.
-- `python scripts/prepare-pages.py --base-path /trai-ran-dong-tam`: 217 tệp HTML, không có liên kết vượt khỏi đường dẫn repository.
+- `python scripts/check.py`: 214/214 đường dẫn nguồn, 217 đường dẫn tổng cộng, không có liên kết nội bộ hỏng.
+- `python scripts/prepare-pages.py --base-path /trai-ran-dong-tam`: 218 tệp HTML, không có liên kết vượt khỏi đường dẫn repository.
 - `scripts/pages-check.cjs`: trang chủ, ảnh, điều hướng, import map, tải GLB, cận mặt, tìm kiếm và liên kết danh mục hoạt động dưới đường dẫn repository; không có lỗi JavaScript hoặc yêu cầu tài nguyên thất bại.
 
 Website là bản demo giao diện; meta robots được đặt `noindex,nofollow`. Website thật `trairandongtam.vn` chưa bị thay đổi.

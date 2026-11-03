@@ -14,6 +14,7 @@ const assert = require('assert');
   await page.screenshot({ path: 'artifacts/home-desktop.png' });
   checks.push('Homepage responds 200');
   const originalNavigation = JSON.parse(fs.readFileSync('data/original-navigation.json', 'utf8'));
+  originalNavigation.splice(originalNavigation.findIndex(item => new URL(item[1]).pathname === '/san-pham/') + 1, 0, ['Vườn thuốc nam', 'https://trairandongtam.vn/vuon-thuoc-nam/', []]);
   const navigation = await page.locator('#main-nav > .nav-group').evaluateAll(groups => groups.map(group => ({
     title: group.querySelector('.nav-link').textContent,
     href: group.querySelector('.nav-link').getAttribute('href'),

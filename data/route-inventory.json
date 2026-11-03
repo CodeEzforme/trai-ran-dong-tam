@@ -1498,6 +1498,13 @@
     "description": "Trang chủ / Uncategorized Uncategorized Những hoạt động, sự kiện và câu chuyện mới từ Trại rắn Đồng Tâm. Tất cả tin tức Tin mới Tin nội bộ Sự kiện Thông báo Hoạt động Đồng Tâm 2026"
   },
   {
+    "path": "/vuon-thuoc-nam/",
+    "title": "Vườn thuốc nam",
+    "kind": "page",
+    "source": "",
+    "description": "Khám phá Vườn thuốc nam tại Đồng Tâm qua hình ảnh khu vườn, các nhóm cây thuốc và hoạt động tiếp nhận vườn thuốc mẫu."
+  },
+  {
     "path": "/tim-kiem/",
     "title": "Tìm kiếm",
     "kind": "utility",

@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.parse import urlparse, unquote
 from bs4 import BeautifulSoup
 from home_sections import homepage, exhibit
+from garden_sections import garden_page
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / 'dist'
@@ -137,6 +138,7 @@ CONTENT_NAV=[('Khám phá','/du-lich-sinh-thai/',[
  ('Tin tức','/tin-tuc/',[('Tin tức & hoạt động','/tin-tuc/'),('Sự kiện','/su-kien/'),('Thông báo','/thong-bao/'),('Tuyển dụng','/tuyen-dung/')])]
 
 MAIN_NAV=[(label,local(href),[(name,local(url)) for name,url in items]) for label,href,items in json.loads((ROOT / "data/original-navigation.json").read_text(encoding="utf-8"))]
+MAIN_NAV.insert(next(i for i, item in enumerate(MAIN_NAV) if item[1] == '/san-pham/') + 1, ('Vườn thuốc nam', '/vuon-thuoc-nam/', []))
 
 def header(path):
     links=''
@@ -157,6 +159,8 @@ def search_dialog():
 
 def shell(name,body,path='/',desc='',extra=''):
     d=desc or plain(body)[:155]
+    if path == '/vuon-thuoc-nam/':
+        extra += '<link rel="stylesheet" href="/assets/garden.css?v=1"><script defer src="/assets/garden.js?v=1"></script>'
     return '<!doctype html><html lang="vi" id="top"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#163e2d"><title>'+ESC(name)+' | Trại rắn Đồng Tâm</title><meta name="description" content="'+ESC(d[:170])+'"><link rel="canonical" href="https://trairandongtam.vn'+ESC(path)+'"><link rel="icon" href="'+image_url(LOGO)+'"><link rel="stylesheet" href="/assets/style.css?v=3"><link rel="stylesheet" href="/assets/refinements.css?v=3"><link rel="stylesheet" href="/assets/experience.css?v=4"><script type="importmap">{"imports":{"three":"/assets/vendor/three.module.js","three/addons/":"/assets/vendor/","three/addons/controls/OrbitControls.js":"/assets/vendor/OrbitControls.js"}}</script><script defer src="/assets/app.js?v=4"></script><script defer src="/assets/motion.js?v=3"></script>'+extra+'</head><body class="'+('page-home' if path=='/' else 'page-inner')+'">'+header(path)+'<main id="main">'+body+'</main>'+footer()+search_dialog()+'</body></html>'
 
 def breadcrumb(name):
@@ -289,6 +293,7 @@ def main():
         path=local(c['permalink'])
         write(path,c['name'],catalogue(c['name'],items,path,'Khám phá '+c['name'].lower()+' được giới thiệu tại Trại rắn Đồng Tâm.',ANIMAL_GROUPS if c['id'] in ANIMAL_IDS else SHOP_GROUPS),'category',c['permalink'])
     for c in CATEGORIES:write(local(c['link']),c['name'],news_page(c['name'],[p for p in POSTS if c['id'] in p['categories']]),'category',c['link'])
+    write('/vuon-thuoc-nam/', 'Vườn thuốc nam', garden_page(globals()), 'page', desc='Khám phá Vườn thuốc nam tại Đồng Tâm qua hình ảnh khu vườn, các nhóm cây thuốc và hoạt động tiếp nhận vườn thuốc mẫu.')
     searchbody=intro('Bạn muốn khám phá điều gì?','Tìm loài vật, sản phẩm, trang thông tin hoặc câu chuyện từ Đồng Tâm.')+'<section class="section"><div class="container search-page"><form action="/tim-kiem/" class="search-form" role="search"><label class="sr-only" for="results-query">Tìm kiếm toàn website</label><input id="results-query" name="q" type="search" placeholder="Nhập từ khóa tìm kiếm…" autocomplete="off"><button class="button primary">Tìm kiếm '+icon('search')+'</button></form><p id="search-count" role="status" aria-live="polite">Nhập từ khóa để khám phá website.</p><div id="search-results" class="search-results"></div><nav class="pagination" id="search-pagination" aria-label="Phân trang kết quả tìm kiếm"></nav></div></section>'
     write('/tim-kiem/','Tìm kiếm',searchbody,'utility')
     sitemapbody=intro('Mọi lối dẫn đến Đồng Tâm','Toàn bộ trang, hồ sơ loài, sản phẩm và bài viết trong một nơi.')+'<section class="section"><div class="container sitemap-groups">'+''.join('<section><h2>'+label+'</h2><ul>'+''.join('<li><a href="'+r['path']+'">'+ESC(r['title'])+'</a></li>' for r in RECORDS if r['kind'] in kinds)+'</ul></section>' for label,kinds in [('Thông tin & trải nghiệm',{'page','home'}),('Danh mục',{'category'}),('Thế giới động vật',{'animal'}),('Sản phẩm',{'product'}),('Tin tức',{'post'})])+'</div></section>'
