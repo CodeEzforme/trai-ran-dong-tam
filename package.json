@@ -1,0 +1,12 @@
+{
+  "name": "dong-tam-nature",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website Trại rắn Đồng Tâm — thiết kế mới với trải nghiệm Three.js",
+  "scripts": {
+    "dev": "python scripts/serve.py",
+    "build": "python scripts/build.py",
+    "preview": "python scripts/serve.py --dist",
+    "check": "python scripts/check.py"
+  }
+}

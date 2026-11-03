@@ -1,0 +1,30 @@
+[
+  {
+    "path": ".agents/skills/frontend-design/SKILL.md",
+    "sha256": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3"
+  },
+  {
+    "path": ".agents/skills/threejs-fundamentals/SKILL.md",
+    "sha256": "cb6a0db8f05bb7d8196cad0ca6ae245e2baec53da4675e1b94be4fa735ed8a09"
+  },
+  {
+    "path": ".agents/skills/threejs-geometry/SKILL.md",
+    "sha256": "c29c1568cb56e902999b6a50316cd5079c53ee620138148897d269e9716e8da7"
+  },
+  {
+    "path": ".agents/skills/threejs-interaction/SKILL.md",
+    "sha256": "46f60f3235aa11f2b89320cc2fb5b0adc167f3e8f0c717ba60ad1b006b41621f"
+  },
+  {
+    "path": ".agents/skills/threejs-materials/SKILL.md",
+    "sha256": "7d17cefac80196f3dd5068e2042e66244073925d24a55b7ca77534d594c5bc81"
+  },
+  {
+    "path": ".agents/skills/threejs-performance/SKILL.md",
+    "sha256": "dacbf6a43ed280bdfcda2ce9fcf7a3f0ae54c25ed264e62f6e9a0117d6534285"
+  },
+  {
+    "path": ".agents/skills/web-design-guidelines/SKILL.md",
+    "sha256": "f4647ca866a3accf763777f83e7682954f0187cd6bea7eea0399796652414e8f"
+  }
+]

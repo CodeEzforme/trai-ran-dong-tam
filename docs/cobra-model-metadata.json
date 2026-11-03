@@ -1,0 +1,11 @@
+{
+  "source": "https://www.innerscene.com/tools/library/3d-parts/cobra-0b198528",
+  "license": "CC0-1.0",
+  "file": "public/assets/models/cobra.glb",
+  "size_bytes": 5893056,
+  "sha256": "4f1d7a957fc030f6b31e39d9be4b3ea385dce889b583af16f6d9e5c1929a5ef4",
+  "meshes": 7,
+  "materials": 6,
+  "embedded_images": 5,
+  "triangles": 53328
+}

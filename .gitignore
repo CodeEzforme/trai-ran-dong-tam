@@ -1,0 +1,12 @@
+node_modules/
+.tools/
+dist/
+__pycache__/
+*.log
+artifacts/
+source-home.html
+.env
+.env.*
+!.env.example
+.netlify/
+.vercel/

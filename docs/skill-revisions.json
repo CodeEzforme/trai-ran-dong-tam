@@ -1,0 +1,14 @@
+[
+  {
+    "repo": "anthropics/skills",
+    "revision": "ca45fc496a3436251f191354091d557da31c15b5"
+  },
+  {
+    "repo": "vercel-labs/agent-skills",
+    "revision": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62"
+  },
+  {
+    "repo": "CloudAI-X/threejs-skills",
+    "revision": "0e181866f095b5f06d005133876e926515390d95"
+  }
+]

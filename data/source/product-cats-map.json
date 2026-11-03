@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://trairandongtam.vn/sitemap-stylesheet.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://trairandongtam.vn/danh-muc-san-pham/my-pham/</loc>
+    <lastmod>2026-10-28T21:34:41+07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://trairandongtam.vn/danh-muc-san-pham/san-pham/</loc>
+    <lastmod>2026-10-28T21:34:41+07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://trairandongtam.vn/danh-muc-san-pham/khac/</loc>
+    <lastmod>2026-10-28T21:34:41+07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://trairandongtam.vn/danh-muc-san-pham/chim/</loc>
+    <lastmod>2026-10-28T21:34:41+07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://trairandongtam.vn/danh-muc-san-pham/ruou/</loc>
+    <lastmod>2026-10-28T21:34:41+07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://trairandongtam.vn/danh-muc-san-pham/ran/</loc>
+    <lastmod>2026-10-28T21:34:41+07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://trairandongtam.vn/danh-muc-san-pham/thu/</loc>
+    <lastmod>2026-10-28T21:34:41+07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://trairandongtam.vn/danh-muc-san-pham/thuoc/</loc>
+    <lastmod>2026-10-28T21:34:41+07:00</lastmod>
+  </url>
+  <url>
+    <loc>https://trairandongtam.vn/danh-muc-san-pham/thuc-pham-chuc-nang/</loc>
+    <lastmod>2026-10-28T21:34:41+07:00</lastmod>
+  </url>
+</urlset>

@@ -1,0 +1,43 @@
+const fs = require('fs');
+const assert = require('assert');
+const { chromium } = require('../.tools/node_modules/playwright');
+(async () => {
+  const origin = process.env.PAGES_TEST_ORIGIN || 'http://localhost:3003';
+  const base = process.env.PAGES_TEST_BASE || '/trai-ran-dong-tam';
+  const url = origin + base + '/';
+  const browser = await chromium.launch({ executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe', headless: true, args: ['--enable-webgl', '--use-angle=swiftshader', '--enable-unsafe-swiftshader'] });
+  const errors = [], failures = [], checks = [];
+  try {
+    const page = await browser.newPage({ viewport: { width: 390, height: 844 } });
+    page.on('pageerror', error => errors.push(error.message));
+    page.on('response', response => { if (response.status() >= 400 && response.url().startsWith(origin)) failures.push(response.url()); });
+    const response = await page.goto(url, { waitUntil: 'domcontentloaded' });
+    assert.equal(response.status(), 200);
+    await page.locator('main h1').waitFor();
+    assert((await page.locator('.brand').first().getAttribute('href')).startsWith(base + '/'));
+    assert(await page.locator('img').first().evaluate(image => image.complete && image.naturalWidth > 0));
+    checks.push('Project homepage, local photography and navigation resolve beneath the repository path');
+    await page.locator('#snake-scene').scrollIntoViewIfNeeded();
+    await page.waitForSelector('#snake-scene[data-ready=true]', { timeout: 45000 });
+    await page.locator('[data-scene=face]').click(); await page.waitForTimeout(500);
+    assert.equal(await page.locator('#snake-scene').getAttribute('data-view'), 'face');
+    checks.push('Three.js import map, lazy module and GLB work beneath the repository path');
+    await page.goto(origin + base + '/tim-kiem/?q=ran', { waitUntil: 'domcontentloaded' });
+    await page.locator('#search-results a').first().waitFor();
+    assert((await page.locator('#search-results a').first().getAttribute('href')).startsWith(base + '/'));
+    await page.locator('#search-results a').first().click();
+    await page.locator('main h1').waitFor();
+    assert(page.url().startsWith(origin + base + '/'));
+    checks.push('Search index and dynamically created result links stay beneath the repository path');
+    await page.goto(origin + base + '/danh-muc-san-pham/ran/');
+    await page.locator('.content-card:visible').first().waitFor();
+    await page.locator('.content-card:visible h3 a').first().click();
+    await page.locator('main h1').waitFor();
+    assert(page.url().startsWith(origin + base + '/'));
+    checks.push('Catalogue links load species details within the project');
+    assert.deepEqual(errors, []); assert.deepEqual(failures, []);
+    const result = { url, checks, javascriptErrors: errors, failedRequests: failures };
+    fs.writeFileSync('artifacts/github-pages-check.json', JSON.stringify(result, null, 2));
+    console.log(JSON.stringify(result, null, 2));
+  } finally { await browser.close(); }
+})().catch(error => { console.error(error); process.exit(1); });
