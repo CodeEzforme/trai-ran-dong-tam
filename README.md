@@ -32,7 +32,7 @@ Không cần cài Node modules để chạy website. Three.js 0.186.1, phông ch
 - Mục Vườn thuốc nam nằm ngay sau Sản phẩm trên menu, với 6 ảnh do chủ dự án cung cấp và trình xem ảnh lớn có điều khiển bằng bàn phím.
 - Tìm kiếm tiếng Việt không dấu, lọc danh mục, phân trang, trạng thái không có kết quả, URL giữ bộ lọc và trang hiện tại.
 - Three.js hiển thị mô hình rắn GLB với texture, normal map, ánh sáng trực tiếp và bóng đổ. Camera tự fit theo khung desktop/mobile; thanh xoay/zoom/reset nằm riêng. Chỉ ẩn ảnh khi đã kiểm tra được khung hình 3D. Có timeout tải, ảnh thay thế, nút thử lại và xử lý mất WebGL context. Nguồn CC0 tại [docs/3D-ASSETS.md](docs/3D-ASSETS.md).
-- Trang chủ dùng bố cục chữ/ảnh bất đối xứng, ảnh tham quan nổi, lưới trải nghiệm và dải động vật kéo ngang. View Transitions native tạo chuyển trang; ảnh nghiêng nhẹ theo chuột, các nhóm nội dung xuất hiện khi cuộn. Reduced motion tắt hiệu ứng.
+- Trang chủ dùng hai ảnh bìa do chủ dự án cung cấp, chuyển ảnh nhẹ với nút chọn và tạm dừng; bản điện thoại dùng ảnh tối ưu riêng và bố cục giữ rõ biển hiệu. Bên dưới có lưới trải nghiệm và dải động vật kéo ngang. View Transitions tạo chuyển trang; reduced motion tắt tự chuyển ảnh và hiệu ứng.
 - Menu desktop/mobile, hộp tìm kiếm có điều khiển bàn phím, FAQ, nội dung dựng sẵn cho SEO, sitemap XML và trang 404.
 - Biểu mẫu có kiểm tra trường bắt buộc, tạo bản nháp email qua `mailto:` và liên kết dự phòng. Website không báo đã gửi email hoặc đã xác nhận lịch.
 - 7 skill GitHub được cài trong `.agents/skills/`. Nguồn, vai trò và giấy phép ở [docs/SKILLS.md](docs/SKILLS.md).
@@ -48,6 +48,7 @@ Không cần cài Node modules để chạy website. Three.js 0.186.1, phông ch
 | `public/assets/experience.css` | Bố cục ảnh/chữ, khung 3D và chuyển động |
 | `public/assets/app.js` | Menu, tìm kiếm, lọc, phân trang, biểu mẫu |
 | `public/assets/motion.js` | Chuyển trang, gallery và hiệu ứng theo tương tác |
+| `public/assets/cover.css`, `public/assets/cover.js` | Ảnh bìa trang chủ responsive, chọn ảnh và tạm dừng |
 | `public/assets/snake.js` | Cảnh và mô hình Three.js |
 | `public/assets/cobra-detail.js` | Hình khối đầu, mắt, lỗ mũi và nét miệng được bổ sung lên mô hình |
 | `public/assets/models/cobra.glb` | Mô hình rắn có texture và normal map, lưu cục bộ |

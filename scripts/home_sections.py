@@ -3,19 +3,16 @@
 
 def homepage(c):
     image, icon, btn, cards = c['image'], c['icon'], c['btn'], c['cards']
-    hero_photo = c['HERO']
-    visit_photo = c['HOME_IMGS'][2]
     animalpicks = [c['product_find'](slug) for slug in ['ran-ho-chua','chim-cong','vuon-den','tran-gam','ho','gau-ngua','ca-sau-xiem','ngua-lun-pony']]
-    hero = '''<section class="hero hero-editorial"><div class="container hero-grid">
+    hero = '''<section class="hero hero-cover" data-cover data-cover-index="1"><div class="cover-slides" aria-label="Ảnh bìa Đồng Tâm">
+      <div class="cover-slide is-active" data-cover-slide data-caption="Một chút kỷ niệm ở Đồng Tâm" aria-hidden="false"><picture><source media="(max-width: 760px)" srcset="/assets/images/trang-chu-anh-bia-01-mobile.webp"><img src="/assets/images/trang-chu-anh-bia-01.webp" alt="Bảng gỗ Trại Rắn Đồng Tâm giữa khu vườn và hoa" width="2048" height="1365" fetchpriority="high" decoding="async"></picture></div>
+      <div class="cover-slide" data-cover-slide data-caption="Chào đón một ngày khám phá" aria-hidden="true"><picture><source media="(max-width: 760px)" srcset="/assets/images/trang-chu-anh-bia-02-mobile.webp"><img src="/assets/images/trang-chu-anh-bia-02.webp" alt="Khách tham quan tại cổng vào Trại rắn Đồng Tâm" width="2048" height="1365" fetchpriority="low" decoding="async"></picture></div>
+      </div><div class="cover-shade" aria-hidden="true"></div><div class="container hero-cover-content">
       <div class="hero-copy"><span class="hero-tag">'''+icon('leaf')+''' Một ngày xanh ở Đồng Tâm</span>
       <h1><span>Bước vào thế giới</span><span>tự nhiên.</span></h1>
       <p>Gặp những cư dân hoang dã. Lắng nghe câu chuyện bảo tồn. Cùng nhau mang về một ngày đầy khám phá.</p>
       <div class="hero-actions">'''+btn('Bắt đầu khám phá','/du-lich-sinh-thai/','primary','diagonal')+'''<a class="hero-secondary" href="#kham-pha-3d">'''+icon('cube')+''' Khám phá 3D</a></div>
-      <div class="hero-footnote"><span class="live-dot" aria-hidden="true"></span><span>7:00 – 17:00 mỗi ngày</span><span class="hero-footnote-divider"></span><a href="/contact/">Kim Sơn, Đồng Tháp</a></div></div>
-      <div class="hero-art" data-depth><div class="hero-art-frame">'''+image(hero_photo,'Trăn gấm giữa thế giới tự nhiên','hero-photo',True)+'''<div class="hero-art-caption"><span>Trại rắn Đồng Tâm</span><a href="/danh-muc-san-pham/ran/" aria-label="Khám phá các loài rắn">'''+icon('diagonal')+'''</a></div></div>
-      <div class="nature-seal">'''+icon('leaf')+'''<span>Gần hơn với<br>thiên nhiên</span></div>
-      <a class="hero-memory" href="/du-lich-sinh-thai/">'''+image(visit_photo,'Một chuyến tham quan tại Đồng Tâm')+'''<span>Thêm một trải nghiệm đáng nhớ</span>'''+icon('diagonal')+'''</a></div>
-      </div></section>'''
+      </div></div><div class="container cover-footer"><p class="cover-caption" data-cover-caption>Một chút kỷ niệm ở Đồng Tâm</p><div class="cover-controls" data-cover-controls hidden aria-label="Chọn ảnh bìa"><button type="button" class="cover-dot" data-cover-to="0" aria-label="Xem ảnh bìa bảng gỗ Đồng Tâm" aria-pressed="true"></button><button type="button" class="cover-dot" data-cover-to="1" aria-label="Xem ảnh bìa cổng đón khách" aria-pressed="false"></button><button type="button" data-cover-pause aria-label="Dừng chuyển ảnh bìa" aria-pressed="false">Ⅱ</button></div></div>'''+c['visit_strip']()+'''</section>'''
     experience = '''<section class="section experience-section" id="trai-nghiem"><div class="container"><div class="section-heading"><div><p class="section-kicker">Chọn một lối khám phá</p><h2>Đến gần thiên nhiên.<br>Thấy thêm điều mới.</h2></div><a class="text-link" href="/du-lich-sinh-thai/">Tất cả trải nghiệm '''+icon('arrow')+'''</a></div><div class="experience-grid experience-mosaic">'''
     entries = [
       ('Thế giới động vật','Những cuộc gặp không giống ngày thường.','/danh-muc-san-pham/ran/',c['SNAKE'],'large'),
@@ -27,7 +24,7 @@ def homepage(c):
     animals = '''<section class="section animal-section" id="cu-dan"><div class="container"><div class="section-heading"><div><p class="section-kicker">Những cư dân của Đồng Tâm</p><h2>Mỗi loài, một điều kỳ thú.</h2></div><div class="gallery-arrows"><button class="gallery-arrow" data-gallery="previous" aria-label="Xem các loài trước">'''+icon('arrow')+'''</button><button class="gallery-arrow" data-gallery="next" aria-label="Xem các loài tiếp theo">'''+icon('arrow')+'''</button></div></div><div class="category-tabs"><a href="#cu-dan" class="selected">Nổi bật</a><a href="/danh-muc-san-pham/ran/">Rắn</a><a href="/danh-muc-san-pham/chim/">Chim</a><a href="/danh-muc-san-pham/thu/">Thú</a><a href="/danh-muc-san-pham/khac/">Khác</a></div><div class="animal-track" aria-label="Các loài vật nổi bật" tabindex="0">'''+cards(animalpicks)+'''</div><div class="gallery-bottom"><p>Kéo ngang để gặp thêm những cư dân khác.</p><a class="text-link" href="/du-lich-sinh-thai/">Tiếp tục khám phá '''+icon('arrow')+'''</a></div></div></section>'''
     conservation = '''<section class="section story-section"><div class="container conservation"><div class="conservation-image">'''+image(c['HOME_IMGS'][5],'Khách tham quan vườn thuốc tại Đồng Tâm')+'''<div class="story-caption"><span>Từ năm</span><strong>1977</strong><span>Một hành trình vì sự sống</span></div></div><div class="conservation-copy"><p class="section-kicker">Câu chuyện phía sau khu vườn</p><h2>Gìn giữ thiên nhiên.<br>Kết nối sự sống.</h2><p>Đồng Tâm gắn kết công tác nuôi trồng, nghiên cứu, chế biến dược liệu với bảo tồn và giáo dục thiên nhiên.</p><p>Mỗi chuyến tham quan cũng là dịp để hiểu thêm về thế giới quanh mình — và những người đang chăm sóc, gìn giữ thế giới ấy.</p><div class="stacked-links"><a href="/gioi-thieu/">'''+icon('leaf')+''' Câu chuyện Đồng Tâm '''+icon('arrow')+'''</a><a href="/nghien-cuu-khoa-hoc/">'''+icon('book')+''' Nghiên cứu khoa học '''+icon('arrow')+'''</a><a href="/san-pham/">'''+icon('leaf')+''' Sản phẩm Đồng Tâm '''+icon('arrow')+'''</a></div></div></div></section>'''
     news = '<section class="section news-section"><div class="container"><div class="section-heading"><div><p class="section-kicker">Nhịp sống Đồng Tâm</p><h2>Chuyện mới từ khu vườn.</h2></div><a class="text-link" href="/tin-tuc/">Tất cả tin tức '+icon('arrow')+'</a></div><div class="cards-grid three">'+cards(c['POSTS'][:3],'post')+'</div></div></section>'
-    return hero+c['visit_strip']()+experience+animals+c['scene_block']()+conservation+news+c['cta']()+c['faq']()
+    return hero+experience+animals+c['scene_block']()+conservation+news+c['cta']()+c['faq']()
 
 def exhibit(c):
     icon,image,btn = c['icon'],c['image'],c['btn']
