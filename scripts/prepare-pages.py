@@ -31,7 +31,9 @@ for path in source.rglob('*'):
     relative = path.relative_to(source)
     target = output / relative
     target.parent.mkdir(parents=True, exist_ok=True)
-    if path.suffix in ['.html', '.css', '.js', '.json']:
+    # Vendor code contains slash delimiters that are not URLs. Copy it verbatim.
+    vendor = relative.parts[:2] == ('assets', 'vendor')
+    if not vendor and path.suffix in ['.html', '.css', '.js', '.json']:
         text = path.read_text(encoding='utf-8')
         text = quoted.sub(lambda match: match['quote'] + base + '/' + match['tail'] + match['quote'], text)
         if path.suffix == '.css':
