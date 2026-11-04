@@ -2,21 +2,17 @@
 
 Website: https://codeezforme.github.io/trai-ran-dong-tam/
 
-CMS: https://codeezforme.github.io/trai-ran-dong-tam/admin/
+CMS: https://trai-ran-dong-tam.vercel.app/admin/
 
-## Kết nối lần đầu
+## Đăng nhập quản trị
 
-Mở CMS để xem nội dung hiện có. Chọn **Kết nối để quản lý** khi muốn sửa.
+Mở CMS, nhập tài khoản **Admin** và mật khẩu chủ dự án đã thiết lập, rồi chọn **Đăng nhập**. Chưa đăng nhập sẽ không thấy dashboard quản trị. Liên kết `/admin/` trên website GitHub Pages tự chuyển sang màn hình đăng nhập này.
 
-1. Đăng nhập tài khoản GitHub có quyền ghi vào `CodeEzforme/trai-ran-dong-tam`.
-2. Mở liên kết tạo **fine-grained personal access token** trong hộp kết nối.
-3. Resource owner: `CodeEzforme`. Repository access: **Only select repositories**, chọn `trai-ran-dong-tam`.
-4. Repository permissions: **Contents → Read and write**. Chọn ngày hết hạn phù hợp.
-5. Tạo khóa và dán vào CMS. Không gửi khóa qua tin nhắn hoặc đưa lên mã nguồn.
+Phiên được giữ khi tải lại trang trong thời hạn 8 giờ. Chọn **Đăng xuất** ở cuối thanh bên để kết thúc phiên. Nếu có nội dung chưa lưu, màn hình sẽ nhắc trước khi đăng xuất.
 
-CMS giữ khóa trong bộ nhớ tab và chỉ gửi trực tiếp đến API `https://api.github.com`. Không dùng localStorage, sessionStorage hoặc cookie để lưu khóa. Tải lại/đóng tab sẽ phải kết nối lại. Người chưa kết nối chỉ xem nội dung đã xuất bản, không ghi được lên GitHub.
+Mật khẩu được kiểm tra ở máy chủ; cookie phiên dùng HttpOnly và Secure. Trình duyệt không giữ khóa GitHub trong localStorage, sessionStorage hay cookie. Người quản lý không cần nhập khóa GitHub để sử dụng CMS.
 
-Đây là CMS lưu nội dung trong GitHub, không có tài khoản/mật khẩu riêng hoặc máy chủ cơ sở dữ liệu. Có thể mời người khác làm collaborator trong GitHub để họ quản lý bằng khóa riêng. Quyền truy cập được kiểm tra bởi GitHub; việc ẩn nút trên giao diện không phải lớp bảo vệ duy nhất.
+Nội dung vẫn lưu trong GitHub; phần máy chủ xác thực và kết nối kho nội dung chạy trên Vercel. Xem [cấu hình hosting và đổi mật khẩu](ADMIN-HOSTING.md) khi cần. Hệ thống hiện có một tài khoản quản trị, chưa có chức năng tạo nhiều tài khoản hay phân vai.
 
 ## Bài viết, sản phẩm và trang
 

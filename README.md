@@ -3,7 +3,7 @@
 Website React/Next.js, nội dung tiếng Việt và CMS quản trị bài viết, sản phẩm, động vật, danh mục, trang nội dung, ảnh bìa và thông tin liên hệ.
 
 - Website: **https://codeezforme.github.io/trai-ran-dong-tam/**
-- CMS: **https://codeezforme.github.io/trai-ran-dong-tam/admin/**
+- CMS: **https://trai-ran-dong-tam.vercel.app/admin/**
 - Repo: [CodeEzforme/trai-ran-dong-tam](https://github.com/CodeEzforme/trai-ran-dong-tam)
 - Hướng dẫn quản trị: [docs/CMS.md](docs/CMS.md)
 
@@ -39,9 +39,9 @@ Build xuất vào `out/`. Preview ở `http://localhost:3001`. Để kiểm tra 
 
 `content/content.json` là nguồn nội dung duy nhất cho bản mới. Không chạy migration lại sau khi đã sửa nội dung bằng CMS.
 
-CMS đọc/ghi GitHub API bằng khóa của người quản lý, giữ khóa trong bộ nhớ tab. Xuất bản bằng một commit nguyên tử gồm JSON và ảnh; so sánh phiên bản và cập nhật ref không force để tránh ghi đè khi có người khác sửa. GitHub Actions tự build sau commit. Xem [hướng dẫn kết nối](docs/CMS.md).
+CMS đăng nhập bằng tài khoản/mật khẩu riêng, xác thực ở server với scrypt và cookie HttpOnly/Secure. Khóa GitHub nằm trong biến môi trường server, trình duyệt chỉ gọi API CMS. Xuất bản bằng một commit nguyên tử gồm JSON và ảnh; so sánh phiên bản và cập nhật ref không force để tránh ghi đè khi có người khác sửa. GitHub Actions và Vercel tự build sau commit. Xem [hướng dẫn CMS](docs/CMS.md) và [hosting admin](docs/ADMIN-HOSTING.md).
 
-Repo hiện công khai: nháp được loại khỏi website và chỉ mục, nhưng vẫn đọc được trong source GitHub. CMS chưa có tài khoản/mật khẩu riêng, cơ sở dữ liệu riêng hoặc luồng duyệt nhiều cấp. Đây là CMS dùng GitHub; không yêu cầu máy chủ bổ sung.
+Repo hiện công khai: nháp được loại khỏi website và chỉ mục, nhưng vẫn đọc được trong source GitHub. CMS hiện có một tài khoản Admin, chưa có luồng duyệt nhiều cấp hay phân vai. API xác thực chạy trên Vercel Functions; website công khai vẫn hoạt động trên GitHub Pages.
 
 ## Cấu trúc
 
@@ -53,6 +53,8 @@ Repo hiện công khai: nháp được loại khỏi website và chỉ mục, nh
 | `content/content.json` | Trang, bài viết, sản phẩm, danh mục và thiết lập |
 | `lib/content.mjs` | Lọc nháp, làm sạch HTML, dựng nội dung và liên kết |
 | `lib/github-cms.mjs` | Xác thực, kiểm tra xung đột, ghi commit và theo dõi triển khai |
+| `server/`, `api/cms.mjs` | Xác thực mật khẩu, cookie phiên, CSRF và API quản trị |
+| `components/AdminAccess.jsx` | Màn hình đăng nhập và kiểm tra phiên trước khi vào CMS |
 | `data/migrated-templates.json` | Bố cục chuyên biệt nhập từ bản cũ |
 | `public/assets/` | Ảnh, font, mô hình 3D và tương tác nội dung cũ |
 | `scripts/prepare-next.mjs` | Chuẩn bị dữ liệu và tài nguyên đúng base path |
@@ -64,7 +66,7 @@ Trình soạn thảo dùng DOMPurify ở client và sanitize-html khi build. Cá
 
 ## Kiểm tra trình duyệt
 
-`scripts/next-browser-check.cjs` dùng Playwright/Edge đã có trong `.tools/`: kiểm tra bìa 5 giây, menu, tìm kiếm không dấu, gallery, Three.js, CMS soạn bài/tải ảnh/xem trước/lưu, xung đột và responsive. API ghi GitHub được mô phỏng trong bài kiểm tra trình duyệt để không đăng bài thử lên website. Tệp kết quả và ảnh chụp nằm trong `artifacts/` được bỏ qua bởi Git.
+`scripts/next-browser-check.cjs` dùng Playwright/Edge đã có trong `.tools/`: kiểm tra bìa 5 giây, menu, tìm kiếm không dấu, gallery, Three.js và màn hình đăng nhập. `scripts/admin-browser-check.cjs` kiểm tra đăng nhập thật, cookie phiên, tải lại, đăng xuất và API không có quyền. Kiểm thử xuất bản/xung đột chạy bằng API mô phỏng để không đăng bài thử lên website. Tệp kết quả và ảnh chụp nằm trong `artifacts/` được bỏ qua bởi Git.
 
 ## Bản cũ
 

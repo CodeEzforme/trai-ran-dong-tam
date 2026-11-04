@@ -24,6 +24,8 @@ git push origin main
 
 Người quản lý có thể cập nhật nội dung tại `/admin/` bằng CMS. Xem [hướng dẫn CMS](CMS.md). CMS tạo commit trên cùng nhánh và kích hoạt workflow tương tự khi đẩy mã nguồn.
 
+Trang admin trên Pages chuyển sang `https://trai-ran-dong-tam.vercel.app/admin/` để xác thực tài khoản/mật khẩu bằng máy chủ. Biến `NEXT_PUBLIC_ADMIN_URL` chỉ được đặt ở build Pages; Vercel build ở đường dẫn gốc và cung cấp API phiên riêng.
+
 ## Kiểm tra đã chuẩn bị
 
 - `npm test`: mã hóa tiếng Việt, làm sạch HTML, quyền truy cập, xung đột và commit nguyên tử.

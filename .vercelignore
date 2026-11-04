@@ -1,0 +1,13 @@
+.tools/**
+artifacts/**
+dist/**
+out/**
+generated/**
+node_modules/**
+.git/**
+.env*
+.agents/**
+docs/**
+tests/**
+.github/**
+data/source/**

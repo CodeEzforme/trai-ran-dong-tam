@@ -16,3 +16,5 @@ generated/
 public/cms-index.json
 public/media-index.json
 public/search-index.json
+
+.env.admin.local
