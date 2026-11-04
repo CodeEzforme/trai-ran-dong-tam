@@ -1,0 +1,47 @@
+{
+  "logo": "/assets/images/59ac3a66d469ee35.webp",
+  "animals": [
+    {
+      "title": "Rắn hổ chúa – KING COBRA",
+      "image": "/assets/images/bc74f6dd5d56662b.webp",
+      "path": "/san-pham/ran-ho-chua/"
+    },
+    {
+      "title": "Chim công – GREEN PEAFOWL",
+      "image": "/assets/images/6416b12cfff8a1df.webp",
+      "path": "/san-pham/chim-cong/"
+    },
+    {
+      "title": "Vượn đen má vàng – YELLOW-CHEEKED GIBBON",
+      "image": "/assets/images/a9310323f93dc662.webp",
+      "path": "/san-pham/vuon-den-ma-vang/"
+    },
+    {
+      "title": "Trăn gấm – Reticulated Python",
+      "image": "/assets/images/75c1042dcd158612.webp",
+      "path": "/san-pham/tran-gam/"
+    },
+    {
+      "title": "Rắn hổ ngựa – Copper-headed Trinket Snake",
+      "image": "/assets/images/1f473db25bf3fb10.webp",
+      "path": "/san-pham/ran-ho-ngua/"
+    },
+    {
+      "title": "Gấu ngựa – ASIAN BLACK BEAR",
+      "image": "/assets/images/af3c955968fcaa25.avif",
+      "path": "/san-pham/gau-ngua/"
+    },
+    {
+      "title": "Cá sấu nước ngọt – SIAMESE CROCODILE",
+      "image": "/assets/images/37a2e6ed3b4b0c2a.webp",
+      "path": "/san-pham/ca-sau-xiem/"
+    },
+    {
+      "title": "Ngựa lùn pony – PONY",
+      "image": "/assets/images/7ac9115bd1b35ddf.webp",
+      "path": "/san-pham/ngua-lun-pony/"
+    }
+  ],
+  "scene": "<section class=\"scene-section\" id=\"kham-pha-3d\"><div class=\"container scene-layout\"><div class=\"scene-copy\"><span class=\"pill\"><svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><path d=\"m12 2 9 5v10l-9 5-9-5V7l9-5ZM3 7l9 5 9-5M12 12v10\"></path></svg> Không gian khám phá 3D</span><h2>Đổi góc nhìn.<br/>Thấy thêm điều mới.</h2><p>Quan sát rắn hổ mang từ nhiều phía. Xoay nhẹ để thấy hình dáng, phóng to để nhìn gần hơn những chi tiết trên cơ thể.</p><div class=\"exhibit-features\"><span><svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><path d=\"M3 11a9 9 0 1 1 2 7M3 4v7h7\"></path></svg> Xoay 360°</span><span><svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"></circle><path d=\"m16 16 5 5\"></path></svg> Quan sát chi tiết</span></div><a class=\"button light\" href=\"/danh-muc-san-pham/ran/\">Tìm hiểu các loài rắn<svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><path d=\"M4 12h15m-6-6 6 6-6 6\"></path></svg></a><p class=\"scene-note\">Mô hình minh họa, không dùng để nhận dạng loài.</p></div><div class=\"scene-view\"><div class=\"exhibit-title\"><span>Rắn hổ mang</span><span>Trải nghiệm tương tác</span></div><div aria-label=\"Mô hình rắn hổ mang 3D có thể xoay và phóng to\" class=\"snake-scene\" id=\"snake-scene\" role=\"img\"><img alt=\"Rắn tại Đồng Tâm — ảnh thay thế khi mô hình chưa sẵn sàng\" class=\"scene-fallback\" decoding=\"async\" height=\"800\" loading=\"lazy\" src=\"/assets/images/bc74f6dd5d56662b.webp\" width=\"1200\"/></div><div class=\"scene-toolbar\"><div class=\"scene-controls\"><button aria-label=\"Xoay rắn sang trái\" data-scene=\"left\">↶</button><button aria-label=\"Xoay rắn sang phải\" data-scene=\"right\">↷</button><span class=\"control-divider\"></span><button aria-label=\"Phóng to mô hình\" data-scene=\"zoom-in\"><svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><path d=\"M12 5v14M5 12h14\"></path></svg></button><button aria-label=\"Thu nhỏ mô hình\" data-scene=\"zoom-out\"><svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><path d=\"M5 12h14\"></path></svg></button><button aria-label=\"Đặt lại góc nhìn\" data-scene=\"reset\"><svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><path d=\"M3 11a9 9 0 1 1 2 7M3 4v7h7\"></path></svg></button><span class=\"control-divider\"></span><button aria-label=\"Xem cận mặt rắn\" aria-pressed=\"false\" class=\"scene-face\" data-scene=\"face\"><svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"></circle><path d=\"m16 16 5 5\"></path></svg><span>Cận mặt</span></button></div><button class=\"scene-retry\" hidden=\"\" type=\"button\">Tải lại mô hình</button><p aria-live=\"polite\" class=\"scene-hint\" id=\"scene-status\">Đang chuẩn bị mô hình…</p></div></div></div></section>",
+  "faq": "<section class=\"section faq-section\"><div class=\"container faq-layout\"><div><p class=\"section-kicker\">Trước chuyến đi</p><h2>Bạn hỏi,<br/>Đồng Tâm trả lời.</h2><p class=\"muted\">Một vài thông tin để chuyến ghé thăm của bạn dễ dàng hơn.</p></div><div><details class=\"faq\"><summary>Đồng Tâm mở cửa lúc mấy giờ?<svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><path d=\"M12 5v14M5 12h14\"></path></svg></summary><p>Khu tham quan mở cửa từ 7:00 đến 17:00, tất cả các ngày trong tuần. Bạn có thể liên hệ trước khi đến để hỏi thông tin dịch vụ và lịch hoạt động.</p></details><details class=\"faq\"><summary>Trại rắn Đồng Tâm ở đâu?<svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><path d=\"M12 5v14M5 12h14\"></path></svg></summary><p>Ấp Tân Thuận B, xã Kim Sơn, tỉnh Đồng Tháp. Bấm “Xem đường đi” để mở vị trí trên Google Maps.</p></details><details class=\"faq\"><summary>Có thể tham quan những khu vực nào?<svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><path d=\"M12 5v14M5 12h14\"></path></svg></summary><p>Bạn có thể tìm hiểu các loài rắn, chim, thú, nhà bảo tàng rắn và các không gian sinh thái. Website cũng giới thiệu nhà hàng, Coffee &amp; Tea Đồng Tâm cùng các dịch vụ tham quan.</p></details><details class=\"faq\"><summary>Tôi muốn hỏi giá vé và đặt lịch cho đoàn?<svg aria-hidden=\"true\" class=\"icon\" fill=\"none\" height=\"24\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"1.6\" viewbox=\"0 0 24 24\" width=\"24\"><path d=\"M12 5v14M5 12h14\"></path></svg></summary><p>Vui lòng gọi 0898 408 408 hoặc dùng biểu mẫu liên hệ. Nhân viên sẽ tư vấn giá, dịch vụ và lịch phù hợp với đoàn của bạn.</p></details></div></div></section>"
+}

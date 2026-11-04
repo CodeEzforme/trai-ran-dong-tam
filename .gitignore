@@ -10,3 +10,9 @@ source-home.html
 !.env.example
 .netlify/
 .vercel/
+.next/
+out/
+generated/
+public/cms-index.json
+public/media-index.json
+public/search-index.json

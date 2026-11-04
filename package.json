@@ -1,12 +1,25 @@
 {
   "name": "dong-tam-nature",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Website Trại rắn Đồng Tâm — thiết kế mới với trải nghiệm Three.js",
   "scripts": {
-    "dev": "python scripts/serve.py",
-    "build": "python scripts/build.py",
-    "preview": "python scripts/serve.py --dist",
-    "check": "python scripts/check.py"
+    "dev": "node scripts/prepare-next.mjs && next dev --port 3001",
+    "build": "node scripts/prepare-next.mjs && next build --webpack && node scripts/finish-next.mjs",
+    "preview": "node scripts/preview-next.mjs",
+    "check": "node scripts/check-next.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "legacy:build": "python scripts/build.py"
+  },
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0",
+    "dompurify": "3.4.17",
+    "next": "16.4.5",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "sanitize-html": "2.18.1"
   }
 }
