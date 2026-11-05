@@ -36,11 +36,6 @@ export function createCMSHandler({env=process.env,fetcher=globalThis.fetch,rateL
     if(route==='logout'&&method==='POST')return json({ok:true},200,{'Set-Cookie':sessionCookie('',request.url,0)});
     const api=new GitHubCMS(config.githubToken,(...args)=>fetcher(...args));
     try{
-      if(route==='email-status'&&method==='GET'){
-        let reachable=false,status=null,diagnostic='';
-        try{const result=await fetcher('https://formsubmit.co/ajax/invalid-address',{method:'GET',headers:{Accept:'application/json'},redirect:'follow',signal:AbortSignal.timeout(8000)});status=result.status;reachable=result.status<500;diagnostic=(await result.text()).slice(0,180);}catch(error){diagnostic=error.cause?.code||error.name;}
-        return json({provider:'FormSubmit',recipient:'trairandongtam408@gmail.com',reachable,status,diagnostic,activation:'Owner confirmation is required once; no email was sent by this check.'});
-      }
       if(route==='content'&&method==='GET') {const data=await api.load();return json({data,sha:api.sha});}
       if(route==='media'&&method==='POST'){
         const input=await body(request);

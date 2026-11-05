@@ -55,7 +55,6 @@ Repo hiện công khai: nháp được loại khỏi website và chỉ mục, nh
 | `lib/structure.mjs`, `lib/collections.mjs` | Sơ đồ, chuyên mục và danh sách nội dung công khai |
 | `lib/github-cms.mjs` | Xác thực, kiểm tra xung đột, ghi commit và theo dõi triển khai |
 | `server/`, `api/cms.mjs` | Xác thực mật khẩu, cookie phiên, CSRF và API quản trị |
-| `api/contact.mjs`, `server/contact-handler.mjs` | Nhận form và gửi email qua FormSubmit |
 | `components/AdminAccess.jsx` | Màn hình đăng nhập và kiểm tra phiên trước khi vào CMS |
 | `data/migrated-templates.json` | Bố cục chuyên biệt nhập từ bản cũ |
 | `public/assets/` | Ảnh, font, mô hình 3D và tương tác nội dung cũ |
@@ -68,10 +67,10 @@ Trình soạn thảo dùng DOMPurify ở client và sanitize-html khi build. Cá
 
 ## Kiểm tra trình duyệt
 
-`scripts/next-browser-check.cjs` dùng Playwright/Edge đã có trong `.tools/`: kiểm tra bìa 5 giây, sơ đồ mới, sản phẩm nổi bật, tìm kiếm không dấu, gallery, form liên hệ và màn hình đăng nhập. `scripts/cms-taxonomy-check.cjs` kiểm tra thêm/xuất bản vào cả 7 nhóm bằng API mô phỏng. `scripts/admin-browser-check.cjs` kiểm tra đăng nhập thật, cookie phiên, tải lại, đăng xuất và API không có quyền. Kiểm thử form mô phỏng dịch vụ email, không gửi email thử tự động. Tệp kết quả và ảnh chụp nằm trong `artifacts/` được bỏ qua bởi Git.
+`scripts/next-browser-check.cjs` dùng Playwright/Edge đã có trong `.tools/`: kiểm tra bìa 5 giây, sơ đồ mới, sản phẩm nổi bật, tìm kiếm không dấu, gallery, liên kết Gmail và màn hình đăng nhập. `scripts/cms-taxonomy-check.cjs` kiểm tra thêm/xuất bản vào cả 7 nhóm bằng API mô phỏng. `scripts/admin-browser-check.cjs` kiểm tra đăng nhập thật, cookie phiên, tải lại, đăng xuất và API không có quyền. Không tự gửi email thử. Tệp kết quả và ảnh chụp nằm trong `artifacts/` được bỏ qua bởi Git.
 
 ## Bản cũ
 
 Python generator và snapshot WordPress vẫn được giữ để đối chiếu/migration, không chạy trong pipeline Next.js. `scripts/migrate-next.py` chỉ nhập dữ liệu một lần và từ chối ghi đè CMS hiện có. Dữ liệu nguồn/giấy phép được ghi ở `docs/MIGRATION.md`, các skill tại `docs/SKILLS.md`. Bản mới không thay đổi website WordPress ở tên miền `trairandongtam.vn`.
 
-Biểu mẫu trang chủ và `/contact/` chỉ gửi khi khách bấm **Gửi thông tin**, qua API Vercel tới FormSubmit và hộp thư **trairandongtam408@gmail.com**. Chủ hộp thư cần bấm xác nhận kích hoạt FormSubmit một lần sau lượt gửi đầu tiên. Chưa xác minh thư tới Gmail cho đến khi chủ hộp thư kích hoạt và kiểm tra. Lỗi gửi giữ nguyên dữ liệu và có số điện thoại/email dự phòng. Không có thanh toán hay xác nhận đặt lịch tự động.
+Theo yêu cầu cuối cùng, trang chủ và `/contact/` hiển thị **trairandongtam408@gmail.com** cùng nút **Soạn thư trên Gmail**. Khách tự viết và gửi thư trong Gmail hoặc ứng dụng email của mình. Không cần cấu hình máy chủ gửi mail, dịch vụ trung gian hoặc mật khẩu Gmail. Xem [liên hệ email](docs/CONTACT-EMAIL.md).

@@ -37,16 +37,15 @@ const screenshot=process.env.NEXT_TEST_SCREENSHOTS!=='0';
     await page.getByRole('button',{name:'Tìm kiếm website',exact:true}).click();await page.locator('#nx-search').fill('vuon thuoc nam');await Promise.all([page.waitForURL('**/tim-kiem/**'),page.locator('.nx-search form').getByRole('button',{name:'Tìm kiếm',exact:true}).click()]);await page.waitForFunction(()=>document.querySelectorAll('#search-results>a').length>0);const first=await page.locator('#search-results>a').first().getAttribute('href');assert(first.startsWith(base+'/'));checks.push('Accent-insensitive search resolves base-prefixed routes');
     await page.goto(url+'/san-pham/',{waitUntil:'networkidle'});await page.locator('#catalogue-search').fill('khongco-noidung-xyz');await page.locator('.filter-form').evaluate(f=>f.requestSubmit());assert(await page.locator('.empty-results').isVisible());checks.push('Catalog filter and empty state preserved');
     await page.goto(url+'/contact/',{waitUntil:'networkidle'});
-    let formResult={ok:false,error:'Hộp thư đang chờ kích hoạt.'},formStatus=503,submitted=[];
-    await page.route('https://trai-ran-dong-tam.vercel.app/api/contact',async route=>{
-      const cors={'access-control-allow-origin':origin,'access-control-allow-headers':'*','access-control-allow-methods':'POST, OPTIONS'};
-      if(route.request().method()==='OPTIONS')return route.fulfill({status:204,headers:cors});
-      submitted.push(route.request().postDataJSON());await new Promise(r=>setTimeout(r,200));await route.fulfill({status:formStatus,json:formResult,headers:cors});
-    });
-    await page.getByLabel('Họ và tên',{exact:true}).fill('Kiểm tra giao diện');await page.getByLabel('Số điện thoại',{exact:true}).fill('0901234567');await page.getByLabel('Lời nhắn',{exact:true}).fill('Bài kiểm tra không gửi email thật.');
-    await page.getByRole('button',{name:'Gửi thông tin',exact:true}).click();await page.locator('.form-status[data-state=error]').waitFor();assert.equal(await page.getByLabel('Họ và tên',{exact:true}).inputValue(),'Kiểm tra giao diện');assert(await page.locator('.email-fallback').isVisible());
-    formResult={ok:true};formStatus=200;await page.locator('[data-contact-form]').evaluate(form=>{form.requestSubmit();form.requestSubmit();});await page.locator('.form-status[data-state=success]').waitFor();assert.equal(submitted.length,2);assert.equal(submitted[1].message,'Bài kiểm tra không gửi email thật.');assert.equal(await page.getByLabel('Họ và tên',{exact:true}).inputValue(),'');
-    checks.push('Contact form posts directly, preserves failed input and blocks duplicate submits; email delivery is mocked');
+    assert.equal(await page.locator('[data-contact-form],form#len-lich').count(),0);
+    const gmail=new URL(await page.getByRole('link',{name:'Soạn thư trên Gmail',exact:true}).getAttribute('href'));
+    assert.equal(gmail.origin,'https://mail.google.com');assert.equal(gmail.searchParams.get('view'),'cm');assert.equal(gmail.searchParams.get('to'),'trairandongtam408@gmail.com');
+    assert.equal(await page.getByRole('link',{name:'Mở ứng dụng email',exact:true}).getAttribute('href'),'mailto:trairandongtam408@gmail.com');
+    assert(await page.locator('.nx-mail-address').isVisible());
+    for(const width of [360,390,768,1024,1440]){await page.setViewportSize({width,height:900});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Contact overflow '+width);}
+    if(screenshot){await page.setViewportSize({width:1440,height:1000});await page.screenshot({path:'artifacts/next-contact-desktop.png',fullPage:true});await page.setViewportSize({width:390,height:844});await page.screenshot({path:'artifacts/next-contact-mobile.png',fullPage:true});}
+    checks.push('Contact displays the email and opens Gmail/email drafts for visitors to send themselves; no server submission form');
+
     }
     await page.goto(url+'/admin/',{waitUntil:'networkidle'});
     await page.getByRole('button',{name:'Đăng nhập',exact:true}).waitFor();

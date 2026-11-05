@@ -30,6 +30,5 @@ for(const s of sections)for(const t of flattenTopics(s))if(!data.documents.some(
  data.documents.push({id:'sitemap-'+t.id,path:t.path,title:t.label,kind:'category',section:s.id,excerpt:descriptions[s.id],body,image,categories:[],status:'published',date:'2026-11-05'});
 }
 data.settings.social={...socialDefaults,...(data.settings.social||{})};
-data.settings.contactRecipient='trairandongtam408@gmail.com';
 fs.writeFileSync(file,JSON.stringify(data,null,2)+'\n');
 console.log(`Updated taxonomy: ${sections.length} content groups; ${data.documents.length} current documents preserved/enriched.`);

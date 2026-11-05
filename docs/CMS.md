@@ -34,7 +34,7 @@ Trong **Trang chủ & liên hệ**, sửa lời giới thiệu, chú thích ản
 
 Phần **Mạng xã hội** cho sửa Facebook, TikTok và Zalo. Các liên kết hiện ở chân trang và phần liên hệ. Tin tức được đưa lên ngay sau ảnh bìa.
 
-Form tại trang chủ và trang liên hệ gửi về **trairandongtam408@gmail.com** khi khách bấm **Gửi thông tin**. Lượt đầu tiên cần chủ hộp thư mở thư kích hoạt của FormSubmit và bấm xác nhận một lần (kiểm tra cả thư rác). Chỉ sau khi kích hoạt và kiểm tra hộp thư mới xác minh được việc nhận email thực tế. Không cần cung cấp mật khẩu Gmail. Email liên hệ hiển thị trong CMS không đổi địa chỉ nhận cố định ở máy chủ.
+Phần liên hệ hiển thị địa chỉ email và nút **Soạn thư trên Gmail** để người xem tự viết và gửi thư. Sửa trường **Email** trong **Trang chủ & liên hệ** sẽ cập nhật địa chỉ hiển thị và các nút email. Không cần cấu hình gửi mail hoặc cung cấp mật khẩu Gmail. Xem [liên hệ email](CONTACT-EMAIL.md).
 
 Thư viện có ảnh đang dùng trong website. Tải JPG, PNG, WebP hoặc AVIF, tối đa 20 MB/ảnh. Trình duyệt đổi sang WebP và giới hạn cạnh dài 2400px. Ảnh mới được xếp vào hàng đợi; bấm **Lưu thay đổi** để tải ảnh cùng nội dung trong một lần. Không tự xóa ảnh cũ vì các trang khác có thể còn dùng ảnh đó.
 
