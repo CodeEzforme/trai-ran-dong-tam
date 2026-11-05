@@ -28,6 +28,8 @@ Muốn đưa sản phẩm ra trang chủ, mở sản phẩm, đánh dấu **Sả
 
 Nội dung cũ được giữ lại; dùng trạng thái nháp khi muốn gỡ hiển thị. Nút xóa áp dụng cho nội dung mới được tạo bằng CMS. Danh mục có trang riêng và có thể gán cho bài viết/sản phẩm trong trình soạn thảo.
 
+Trong **Giới thiệu → Sơ đồ tổ chức**, danh sách nhân sự được chia theo tên bộ phận, ảnh, tên và chức vụ trong phần Nội dung. Đây là nguồn chung cho các trang Ban giám đốc, Ban hành chính, Đội nuôi trồng dược liệu và Bộ phận du lịch. Sửa hồ sơ tại đây để các trang cùng cập nhật; mỗi hồ sơ trùng cả ảnh, tên và chức vụ trong một bộ phận chỉ hiển thị một lần. Các trang bộ phận vẫn có phần nội dung riêng để bổ sung giới thiệu. Chưa có nhân sự của Đội nuôi thủy đặc sản/Xưởng chế biến thì website không tự thêm.
+
 ## Ảnh bìa và thư viện ảnh
 
 Trong **Trang chủ & liên hệ**, sửa lời giới thiệu, chú thích ảnh, đổi/thêm/xóa và đưa ảnh lên trước. Bìa tự chuyển mỗi **5 giây**, kể cả khi rê chuột/đặt focus. Khách có nút tạm dừng và chọn ảnh. Chế độ giảm chuyển động tắt hiệu ứng nhưng giữ lịch đổi ảnh.

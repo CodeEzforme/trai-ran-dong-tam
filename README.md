@@ -53,6 +53,7 @@ Repo hiện công khai: nháp được loại khỏi website và chỉ mục, nh
 | `content/content.json` | Trang, bài viết, sản phẩm, danh mục và thiết lập |
 | `lib/content.mjs` | Lọc nháp, làm sạch HTML, dựng nội dung và liên kết |
 | `lib/structure.mjs`, `lib/collections.mjs` | Sơ đồ, chuyên mục và danh sách nội dung công khai |
+| `lib/about.mjs`, `app/interior.css` | Giới thiệu, nhóm nhân sự không trùng và bố cục đọc cho trang bên trong |
 | `lib/github-cms.mjs` | Xác thực, kiểm tra xung đột, ghi commit và theo dõi triển khai |
 | `server/`, `api/cms.mjs` | Xác thực mật khẩu, cookie phiên, CSRF và API quản trị |
 | `components/AdminAccess.jsx` | Màn hình đăng nhập và kiểm tra phiên trước khi vào CMS |

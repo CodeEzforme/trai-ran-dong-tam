@@ -1,0 +1,112 @@
+/* Restrained reading layouts for internal pages; homepage typography is separate. */
+.nx-site .nx-content .page-intro{padding:22px 0 28px}
+.nx-site .nx-content .page-intro .breadcrumb{margin-bottom:15px;font-size:11px;gap:10px}
+.nx-site .nx-content .page-intro h1{font-size:clamp(32px,3.2vw,46px);line-height:1.22;letter-spacing:-.04em;max-width:1050px}
+.nx-site .nx-content .intro-description{font-size:14px;line-height:1.85;margin-top:12px;max-width:740px}
+.nx-site .nx-content .section{padding-block:34px}
+.nx-site .nx-content .nx-collection-body{max-width:840px}
+.nx-site .nx-content .article-intro h1{font-size:clamp(28px,3vw,42px);line-height:1.3;max-width:980px}
+.nx-site .nx-content .product-summary h1{font-size:clamp(28px,3vw,40px);line-height:1.3}
+.nx-site .nx-content .prose{font-size:14px;line-height:1.95}
+.nx-site .nx-content .prose h2{font-size:26px;font-weight:500;line-height:1.4;margin:30px 0 14px;letter-spacing:-.025em}
+.nx-site .nx-content .prose h3{font-size:21px;font-weight:500;line-height:1.5;margin:24px 0 12px;letter-spacing:-.02em}
+.nx-site .nx-content .prose h4{font-size:17px;font-weight:500;margin:21px 0 10px}
+.nx-site .nx-content .prose p{margin:14px 0}
+.nx-site .nx-content .prose>h2:first-child,.nx-site .nx-content .prose>p:first-child{margin-top:0}
+.nx-site .nx-content .prose img{display:block;max-width:100%;max-height:480px;width:auto;height:auto;margin:24px auto;object-fit:contain}
+.nx-site .nx-about-layout{max-width:1160px;display:grid;grid-template-columns:205px minmax(0,1fr);gap:45px;padding-block:32px 48px;align-items:start}
+.nx-site .nx-about-nav{position:sticky;top:110px;border-top:2px solid #163e2d;padding-top:15px;min-width:0}
+.nx-site .nx-about-nav>p{font-size:12px;font-weight:600;margin-bottom:12px}
+.nx-site .nx-about-nav>div{display:flex;flex-direction:column;gap:3px}
+.nx-site .nx-about-nav a{font-size:12px;line-height:1.6;padding:10px 12px;color:#63775b;border-left:2px solid transparent}
+.nx-site .nx-about-nav a:hover{color:#163e2d;background:#edf2e6}
+.nx-site .nx-about-nav a[aria-current]{border-left-color:#163e2d;background:#edf2e6;color:#163e2d;font-weight:500}
+.nx-site .nx-about-main{min-width:0}
+.nx-site .nx-team-jump{display:flex;flex-wrap:wrap;gap:7px 20px;border-bottom:1px solid #dfe7d7;padding-bottom:17px;margin-bottom:25px}
+.nx-site .nx-team-jump a{font-size:11px;color:#617b50;text-decoration:underline;text-underline-offset:4px}
+.nx-site .nx-team-section{scroll-margin-top:112px;margin-bottom:34px}
+.nx-site .nx-team-section:last-child{margin-bottom:0}
+.nx-site .nx-team-section>header{display:flex;justify-content:space-between;align-items:baseline;gap:18px;border-bottom:1px solid #dfe7d7;padding-bottom:13px;margin-bottom:20px}
+.nx-site .nx-team-section h2{font-size:24px;font-weight:500;line-height:1.35;letter-spacing:-.025em}
+.nx-site .nx-team-section>header>span{font-size:11px;color:#75866a;white-space:nowrap}
+.nx-site .nx-team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.nx-site .nx-person{min-width:0;text-align:center;padding-bottom:4px}
+.nx-site .nx-person>img{display:block;width:100%;max-width:200px;height:auto;aspect-ratio:5/6;object-fit:contain;margin:0 auto 14px;border-radius:7px;background:#e8eee2}
+.nx-site .nx-person h3{font-size:17px;font-weight:550;letter-spacing:-.02em;line-height:1.5}
+.nx-site .nx-person p{font-size:11px;line-height:1.75;color:#6b7e61;margin-top:5px}
+.nx-site .nx-about-lead{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;margin-bottom:28px}
+.nx-site .nx-about-lead h2{font-size:28px;font-weight:500;line-height:1.3;letter-spacing:-.035em}
+.nx-site .nx-about-lead p{font-size:14px;line-height:1.9;margin-top:16px;color:#63765b}
+.nx-site .nx-about-lead figure{margin:0}
+.nx-site .nx-about-lead img{display:block;aspect-ratio:4/3;width:100%;height:auto;object-fit:contain;border-radius:9px}
+.nx-site .nx-about-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:26px 0 32px;border-block:1px solid #dfe7d7;padding:19px 0;gap:20px}
+.nx-site .nx-about-facts>div{display:flex;flex-direction:column-reverse;justify-content:flex-end;gap:5px}
+.nx-site .nx-about-facts dt{font-size:11px;color:#6b7e61;line-height:1.7}
+.nx-site .nx-about-facts dd{font-size:27px;line-height:1.25;letter-spacing:-1px;margin:0;font-weight:500}
+.nx-site .nx-about-pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding-bottom:12px}
+.nx-site .nx-about-pillars>section{border-top:2px solid #bdcea9;padding-top:14px}
+.nx-site .nx-about-story .nx-about-pillars h3{font-size:16px;margin:0 0 10px;line-height:1.5}
+.nx-site .nx-about-story .nx-about-pillars p{font-size:12px;line-height:1.9;margin:0}
+.nx-site .nx-about-feature{display:grid;grid-template-columns:245px minmax(0,1fr);gap:30px;align-items:center;margin:30px 0}
+.nx-site .nx-about-feature>figure{margin:0}
+.nx-site .nx-about-story .nx-about-feature img{width:100%;max-height:390px;margin:0}
+.nx-site .nx-about-story .nx-about-feature h2:first-child{margin-top:0}
+.nx-site .nx-about-feature-wide{grid-template-columns:1fr 1.15fr}
+.nx-site .nx-about-story .nx-about-feature p,.nx-site .nx-about-story .nx-about-feature li{font-size:13px;line-height:1.9}
+.nx-site .nx-about-story .nx-about-feature li p{margin-block:9px}
+.nx-site .nx-about-story .nx-about-visit{border-top:1px solid #dfe7d7;padding-top:24px;margin-top:30px}
+.nx-site .nx-about-story .nx-about-visit h2{font-size:24px;margin:0 0 10px}
+.nx-site .nx-about-visit>a{display:inline-block;font-size:12px;font-weight:500;color:#526e3f;border-bottom:1px solid #9bb387;padding-bottom:5px;margin-top:5px}
+.nx-site .nx-about-pending{padding:25px 28px;border-left:3px solid #c1d0ae;background:#edf2e6}
+.nx-site .nx-about-pending h2{font-size:24px;font-weight:500}
+.nx-site .nx-about-pending p{font-size:13px;margin-top:13px;color:#6b7e61}
+.nx-site .nx-about-pending a{display:inline-block;font-size:12px;margin-top:22px;text-decoration:underline;text-underline-offset:4px}
+.nx-site .nx-about-main>.section{padding-bottom:0}
+.nx-site .nx-about-main>.section>.container{width:100%}
+@media(max-width:1000px){
+ .nx-site .nx-about-layout{grid-template-columns:170px minmax(0,1fr);gap:28px}
+ .nx-site .nx-team-grid{gap:17px}.nx-site .nx-person h3{font-size:15px}
+ .nx-site .nx-about-lead{grid-template-columns:1fr;gap:19px}
+ .nx-site .nx-about-lead img{max-height:330px}
+ .nx-site .nx-about-pillars{grid-template-columns:1fr;gap:19px}
+ .nx-site .nx-about-feature,.nx-site .nx-about-feature-wide{grid-template-columns:1fr;gap:20px}
+ .nx-site .nx-about-story .nx-about-feature img{max-height:300px}
+}
+@media(max-width:700px){
+ .nx-site .nx-content .page-intro{padding:18px 0 22px}
+ .nx-site .nx-content .page-intro .breadcrumb{font-size:10px;margin-bottom:12px}
+ .nx-site .nx-content .page-intro h1{font-size:32px}
+ .nx-site .nx-content .intro-description{font-size:12px;margin-top:10px}
+ .nx-site .nx-content .section{padding-block:26px}
+ .nx-site .nx-content .prose{font-size:13px;line-height:1.95}
+ .nx-site .nx-content .prose h2{font-size:23px;margin:25px 0 12px}
+ .nx-site .nx-content .prose h3{font-size:19px}
+ .nx-site .nx-content .prose img{max-height:340px;margin-block:20px}
+ .nx-site .nx-about-layout{grid-template-columns:1fr;gap:24px;padding-block:22px 33px}
+ .nx-site .nx-about-nav{position:static;border-top:0;border-bottom:1px solid #dfe7d7;padding:0 0 13px}
+ .nx-site .nx-about-nav>p{font-size:11px;margin-bottom:8px}
+ .nx-site .nx-about-nav>div{flex-direction:row;overflow:auto;gap:3px;padding-bottom:4px;scrollbar-width:thin}
+ .nx-site .nx-about-nav a{flex:0 0 auto;white-space:nowrap;font-size:11px;border-left:0;padding:8px 12px}
+ .nx-site .nx-about-nav a[aria-current]{border-bottom:2px solid #163e2d}
+ .nx-site .nx-team-jump{gap:8px 15px;margin-bottom:21px;padding-bottom:15px}
+ .nx-site .nx-team-jump a{font-size:10px}
+ .nx-site .nx-team-section{margin-bottom:27px}
+ .nx-site .nx-team-section>header{margin-bottom:16px;padding-bottom:11px;gap:10px}
+ .nx-site .nx-team-section h2{font-size:22px}
+ .nx-site .nx-team-section>header>span{font-size:10px}
+ .nx-site .nx-team-grid{grid-template-columns:1fr;gap:15px}
+ .nx-site .nx-person{display:grid;grid-template-columns:90px minmax(0,1fr);align-items:center;gap:17px;text-align:left;padding:0 0 15px;border-bottom:1px solid #e7ecdf}
+ .nx-site .nx-person:last-child{border-bottom:0;padding-bottom:0}
+ .nx-site .nx-person>img{width:90px;height:108px;margin:0;border-radius:5px}
+ .nx-site .nx-person h3{font-size:16px}
+ .nx-site .nx-person p{font-size:11px;margin-top:4px}
+ .nx-site .nx-about-lead h2{font-size:26px}
+ .nx-site .nx-about-lead p{font-size:13px;margin-top:12px}
+ .nx-site .nx-about-lead img{max-height:none}
+ .nx-site .nx-about-facts{gap:14px;padding-block:17px;margin:23px 0 28px}
+ .nx-site .nx-about-facts dd{font-size:23px;letter-spacing:-.7px}
+ .nx-site .nx-about-facts dt{font-size:10px}
+ .nx-site .nx-about-story .nx-about-feature img{max-height:260px}
+ .nx-site .nx-about-story .nx-about-visit h2{font-size:22px}
+ .nx-site .nx-about-pending{padding:21px}.nx-site .nx-about-pending h2{font-size:22px}
+}
