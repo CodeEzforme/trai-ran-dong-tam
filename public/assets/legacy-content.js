@@ -59,29 +59,6 @@ const query=new URLSearchParams(location.search);
     render();
   }
 
-  const contactForm = $('#len-lich');
-  if (contactForm) {
-    const date = $('input[name=date]', contactForm);
-    if (date) {
-      const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Bangkok', year: 'numeric', month: '2-digit', day: '2-digit' }).formatToParts(new Date());
-      const get = type => parts.find(part => part.type === type).value;
-      date.min = `${get('year')}-${get('month')}-${get('day')}`;
-    }
-    contactForm.addEventListener('submit', event => {
-      event.preventDefault();
-      if (!contactForm.reportValidity()) return;
-      const form = new FormData(contactForm);
-      const subject = `${form.get('interest')} — ${form.get('name')}`;
-      const body = `Kính gửi Trại rắn Đồng Tâm,\n\nHọ tên: ${form.get('name')}\nĐiện thoại: ${form.get('phone')}\nEmail: ${form.get('email') || 'Chưa cung cấp'}\nNgày dự kiến: ${form.get('date') || 'Cần tư vấn'}\nSố khách: ${form.get('guests') || 'Cần tư vấn'}\nQuan tâm: ${form.get('interest')}\n\n${form.get('message') || 'Tôi mong được tư vấn thêm.'}\n\nTrân trọng.`;
-      const url = 'mailto:trairandongtam408@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-      const fallback = $('.email-fallback', contactForm);
-      fallback.href = url;
-      fallback.hidden = false;
-      $('.form-status', contactForm).textContent = 'Email đã được soạn. Hãy mở ứng dụng email để kiểm tra và gửi. Nếu ứng dụng chưa mở, dùng liên kết bên dưới hoặc gọi 0898 408 408.';
-      location.href = url;
-    });
-  }
-
   const searchResults = $('#search-results');
   if (searchResults) {
     const term = query.get('q') || '';
@@ -122,25 +99,4 @@ const query=new URLSearchParams(location.search);
     });
   }
 
-  const scene = $('#snake-scene');
-  if (scene) {
-    const observer = new IntersectionObserver(entries => {
-      if (!entries.some(entry => entry.isIntersecting)) return;
-      observer.disconnect();
-      import('/assets/snake.js?v=4').catch(() => {
-        $('#scene-status').textContent = 'Đang hiển thị ảnh. Thiết bị chưa tải được mô hình 3D.';
-        scene.dataset.state = 'error';
-        scene.setAttribute('aria-busy', 'false');
-        scene.querySelector('.scene-fallback').hidden = false;
-        const retry = $('.scene-retry');
-        if (retry) {
-          retry.hidden = false;
-          retry.textContent = 'Tải lại trang';
-          retry.addEventListener('click', () => location.reload(), { once: true });
-        }
-        $$('.scene-controls button').forEach(button => { button.disabled = true; });
-      });
-    }, { rootMargin: '200px' });
-    observer.observe(scene);
-  }
 })();

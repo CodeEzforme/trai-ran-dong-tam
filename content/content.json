@@ -20,104 +20,287 @@
         "mobile": "/assets/images/trang-chu-anh-bia-02-mobile.webp",
         "caption": "Chào đón một ngày khám phá"
       }
-    ]
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/TrairanDongTamQK9",
+      "tiktok": "https://www.tiktok.com/@trairandongtam408",
+      "zalo": "https://zalo.me/0898408408"
+    },
+    "contactRecipient": "trairandongtam408@gmail.com"
   },
   "categories": [
     {
       "id": "77",
       "name": "Chim",
       "path": "/danh-muc-san-pham/chim/",
-      "kind": "product"
+      "kind": "product",
+      "section": "tourism"
     },
     {
       "id": "78",
       "name": "Khác",
       "path": "/danh-muc-san-pham/khac/",
-      "kind": "product"
+      "kind": "product",
+      "section": "tourism"
     },
     {
       "id": "80",
       "name": "Mỹ phẩm",
       "path": "/danh-muc-san-pham/my-pham/",
-      "kind": "product"
+      "kind": "product",
+      "section": "products"
     },
     {
       "id": "73",
       "name": "Rắn",
       "path": "/danh-muc-san-pham/ran/",
-      "kind": "product"
+      "kind": "product",
+      "section": "tourism"
     },
     {
       "id": "74",
       "name": "Rượu",
       "path": "/danh-muc-san-pham/ruou/",
-      "kind": "product"
+      "kind": "product",
+      "section": "products"
     },
     {
       "id": "79",
       "name": "Sản phẩm",
       "path": "/danh-muc-san-pham/san-pham/",
-      "kind": "product"
+      "kind": "product",
+      "section": "products"
     },
     {
       "id": "72",
       "name": "Thú",
       "path": "/danh-muc-san-pham/thu/",
-      "kind": "product"
+      "kind": "product",
+      "section": "tourism"
     },
     {
       "id": "23",
       "name": "Thực phẩm chức năng",
       "path": "/danh-muc-san-pham/thuc-pham-chuc-nang/",
-      "kind": "product"
+      "kind": "product",
+      "section": "products"
     },
     {
       "id": "71",
       "name": "Thuốc",
       "path": "/danh-muc-san-pham/thuoc/",
-      "kind": "product"
+      "kind": "product",
+      "section": "products"
     },
     {
       "id": "70",
       "name": "Sản phẩm",
       "path": "/category/san-pham/",
-      "kind": "post"
+      "kind": "post",
+      "section": "news"
     },
     {
       "id": "69",
       "name": "Sự kiện",
       "path": "/category/su-kien/",
-      "kind": "post"
+      "kind": "post",
+      "section": "news"
     },
     {
       "id": "68",
       "name": "Tin mới",
       "path": "/category/tin-moi/",
-      "kind": "post"
+      "kind": "post",
+      "section": "news"
     },
     {
       "id": "67",
       "name": "Tin nội bộ",
       "path": "/category/tin-noi-bo/",
-      "kind": "post"
+      "kind": "post",
+      "section": "news"
     },
     {
       "id": "1",
       "name": "Uncategorized",
       "path": "/category/uncategorized/",
-      "kind": "post"
+      "kind": "post",
+      "section": "news"
     },
     {
       "id": "entry-8e811514-9636-43b5-9f14-334fee584ff7",
       "name": "Nội dung mới",
       "path": "/category/danh-muc-584ff7/",
-      "kind": "post"
+      "kind": "post",
+      "section": "news"
     },
     {
       "id": "entry-83b5183b-8f19-4e3f-afda-2de4a61c0d40",
       "name": "Đề tài nghiên cứu khoa học",
       "path": "/category/danh-muc-1c0d40/",
-      "kind": "product"
+      "kind": "product",
+      "section": "research"
+    },
+    {
+      "id": "about-overview",
+      "name": "Tổng quan",
+      "path": "/gioi-thieu/",
+      "kind": "post",
+      "section": "about"
+    },
+    {
+      "id": "about-organization",
+      "name": "Sơ đồ tổ chức",
+      "path": "/to-chuc/",
+      "kind": "post",
+      "section": "about"
+    },
+    {
+      "id": "about-directors",
+      "name": "Ban giám đốc",
+      "path": "/ban-giam-doc/",
+      "kind": "post",
+      "section": "about"
+    },
+    {
+      "id": "about-administration",
+      "name": "Ban hành chính",
+      "path": "/ban-hanh-chinh/",
+      "kind": "post",
+      "section": "about"
+    },
+    {
+      "id": "about-tourism",
+      "name": "Bộ phận du lịch",
+      "path": "/bo-phan-du-lich/",
+      "kind": "post",
+      "section": "about"
+    },
+    {
+      "id": "about-aquaculture",
+      "name": "Đội nuôi thủy đặc sản",
+      "path": "/doi-nuoi-thuy-dac-san/",
+      "kind": "post",
+      "section": "about"
+    },
+    {
+      "id": "about-factory",
+      "name": "Xưởng chế biến",
+      "path": "/xuong-che-bien/",
+      "kind": "post",
+      "section": "about"
+    },
+    {
+      "id": "research-projects",
+      "name": "Đề tài nghiên cứu khoa học",
+      "path": "/de-tai-nghien-cuu-khoa-hoc/",
+      "kind": "post",
+      "section": "research"
+    },
+    {
+      "id": "research-factory",
+      "name": "Hình ảnh nhà xưởng",
+      "path": "/hinh-anh-nha-xuong/",
+      "kind": "post",
+      "section": "research"
+    },
+    {
+      "id": "research-standards",
+      "name": "Tiêu chuẩn, quy trình sản xuất",
+      "path": "/tieu-chuan-quy-trinh-san-xuat/",
+      "kind": "post",
+      "section": "research"
+    },
+    {
+      "id": "tourism-wildlife",
+      "name": "Động vật hoang dã",
+      "path": "/dong-vat-hoang-da/",
+      "kind": "post",
+      "section": "tourism"
+    },
+    {
+      "id": "tourism-museum",
+      "name": "Nhà bảo tàng",
+      "path": "/nha-bao-tang-ran/",
+      "kind": "post",
+      "section": "tourism"
+    },
+    {
+      "id": "tourism-restaurant",
+      "name": "Dịch vụ nhà hàng",
+      "path": "/nha-hang-dong-tam/",
+      "kind": "post",
+      "section": "tourism"
+    },
+    {
+      "id": "tourism-games",
+      "name": "Dịch vụ trò chơi",
+      "path": "/dich-vu-tro-choi/",
+      "kind": "post",
+      "section": "tourism"
+    },
+    {
+      "id": "products-ocop-local",
+      "name": "Một số sản phẩm OCOP địa phương",
+      "path": "/san-pham-ocop/",
+      "kind": "product",
+      "section": "products"
+    },
+    {
+      "id": "herbs-medicinal",
+      "name": "Cây thuốc nam",
+      "path": "/vuon-thuoc-nam/cay-thuoc-nam/",
+      "kind": "post",
+      "section": "herbs"
+    },
+    {
+      "id": "herbs-perennial",
+      "name": "Cây lâu năm",
+      "path": "/vuon-thuoc-nam/cay-lau-nam/",
+      "kind": "post",
+      "section": "herbs"
+    },
+    {
+      "id": "section-research",
+      "name": "Nghiên cứu khoa học",
+      "path": "/nghien-cuu-khoa-hoc/",
+      "kind": "post",
+      "section": "research"
+    },
+    {
+      "id": "section-tourism",
+      "name": "Du lịch sinh thái",
+      "path": "/du-lich-sinh-thai/",
+      "kind": "post",
+      "section": "tourism"
+    },
+    {
+      "id": "section-products",
+      "name": "Sản phẩm",
+      "path": "/san-pham/",
+      "kind": "product",
+      "section": "products"
+    },
+    {
+      "id": "section-herbs",
+      "name": "Vườn thuốc nam",
+      "path": "/vuon-thuoc-nam/",
+      "kind": "post",
+      "section": "herbs"
+    },
+    {
+      "id": "section-news",
+      "name": "Tin tức",
+      "path": "/tin-tuc/",
+      "kind": "post",
+      "section": "news"
+    },
+    {
+      "id": "section-careers",
+      "name": "Tuyển dụng",
+      "path": "/tuyen-dung/",
+      "kind": "post",
+      "section": "careers"
     }
   ],
   "documents": [
@@ -133,7 +316,9 @@
         "23"
       ],
       "status": "published",
-      "date": "2026-11-05"
+      "date": "2026-11-05",
+      "section": "products",
+      "featured": true
     },
     {
       "id": "entry-83b5183b-8f19-4e3f-afda-2de4a61c0d40",
@@ -145,7 +330,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "entry-8e811514-9636-43b5-9f14-334fee584ff7",
@@ -157,7 +343,8 @@
       "image": "",
       "categories": [],
       "status": "draft",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "de-boer",
@@ -169,7 +356,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "ngua-lun-pony",
@@ -181,7 +369,8 @@
       "image": "/assets/images/7ac9115bd1b35ddf.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "rua-nui-vang",
@@ -193,7 +382,8 @@
       "image": "/assets/images/7c35c7d2a3e4bca1.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "rua-sulcata",
@@ -205,7 +395,8 @@
       "image": "/assets/images/c7529ea85bfa89f6.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "hai-tuong-long",
@@ -217,7 +408,8 @@
       "image": "/assets/images/b779912ee18ea08a.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ca-sau-hoa-tien",
@@ -229,7 +421,8 @@
       "image": "/assets/images/31ac19e54d4d0235.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "cu-da-xanh",
@@ -241,7 +434,8 @@
       "image": "/assets/images/919d055f2bae90f5.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "meo-long-ngan-hoa-ky",
@@ -253,7 +447,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "meo-long-ngan-anh",
@@ -265,7 +460,8 @@
       "image": "/assets/images/80b4290fc83fe622.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "chuot-lang",
@@ -277,7 +473,8 @@
       "image": "/assets/images/bdebdaf5dd669621.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "soc-mom-hung",
@@ -289,7 +486,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "nhim-duoi-ngan",
@@ -301,7 +499,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "baba-nam-bo",
@@ -313,7 +512,8 @@
       "image": "/assets/images/cff86e1e3e1f1451.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "rua-rang",
@@ -325,7 +525,8 @@
       "image": "/assets/images/77a63ad2aed5bce5.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ki-da-van",
@@ -337,7 +538,8 @@
       "image": "/assets/images/415a10838dc4f088.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ca-sau-xiem",
@@ -349,7 +551,8 @@
       "image": "/assets/images/37a2e6ed3b4b0c2a.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "thien-nga-den",
@@ -361,7 +564,8 @@
       "image": "/assets/images/a410459113345f47.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "tri-7-mau",
@@ -373,7 +577,8 @@
       "image": "/assets/images/c8ed14f51907c5d8.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "chim-co-ran",
@@ -385,7 +590,8 @@
       "image": "/assets/images/e208bffd0eabe1d9.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "bim-bip-lon",
@@ -397,7 +603,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "dai-bang-bung-trang",
@@ -409,7 +616,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "tri-do-khoang-co",
@@ -421,7 +629,8 @@
       "image": "/assets/images/24c3a7b8dfa0c2de.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "da-dieu-chau-phi",
@@ -433,7 +642,8 @@
       "image": "/assets/images/6b542e3b02e30ee6.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "le-nau",
@@ -445,7 +655,8 @@
       "image": "/assets/images/b10358aff8cd9264.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "vit-troi",
@@ -457,7 +668,8 @@
       "image": "/assets/images/c05f6579238941b1.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "uyen-uong",
@@ -469,7 +681,8 @@
       "image": "/assets/images/44287c91d66debce.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "chim-cong",
@@ -481,7 +694,8 @@
       "image": "/assets/images/6416b12cfff8a1df.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "co-quam",
@@ -493,7 +707,8 @@
       "image": "/assets/images/b1817ffe5c0234d4.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "cuu",
@@ -505,7 +720,8 @@
       "image": "/assets/images/32eb4b14829da508.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "nai-ca-tong",
@@ -517,7 +733,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "gau-meo",
@@ -529,7 +746,8 @@
       "image": "/assets/images/24372fed547c7cde.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "hoang-nam-bo",
@@ -541,7 +759,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "cho-soi-do",
@@ -553,7 +772,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "ngua",
@@ -565,7 +785,8 @@
       "image": "/assets/images/2ce5be9be177df24.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "lon-rung",
@@ -577,7 +798,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "huou-sao",
@@ -589,7 +811,8 @@
       "image": "/assets/images/e1433a95ae26819d.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "de-lun",
@@ -601,7 +824,8 @@
       "image": "/assets/images/4c2ae21eed28ea42.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "chon-vang",
@@ -613,7 +837,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "nai",
@@ -625,7 +850,8 @@
       "image": "/assets/images/ac2dc439883cc50b.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "meo-rung",
@@ -637,7 +863,8 @@
       "image": "/assets/images/a45d931ab0514085.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "cay-huong",
@@ -649,7 +876,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "cay-van-bac",
@@ -661,7 +889,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "khi-moc",
@@ -673,7 +902,8 @@
       "image": "/assets/images/f05bb5d830955515.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "khi-mat-do",
@@ -685,7 +915,8 @@
       "image": "/assets/images/cfd90d84521d22f3.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ho",
@@ -697,7 +928,8 @@
       "image": "/assets/images/f9cd8fe2da284bb8.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "cay-muc",
@@ -709,7 +941,8 @@
       "image": "/assets/images/65b9cd65c6703371.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "rai-ca",
@@ -721,7 +954,8 @@
       "image": "/assets/images/71425f55c3fe0e05.avif",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "gau-ngua",
@@ -733,7 +967,8 @@
       "image": "/assets/images/af3c955968fcaa25.avif",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "gau-cho",
@@ -745,7 +980,8 @@
       "image": "/assets/images/e9bd9928323e6c9a.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "vuon-den-ma-vang",
@@ -757,7 +993,8 @@
       "image": "/assets/images/a9310323f93dc662.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ran-rao-thuong",
@@ -769,7 +1006,8 @@
       "image": "/assets/images/8ddbf60b271421f1.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ran-luc-duoi-do",
@@ -781,7 +1019,8 @@
       "image": "/assets/images/d0c32fea24022236.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ran-cap-nia",
@@ -793,7 +1032,8 @@
       "image": "/assets/images/57da951751433235.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ran-cap-nong",
@@ -805,7 +1045,8 @@
       "image": "/assets/images/cd94775c39e5c5a3.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ran-ho-meo-ho-mang-xiem",
@@ -817,7 +1058,8 @@
       "image": "/assets/images/a1b7ee2e77003ddc.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "tran-gam",
@@ -829,7 +1071,8 @@
       "image": "/assets/images/75c1042dcd158612.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "tran-dat",
@@ -841,7 +1084,8 @@
       "image": "/assets/images/3b2898b84594e619.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ran-ho-mang-1-mat-kinh",
@@ -853,7 +1097,8 @@
       "image": "/assets/images/c99a4d6f49db4a62.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ran-ho-chua",
@@ -865,7 +1110,8 @@
       "image": "/assets/images/bc74f6dd5d56662b.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "ran-ho-mang",
@@ -877,7 +1123,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "nhom-ran",
@@ -889,7 +1136,8 @@
       "image": "/assets/images/1f473db25bf3fb10.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "nhom-thu-khac",
@@ -901,7 +1149,8 @@
       "image": "/assets/images/e8ac07f070795002.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "nhom-chim",
@@ -913,7 +1162,8 @@
       "image": "/assets/images/564f0497fb29bf4b.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "nhom-thu",
@@ -925,7 +1175,8 @@
       "image": "/assets/images/81a0d987ca53d920.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "nha-bao-tang-ran",
@@ -937,7 +1188,8 @@
       "image": "/assets/images/bc74f6dd5d56662b.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "xuong-che-bien",
@@ -949,7 +1201,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "about"
     },
     {
       "id": "bo-phan-du-lich",
@@ -961,7 +1214,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "about"
     },
     {
       "id": "doi-nuoi-trong-duoc-lieu",
@@ -973,7 +1227,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "about"
     },
     {
       "id": "ban-hanh-chinh",
@@ -985,7 +1240,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "about"
     },
     {
       "id": "ban-giam-doc",
@@ -997,7 +1253,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "about"
     },
     {
       "id": "coffee-and-tea-dong-tam",
@@ -1009,19 +1266,21 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham-ocop",
       "path": "/san-pham-ocop/",
-      "title": "Sản phẩm OCOP",
+      "title": "Một số sản phẩm OCOP địa phương",
       "kind": "page",
       "excerpt": "Khám phá không gian trưng bày, giới thiệu sản phẩm OCOP của Đồng Tâm.",
       "body": "",
       "image": "/assets/images/d79a1d0b490f44d8.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products"
     },
     {
       "id": "nha-hang-dong-tam",
@@ -1033,7 +1292,8 @@
       "image": "/assets/images/b9e8225930491f50.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham-nghien-cuu-cap-bo",
@@ -1045,7 +1305,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "research"
     },
     {
       "id": "danh-muc-thu",
@@ -1057,7 +1318,8 @@
       "image": "/assets/images/81a0d987ca53d920.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "bang-gia-dich-vu",
@@ -1069,7 +1331,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "thuc-pham-chuc-nang",
@@ -1081,7 +1344,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "tuyen-dung",
@@ -1093,7 +1357,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "careers"
     },
     {
       "id": "thong-tin",
@@ -1105,7 +1370,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "thong-bao",
@@ -1117,7 +1383,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "su-kien",
@@ -1129,7 +1396,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "san-pham",
@@ -1141,7 +1409,8 @@
       "image": "/assets/images/d79a1d0b490f44d8.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products"
     },
     {
       "id": "dieu-tri-ran-can",
@@ -1153,19 +1422,21 @@
       "image": "/assets/images/dieu-tri-ran-can-01-tham-kham.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "to-chuc",
       "path": "/to-chuc/",
-      "title": "Tổ chức",
+      "title": "Sơ đồ tổ chức",
       "kind": "page",
       "excerpt": "Tìm hiểu các bộ phận và tổ chức của Trại rắn Đồng Tâm.",
       "body": "<h3>BAN GIÁM ĐỐC</h3>\n<a>\n<img alt=\"z7159042739179 46a907a01cf27e577e47a31a3d086f87\" height=\"800\" src=\"/assets/images/f89fd173234b55fa.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tNGYỄN HỒNG PHÚC\t\t\t\t\t\t</a>\n</h2>\n<p>CHÍNH TRỊ VIÊN</p>\n\n<img alt=\"z7159042739179 46a907a01cf27e577e47a31a3d086f87\" height=\"800\" src=\"/assets/images/f89fd173234b55fa.webp\" width=\"1200\">\n<h2>NGYỄN HỒNG PHÚC</h2>\n<p>CHÍNH TRỊ VIÊN</p>\n<a>\n<img alt=\"thiết kế chưa có tên\" height=\"800\" src=\"/assets/images/f4476075fac3a4fe.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tĐÀM HUY HOÀNG\t\t\t\t\t\t</a>\n</h2>\n<p>GIÁM ĐỐC</p>\n\n<img alt=\"thiết kế chưa có tên\" height=\"800\" src=\"/assets/images/f4476075fac3a4fe.webp\" width=\"1200\">\n<h2>ĐÀM HUY HOÀNG</h2>\n<p>GIÁM ĐỐC</p>\n<a>\n<img alt=\"1\" height=\"800\" src=\"/assets/images/05504f64bea03529.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tLÊ VĂN ĐUA\t\t\t\t\t\t</a>\n</h2>\n<p>PHÓ GIÁM ĐỐC</p>\n\n<img alt=\"1\" height=\"800\" src=\"/assets/images/05504f64bea03529.webp\" width=\"1200\">\n<h2>LÊ VĂN ĐUA</h2>\n<p>PHÓ GIÁM ĐỐC</p>\n<h3>Ban Hành chính</h3>\n\n<a>\n<img alt=\"z7159042720943 603fe50a60e1a4ba22e87f9179225e5b\" height=\"800\" src=\"/assets/images/ab5c5f72529f4ea3.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tTRẦN THỊ HẠNH\t\t\t\t\t\t</a>\n</h2>\n<p>KẾ TOÁN TRƯỞNG-TRƯỞNG BAN HÀNH CHÍNH</p>\n\n<img alt=\"z7159042720943 603fe50a60e1a4ba22e87f9179225e5b\" height=\"800\" src=\"/assets/images/ab5c5f72529f4ea3.webp\" width=\"1200\">\n<h2>TRẦN THỊ HẠNH</h2>\n<p>KẾ TOÁN TRƯỞNG-TRƯỞNG BAN HÀNH CHÍNH</p>\n<a>\n<img alt=\"z7159042764059 73cdf49ad5929d10de6e0a50c6779915\" height=\"800\" src=\"/assets/images/cdf4a20677a834d9.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tTRẦN NGỌC THẮM\t\t\t\t\t\t</a>\n</h2>\n<p>THỦ QUỸ</p>\n\n<img alt=\"z7159042764059 73cdf49ad5929d10de6e0a50c6779915\" height=\"800\" src=\"/assets/images/cdf4a20677a834d9.webp\" width=\"1200\">\n<h2>TRẦN NGỌC THẮM</h2>\n<p>THỦ QUỸ</p>\n<h3>Đội Nuôi Trồng Dược Liệu</h3>\n<a>\n<img alt=\"z7159042705670 22823e54788fa10700f8fc93c6739569\" height=\"800\" src=\"/assets/images/fc9bc73ff0ae21f1.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tLƯƠNG MINH HẢI\t\t\t\t\t\t</a>\n</h2>\n<p>PHÓ BỘ PHẬN</p>\n\n<img alt=\"z7159042705670 22823e54788fa10700f8fc93c6739569\" height=\"800\" src=\"/assets/images/fc9bc73ff0ae21f1.webp\" width=\"1200\">\n<h2>LƯƠNG MINH HẢI</h2>\n<p>PHÓ BỘ PHẬN</p>\n<a>\n<img alt=\"z7159042772280 42491c6b5246acd2703a92e32f28c5a7\" height=\"800\" src=\"/assets/images/a9adb553771b528d.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tTRẦN THỊ THƠM\t\t\t\t\t\t</a>\n</h2>\n<p>TRƯỞNG BỘ PHẬN</p>\n\n<img alt=\"z7159042772280 42491c6b5246acd2703a92e32f28c5a7\" height=\"800\" src=\"/assets/images/a9adb553771b528d.webp\" width=\"1200\">\n<h2>TRẦN THỊ THƠM</h2>\n<p>TRƯỞNG BỘ PHẬN</p>\n<a>\n<img alt=\"z7159042752614 878dd5f78e4e7a2c1d310faef641c429\" height=\"800\" src=\"/assets/images/6323d7f48030e88f.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tNGUYỄN DANH HIẾU\t\t\t\t\t\t</a>\n</h2>\n<p>NHÂN VIÊN</p>\n\n<img alt=\"z7159042752614 878dd5f78e4e7a2c1d310faef641c429\" height=\"800\" src=\"/assets/images/6323d7f48030e88f.webp\" width=\"1200\">\n<h2>NGUYỄN DANH HIẾU</h2>\n<p>NHÂN VIÊN</p>\n<h3>BỘ PHÂN DU LỊCH</h3>\n<a>\n<img alt=\"z7159042683562 277115f9019de7c5f8b552706a84d40d\" height=\"800\" src=\"/assets/images/f380202c5ab28c46.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tMAI THÁI HIỀN\t\t\t\t\t\t</a>\n</h2>\n<p>PHÓ BỘ PHẬN</p>\n\n<img alt=\"z7159042683562 277115f9019de7c5f8b552706a84d40d\" height=\"800\" src=\"/assets/images/f380202c5ab28c46.webp\" width=\"1200\">\n<h2>MAI THÁI HIỀN</h2>\n<p>PHÓ BỘ PHẬN</p>\n<a>\n<img alt=\"z7159042769633 5d7a5c43654d4c7993e7f26203b97f60\" height=\"800\" src=\"/assets/images/d4472f3088d49851.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tĐINH THÀNH AN\t\t\t\t\t\t</a>\n</h2>\n<p>TRƯỞNG BỘ PHẬN</p>\n\n<img alt=\"z7159042769633 5d7a5c43654d4c7993e7f26203b97f60\" height=\"800\" src=\"/assets/images/d4472f3088d49851.webp\" width=\"1200\">\n<h2>ĐINH THÀNH AN</h2>\n<p>TRƯỞNG BỘ PHẬN</p>\n<a>\n<img alt=\"z7159042743086 ef43a8823fc4bc60571d3cbb746d05f0\" height=\"800\" src=\"/assets/images/5c35c993beb2b4bb.webp\" width=\"1200\"> \n</a>\n<h2>\n<a>\n\t\t\t\t\t\tTRẦN TUYẾT ANH\t\t\t\t\t\t</a>\n</h2>\n<p>NHÂN VIÊN</p>\n\n<img alt=\"z7159042743086 ef43a8823fc4bc60571d3cbb746d05f0\" height=\"800\" src=\"/assets/images/5c35c993beb2b4bb.webp\" width=\"1200\">\n<h2>TRẦN TUYẾT ANH</h2>\n<p>NHÂN VIÊN</p>",
       "image": "/assets/images/f89fd173234b55fa.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "about"
     },
     {
       "id": "nghien-cuu-khoa-hoc",
@@ -1177,7 +1448,8 @@
       "image": "/assets/images/0f023151d71a47db.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "research"
     },
     {
       "id": "thuoc",
@@ -1189,7 +1461,8 @@
       "image": "/assets/images/df3cb27d86044828.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "contact",
@@ -1201,7 +1474,8 @@
       "image": "/assets/images/49bbeeb86ca3d17b.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "ruou-ran",
@@ -1213,7 +1487,8 @@
       "image": "/assets/images/d79a1d0b490f44d8.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "gioi-thieu",
@@ -1225,7 +1500,8 @@
       "image": "/assets/images/49bbeeb86ca3d17b.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "about"
     },
     {
       "id": "du-lich-sinh-thai",
@@ -1237,7 +1513,8 @@
       "image": "/assets/images/75c1042dcd158612.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "tin-tuc",
@@ -1249,7 +1526,8 @@
       "image": "/assets/images/f456426bdd9e07e3.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "news"
     },
     {
       "id": "khi-la-chan-quan-su-hoa-than-thanh-giang-duong-xanh-giua-long-mien-tay",
@@ -1263,7 +1541,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2026-09-28"
+      "date": "2026-09-28",
+      "section": "news"
     },
     {
       "id": "dang-uy-trung-tam-nuoi-trong-nghien-cuu-che-bien-duoc-lieutrao-tang-huy-hieu-30-nam-tuoi-dangdip-quoc-khanh-02-9",
@@ -1277,7 +1556,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2026-09-01"
+      "date": "2026-09-01",
+      "section": "news"
     },
     {
       "id": "5965-2",
@@ -1291,7 +1571,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2026-09-01"
+      "date": "2026-09-01",
+      "section": "news"
     },
     {
       "id": "tiep-nhan-va-dua-vao-quan-ly-su-dung-vuon-thuoc-mau-tuyen-co-so",
@@ -1305,7 +1586,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2026-08-10"
+      "date": "2026-08-10",
+      "section": "news"
     },
     {
       "id": "hinh-anh-ban-giao-676-con-ran-ho-mang-nang-hon-920kg-o-quang-tri",
@@ -1319,7 +1601,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2025-12-25"
+      "date": "2025-12-25",
+      "section": "news"
     },
     {
       "id": "san-pham-trai-ran-dong-tam-dang-co-mat-tai-le-hoi-van-hoa-du-lich-lang-co-dong-hoa-hiep-lan-thu-vi-nam-2025",
@@ -1333,7 +1616,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2025-12-08"
+      "date": "2025-12-08",
+      "section": "news"
     },
     {
       "id": "chao-mung-ky-niem-80-nam-ngay-thanh-lap-luc-luong-vu-trang-quan-khu-9-10-12-1945-10-12-2025",
@@ -1347,7 +1631,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2025-12-08"
+      "date": "2025-12-08",
+      "section": "news"
     },
     {
       "id": "trai-ran-dong-tam-nhung-trai-nghiem-thu-vi",
@@ -1361,7 +1646,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2025-12-07"
+      "date": "2025-12-07",
+      "section": "news"
     },
     {
       "id": "hoi-dong-khoa-hoc-cap-bo-quoc-phong-to-chuc-danh-gia-nghiem-thu-ket-qua-de-tai-khoa-hoc-va-cong-nghe-nghien-cuu-bao-che-danh-gia-tac-dung-chong-viem-giam-dau-cua-kem-cobratofor-tu-noc-ran-ho-mang",
@@ -1375,10 +1661,12 @@
         "70",
         "68",
         "67",
-        "1"
+        "1",
+        "research-projects"
       ],
       "status": "published",
-      "date": "2025-10-10"
+      "date": "2025-10-10",
+      "section": "research"
     },
     {
       "id": "moi-ca-nha-ngam-nhin-mot-goc-trung-thu-chill-chill-tai-trai-ran-dong-tam-nha",
@@ -1392,7 +1680,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2025-10-01"
+      "date": "2025-10-01",
+      "section": "news"
     },
     {
       "id": "khong-gian-trung-bay-gioi-thieu-san-pham-ocop-cua-trai-ran-dong-tam",
@@ -1406,7 +1695,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2025-10-01"
+      "date": "2025-10-01",
+      "section": "news"
     },
     {
       "id": "kem-xoa-noc-ran-ho-mang-cobratofor",
@@ -1420,7 +1710,8 @@
         "1"
       ],
       "status": "published",
-      "date": "2025-10-01"
+      "date": "2025-10-01",
+      "section": "news"
     },
     {
       "id": "san-pham__linh-duong-den-an-do",
@@ -1434,7 +1725,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ga-loi-trang",
@@ -1446,7 +1738,8 @@
       "image": "/assets/images/7d5188a4ab366cb1.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__co-ngang-lon",
@@ -1460,7 +1753,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__vac",
@@ -1474,7 +1768,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__chao-mao",
@@ -1488,7 +1783,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__vet-nguc-do",
@@ -1502,7 +1798,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__cu-van",
@@ -1516,7 +1813,8 @@
         "77"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__cu-gay",
@@ -1530,7 +1828,8 @@
         "77"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__chim-cu-phap",
@@ -1544,7 +1843,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__bo-cau-nicoba",
@@ -1558,7 +1858,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ran-ho-ngua",
@@ -1572,7 +1873,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ran-nuoc",
@@ -1586,7 +1888,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ran-rao-trau",
@@ -1600,7 +1903,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__co-trang",
@@ -1614,7 +1918,8 @@
         "77"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ky-da-hoa",
@@ -1628,7 +1933,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__chim-o-ca",
@@ -1642,7 +1948,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__vuon-cao-duoi-vong",
@@ -1656,7 +1963,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__dieu-lua",
@@ -1670,7 +1978,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ung-ngong-mao",
@@ -1684,7 +1993,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__vuon-pile",
@@ -1698,7 +2008,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__bo-watusi-bo-ankole-sung-dai",
@@ -1712,7 +2023,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ran-roi-mui-luc-mo-do",
@@ -1726,7 +2038,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__linh-duong-sung-mac",
@@ -1740,7 +2053,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__rua-co-ran",
@@ -1754,7 +2068,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__bo-nong-chan-xam",
@@ -1768,7 +2083,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__linh-duong-sung-kiem",
@@ -1782,7 +2098,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__su-tu",
@@ -1796,7 +2113,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ruou-chuoi-hot-29o",
@@ -1810,7 +2128,9 @@
         "74"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": false
     },
     {
       "id": "san-pham__ruou-ran-29o",
@@ -1824,7 +2144,9 @@
         "74"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": false
     },
     {
       "id": "san-pham__ruou-ran-luc-50o",
@@ -1839,7 +2161,9 @@
         "79"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": false
     },
     {
       "id": "san-pham__ruou-ran-ho-50o",
@@ -1853,7 +2177,9 @@
         "74"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": false
     },
     {
       "id": "san-pham__ruou-ngu-xa-50o",
@@ -1867,7 +2193,9 @@
         "74"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": false
     },
     {
       "id": "san-pham__ruou-tam-xa-50o",
@@ -1881,7 +2209,9 @@
         "74"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": false
     },
     {
       "id": "san-pham__vien-ran-luc",
@@ -1893,7 +2223,8 @@
       "image": "/assets/images/9e232c7027654ca8.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__mat-ong",
@@ -1905,7 +2236,8 @@
       "image": "/assets/images/62abf7f7eeac8b1a.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__cao-ran",
@@ -1917,7 +2249,8 @@
       "image": "/assets/images/6ce46934d74a9c17.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__cao-tran",
@@ -1929,7 +2262,8 @@
       "image": "/assets/images/d329be905a6b3123.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__mo-tran",
@@ -1943,7 +2277,9 @@
         "80"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": true
     },
     {
       "id": "san-pham__kem-duong-da-mo-tran",
@@ -1957,7 +2293,9 @@
         "80"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": false
     },
     {
       "id": "san-pham__kem-duong-da-nghe-mo-tran",
@@ -1971,7 +2309,9 @@
         "80"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": false
     },
     {
       "id": "san-pham__kem-boi-da-cobratofor",
@@ -1986,7 +2326,9 @@
         "79"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": true
     },
     {
       "id": "san-pham__cobratoxan",
@@ -2000,7 +2342,9 @@
         "71"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products",
+      "featured": true
     },
     {
       "id": "san-pham__cao-cat-bung-trang",
@@ -2014,7 +2358,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__hong-hoang",
@@ -2028,7 +2373,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__rua-buc-xa",
@@ -2042,7 +2388,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__chon-dat-meerkat",
@@ -2056,7 +2403,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__tran-bach-tang",
@@ -2070,7 +2418,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__chuot-lang-nuoc-capybara",
@@ -2084,7 +2433,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__cu-dai-bang",
@@ -2098,7 +2448,8 @@
         "77"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__cho-rung",
@@ -2112,7 +2463,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ngua-lun-pony",
@@ -2126,7 +2478,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ran-rao-thuong",
@@ -2140,7 +2493,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ran-luc-duoi-do",
@@ -2154,7 +2508,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ran-cap-nia",
@@ -2168,7 +2523,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ran-cap-nong",
@@ -2182,7 +2538,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ho-mang-xiem-ran-ho-meo",
@@ -2196,7 +2553,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__tran-gam",
@@ -2210,7 +2568,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__tran-dat",
@@ -2224,7 +2583,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ran-ho-mang-1-mat-kinh",
@@ -2238,7 +2598,8 @@
         "73"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ran-ho-chua",
@@ -2252,7 +2613,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__cuu",
@@ -2266,7 +2628,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__gau-meo",
@@ -2280,7 +2643,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ngua",
@@ -2294,7 +2658,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__huou-sao",
@@ -2308,7 +2673,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__de-lun",
@@ -2322,7 +2688,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__nai",
@@ -2336,7 +2703,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__meo-rung",
@@ -2350,7 +2718,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__khi-moc",
@@ -2364,7 +2733,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__khi-mat-do",
@@ -2378,7 +2748,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ho",
@@ -2392,7 +2763,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__cay-muc",
@@ -2406,7 +2778,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__rai-ca",
@@ -2420,7 +2793,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__gau-ngua",
@@ -2434,7 +2808,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__gau-cho",
@@ -2448,7 +2823,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__vuon-den-ma-vang",
@@ -2462,7 +2838,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__thien-nga-den",
@@ -2476,7 +2853,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__tri-7-mau",
@@ -2490,7 +2868,8 @@
         "77"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__chim-co-ran",
@@ -2504,7 +2883,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__tri-do-khoang-co",
@@ -2518,7 +2898,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__da-dieu-chau-phi",
@@ -2532,7 +2913,8 @@
         "77"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__le-nau",
@@ -2546,7 +2928,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__vit-troi",
@@ -2560,7 +2943,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__uyen-uong",
@@ -2574,7 +2958,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__chim-cong",
@@ -2588,7 +2973,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__co-quam",
@@ -2602,7 +2988,8 @@
         "77"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__rua-nui-vang",
@@ -2616,7 +3003,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__rua-sulcata",
@@ -2630,7 +3018,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__hai-tuong-long",
@@ -2644,7 +3033,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ca-sau-hoa-tien",
@@ -2658,7 +3048,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__cu-da-xanh",
@@ -2672,7 +3063,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__meo-long-ngan-anh",
@@ -2687,7 +3079,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__chuot-lang",
@@ -2701,7 +3094,8 @@
         "72"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__baba-nam-bo",
@@ -2715,7 +3109,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__rua-rang",
@@ -2729,7 +3124,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ki-da-van",
@@ -2743,7 +3139,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "san-pham__ca-sau-xiem",
@@ -2757,7 +3154,8 @@
         "78"
       ],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "danh-muc-san-pham__chim",
@@ -2769,7 +3167,8 @@
       "image": "/assets/images/564f0497fb29bf4b.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "danh-muc-san-pham__khac",
@@ -2781,7 +3180,8 @@
       "image": "/assets/images/e8ac07f070795002.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "danh-muc-san-pham__my-pham",
@@ -2793,7 +3193,8 @@
       "image": "/assets/images/b577859b8168b5ba.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products"
     },
     {
       "id": "danh-muc-san-pham__ran",
@@ -2805,7 +3206,8 @@
       "image": "/assets/images/1f473db25bf3fb10.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "danh-muc-san-pham__ruou",
@@ -2817,7 +3219,8 @@
       "image": "/assets/images/d79a1d0b490f44d8.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products"
     },
     {
       "id": "danh-muc-san-pham__san-pham",
@@ -2829,7 +3232,8 @@
       "image": "/assets/images/61e0f021dd29f37b.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "danh-muc-san-pham__thu",
@@ -2841,7 +3245,8 @@
       "image": "/assets/images/81a0d987ca53d920.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "tourism"
     },
     {
       "id": "danh-muc-san-pham__thuc-pham-chuc-nang",
@@ -2853,7 +3258,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products"
     },
     {
       "id": "danh-muc-san-pham__thuoc",
@@ -2865,7 +3271,8 @@
       "image": "/assets/images/df3cb27d86044828.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "products"
     },
     {
       "id": "category__san-pham",
@@ -2877,7 +3284,8 @@
       "image": "/assets/images/fbdbae2b3f71714a.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "category__su-kien",
@@ -2889,7 +3297,8 @@
       "image": "",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "category__tin-moi",
@@ -2901,7 +3310,8 @@
       "image": "/assets/images/fbdbae2b3f71714a.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "category__tin-noi-bo",
@@ -2913,7 +3323,8 @@
       "image": "/assets/images/fbdbae2b3f71714a.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "category__uncategorized",
@@ -2925,7 +3336,8 @@
       "image": "/assets/images/f456426bdd9e07e3.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": ""
     },
     {
       "id": "vuon-thuoc-nam",
@@ -2937,7 +3349,112 @@
       "image": "/assets/images/vuon-thuoc-nam-05-cong-vuon.webp",
       "categories": [],
       "status": "published",
-      "date": "2026-11-04"
+      "date": "2026-11-04",
+      "section": "herbs"
+    },
+    {
+      "id": "sitemap-about-aquaculture",
+      "path": "/doi-nuoi-thuy-dac-san/",
+      "title": "Đội nuôi thủy đặc sản",
+      "kind": "category",
+      "section": "about",
+      "excerpt": "Thông tin và hoạt động của các bộ phận tại Đồng Tâm.",
+      "body": "",
+      "image": "",
+      "categories": [],
+      "status": "published",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "sitemap-research-projects",
+      "path": "/de-tai-nghien-cuu-khoa-hoc/",
+      "title": "Đề tài nghiên cứu khoa học",
+      "kind": "category",
+      "section": "research",
+      "excerpt": "Thông tin về hoạt động nghiên cứu, nhà xưởng và quy trình sản xuất tại Đồng Tâm.",
+      "body": "",
+      "image": "",
+      "categories": [],
+      "status": "published",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "sitemap-research-factory",
+      "path": "/hinh-anh-nha-xuong/",
+      "title": "Hình ảnh nhà xưởng",
+      "kind": "category",
+      "section": "research",
+      "excerpt": "Thông tin về hoạt động nghiên cứu, nhà xưởng và quy trình sản xuất tại Đồng Tâm.",
+      "body": "",
+      "image": "",
+      "categories": [],
+      "status": "published",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "sitemap-research-standards",
+      "path": "/tieu-chuan-quy-trinh-san-xuat/",
+      "title": "Tiêu chuẩn, quy trình sản xuất",
+      "kind": "category",
+      "section": "research",
+      "excerpt": "Thông tin về hoạt động nghiên cứu, nhà xưởng và quy trình sản xuất tại Đồng Tâm.",
+      "body": "",
+      "image": "",
+      "categories": [],
+      "status": "published",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "sitemap-tourism-wildlife",
+      "path": "/dong-vat-hoang-da/",
+      "title": "Động vật hoang dã",
+      "kind": "category",
+      "section": "tourism",
+      "excerpt": "Khám phá động vật hoang dã, nhà bảo tàng và các dịch vụ tại Đồng Tâm.",
+      "body": "",
+      "image": "",
+      "categories": [],
+      "status": "published",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "sitemap-tourism-games",
+      "path": "/dich-vu-tro-choi/",
+      "title": "Dịch vụ trò chơi",
+      "kind": "category",
+      "section": "tourism",
+      "excerpt": "Khám phá động vật hoang dã, nhà bảo tàng và các dịch vụ tại Đồng Tâm.",
+      "body": "",
+      "image": "",
+      "categories": [],
+      "status": "published",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "sitemap-herbs-medicinal",
+      "path": "/vuon-thuoc-nam/cay-thuoc-nam/",
+      "title": "Cây thuốc nam",
+      "kind": "category",
+      "section": "herbs",
+      "excerpt": "Ghé thăm không gian cây thuốc và vườn cây lâu năm tại Đồng Tâm.",
+      "body": "<figure><img src=\"/assets/images/vuon-thuoc-nam-03-khong-gian-vuon.webp\" alt=\"Không gian cây thuốc nam tại Đồng Tâm\"><figcaption>Không gian cây thuốc nam tại Đồng Tâm.</figcaption></figure><figure><img src=\"/assets/images/vuon-thuoc-nam-06-nhom-cay-thuoc.webp\" alt=\"Các nhóm cây trong vườn thuốc\"><figcaption>Các nhóm cây trong vườn thuốc.</figcaption></figure>",
+      "image": "/assets/images/vuon-thuoc-nam-03-khong-gian-vuon.webp",
+      "categories": [],
+      "status": "published",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "sitemap-herbs-perennial",
+      "path": "/vuon-thuoc-nam/cay-lau-nam/",
+      "title": "Cây lâu năm",
+      "kind": "category",
+      "section": "herbs",
+      "excerpt": "Ghé thăm không gian cây thuốc và vườn cây lâu năm tại Đồng Tâm.",
+      "body": "<figure><img src=\"/assets/images/vuon-thuoc-nam-04-cay-lau-nam.webp\" alt=\"Khu vườn cây lâu năm tại Đồng Tâm\"><figcaption>Khu vườn cây lâu năm tại Đồng Tâm.</figcaption></figure>",
+      "image": "/assets/images/vuon-thuoc-nam-04-cay-lau-nam.webp",
+      "categories": [],
+      "status": "published",
+      "date": "2026-11-05"
     }
   ]
 }

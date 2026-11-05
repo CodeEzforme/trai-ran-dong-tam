@@ -36,6 +36,11 @@ export function createCMSHandler({env=process.env,fetcher=globalThis.fetch,rateL
     if(route==='logout'&&method==='POST')return json({ok:true},200,{'Set-Cookie':sessionCookie('',request.url,0)});
     const api=new GitHubCMS(config.githubToken,(...args)=>fetcher(...args));
     try{
+      if(route==='email-status'&&method==='GET'){
+        let reachable=false;
+        try{const result=await fetcher('https://formsubmit.co/',{method:'GET',redirect:'follow',signal:AbortSignal.timeout(8000)});reachable=result.ok;await result.body?.cancel();}catch{}
+        return json({provider:'FormSubmit',recipient:'trairandongtam408@gmail.com',reachable,activation:'Owner confirmation is required once; no email was sent by this check.'});
+      }
       if(route==='content'&&method==='GET') {const data=await api.load();return json({data,sha:api.sha});}
       if(route==='media'&&method==='POST'){
         const input=await body(request);

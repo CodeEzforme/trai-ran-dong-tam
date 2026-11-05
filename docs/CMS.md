@@ -18,15 +18,23 @@ Nội dung vẫn lưu trong GitHub; phần máy chủ xác thực và kết nố
 
 Chọn mục bên trái, tìm nội dung rồi mở để chỉnh. Có tiêu đề, giới thiệu ngắn, soạn thảo trực quan/HTML, ảnh đại diện, ngày hiển thị và danh mục. Nội dung mới mặc định là **Bản nháp**; chuyển sang **Xuất bản** để hiển thị công khai.
 
+Thanh bên có **Giới thiệu, Nghiên cứu khoa học, Du lịch sinh thái, Sản phẩm, Vườn thuốc nam, Tin tức, Tuyển dụng**. Mỗi nhóm có nút **Thêm bài viết** hoặc **Thêm sản phẩm**. Trong trình soạn thảo, chọn **Chuyên mục chính** và đánh dấu **Danh mục hiển thị** để đưa bài vào đúng nhánh. Nhánh chưa có bài sẽ có thông báo đang cập nhật; không tự sinh thông tin tuyển dụng, nghiên cứu hay tiêu chuẩn sản xuất.
+
+Muốn đưa sản phẩm ra trang chủ, mở sản phẩm, đánh dấu **Sản phẩm nổi bật trên trang chủ**, chọn **Xuất bản** rồi lưu. Trang chủ hiển thị tối đa 4 sản phẩm được đánh dấu, theo thứ tự nội dung hiện có.
+
 Đường dẫn của nội dung cũ được khóa để giữ liên kết. Nội dung mới có thể đổi đường dẫn trước khi lưu. Bản nháp không có trang công khai hoặc kết quả tìm kiếm; **repo hiện công khai nên nội dung nháp vẫn có thể đọc trong mã nguồn GitHub**. Không sử dụng CMS này để lưu dữ liệu nội bộ hoặc thông tin bệnh nhân.
 
-**Xem trước nội dung** mở bản xem thử tiêu đề, ảnh và phần soạn thảo. Bố cục các trang nhập từ website cũ, gallery và mô hình 3D vẫn được giữ khi sửa phần nội dung. Các khối bố cục chuyên biệt vẫn nằm trong source; đây không phải trình kéo thả toàn bộ giao diện.
+**Xem trước nội dung** mở bản xem thử tiêu đề, ảnh và phần soạn thảo. Bố cục các trang nhập từ website cũ và gallery vẫn được giữ khi sửa phần nội dung. Khu 3D đã gỡ theo yêu cầu. Các khối bố cục chuyên biệt vẫn nằm trong source; đây không phải trình kéo thả toàn bộ giao diện.
 
 Nội dung cũ được giữ lại; dùng trạng thái nháp khi muốn gỡ hiển thị. Nút xóa áp dụng cho nội dung mới được tạo bằng CMS. Danh mục có trang riêng và có thể gán cho bài viết/sản phẩm trong trình soạn thảo.
 
 ## Ảnh bìa và thư viện ảnh
 
 Trong **Trang chủ & liên hệ**, sửa lời giới thiệu, chú thích ảnh, đổi/thêm/xóa và đưa ảnh lên trước. Bìa tự chuyển mỗi **5 giây**, kể cả khi rê chuột/đặt focus. Khách có nút tạm dừng và chọn ảnh. Chế độ giảm chuyển động tắt hiệu ứng nhưng giữ lịch đổi ảnh.
+
+Phần **Mạng xã hội** cho sửa Facebook, TikTok và Zalo. Các liên kết hiện ở chân trang và phần liên hệ. Tin tức được đưa lên ngay sau ảnh bìa.
+
+Form tại trang chủ và trang liên hệ gửi về **trairandongtam408@gmail.com** khi khách bấm **Gửi thông tin**. Lượt đầu tiên cần chủ hộp thư mở thư kích hoạt của FormSubmit và bấm xác nhận một lần (kiểm tra cả thư rác). Chỉ sau khi kích hoạt và kiểm tra hộp thư mới xác minh được việc nhận email thực tế. Không cần cung cấp mật khẩu Gmail. Email liên hệ hiển thị trong CMS không đổi địa chỉ nhận cố định ở máy chủ.
 
 Thư viện có ảnh đang dùng trong website. Tải JPG, PNG, WebP hoặc AVIF, tối đa 20 MB/ảnh. Trình duyệt đổi sang WebP và giới hạn cạnh dài 2400px. Ảnh mới được xếp vào hàng đợi; bấm **Lưu thay đổi** để tải ảnh cùng nội dung trong một lần. Không tự xóa ảnh cũ vì các trang khác có thể còn dùng ảnh đó.
 

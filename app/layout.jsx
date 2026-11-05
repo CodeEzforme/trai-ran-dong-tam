@@ -1,4 +1,5 @@
 import './globals.css';
+import './structure.css';
 import { base, siteUrl } from '../lib/paths.mjs';
 export const metadata = {
   title: { default: 'Trại rắn Đồng Tâm', template: '%s | Trại rắn Đồng Tâm' },

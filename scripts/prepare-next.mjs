@@ -3,7 +3,7 @@ import path from 'node:path';
 import { content, entries } from '../lib/content.mjs';
 import { base } from '../lib/paths.mjs';
 fs.mkdirSync('generated/assets', { recursive: true });
-for (const name of ['style.css','refinements.css','experience.css','garden.css','fonts.css','legacy-content.js','motion.js','garden.js','snake.js','cobra-detail.js']) {
+for (const name of ['style.css','refinements.css','experience.css','garden.css','fonts.css','legacy-content.js','garden.js','contact.js']) {
   let text = fs.readFileSync('public/assets/' + name, 'utf8');
   if (base) text = text.replace(/(["'(])\/(assets\/|search-index\.json)/g, (_, quote, tail) => quote + base + '/' + tail);
   const target = path.join('generated/assets', name);

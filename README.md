@@ -9,11 +9,11 @@ Website React/Next.js, nội dung tiếng Việt và CMS quản trị bài viế
 
 ## Công nghệ
 
-Next.js 16.4.5 App Router, React 19.3.1, CSS responsive, Three.js/WebGL. Next.js xuất HTML cho từng trang; GitHub Pages phục vụ website, GitHub Actions build và triển khai. React điều khiển slideshow, menu, tìm kiếm, hộp thoại và toàn bộ CMS. Liên kết giữa các trang dùng điều hướng trình duyệt để giữ hoạt động các tương tác nội dung đã nhập, lịch sử và native View Transitions.
+Next.js 16.4.5 App Router, React 19.3.1, CSS responsive. Next.js xuất HTML cho từng trang; GitHub Pages và Vercel phục vụ website, tự build sau mỗi commit. React điều khiển slideshow, menu, tìm kiếm, hộp thoại và toàn bộ CMS. Liên kết giữa các trang dùng điều hướng trình duyệt để giữ hoạt động các tương tác nội dung đã nhập, lịch sử và native View Transitions.
 
-Giữ đủ 217 đường dẫn công khai hiện có, thêm `/admin/`: tổng 218 trang chức năng. Bao gồm 214 nội dung quản trị: 92 trang, 12 bài viết, 85 hồ sơ động vật, 11 sản phẩm và 14 trang danh mục. Thư viện có 475 ảnh. Giữ thứ tự điều hướng gốc, Vườn thuốc nam ngay sau Sản phẩm, 6 ảnh vườn thuốc, 3 ảnh điều trị và mô hình rắn có texture với điều khiển cận mặt.
+Giữ các đường dẫn cũ, nội dung và ảnh do chủ dự án đã lưu qua CMS. Bản ngày 05/11/2026 có 227 đường dẫn công khai và `/admin/`, giữ 6 ảnh vườn thuốc và 3 ảnh điều trị. Menu theo sơ đồ mới gồm Trang chủ, Giới thiệu, Nghiên cứu khoa học, Du lịch sinh thái, Sản phẩm, Vườn thuốc nam, Tin tức, Tuyển dụng. Các nhánh cho phép thêm bài từ CMS. Gỡ khu 3D lỗi khỏi giao diện. Xem [sơ đồ và thay đổi trang chủ](docs/SITEMAP-2026-11.md).
 
-Hai ảnh bìa chủ dự án cung cấp tự chuyển mỗi 5 giây; có ảnh thu nhỏ và tạm dừng. Giao diện mới ưu tiên ảnh thật, nội dung ngắn gọn và hiển thị tốt từ 360px. Giảm chuyển động tắt fade nhưng vẫn đổi ảnh theo yêu cầu.
+Hai ảnh bìa chủ dự án cung cấp tự chuyển mỗi 5 giây; có ảnh thu nhỏ và tạm dừng. Tin mới ngay sau ảnh bìa, tiếp theo là sản phẩm nổi bật, trải nghiệm và form liên hệ. Giao diện ưu tiên ảnh thật và hiển thị tốt từ 360px. Giảm chuyển động tắt fade nhưng vẫn đổi ảnh theo yêu cầu.
 
 ## Chạy dự án
 
@@ -52,8 +52,10 @@ Repo hiện công khai: nháp được loại khỏi website và chỉ mục, nh
 | `components/` | Header, bìa React, trang chủ, CMS và trình soạn thảo |
 | `content/content.json` | Trang, bài viết, sản phẩm, danh mục và thiết lập |
 | `lib/content.mjs` | Lọc nháp, làm sạch HTML, dựng nội dung và liên kết |
+| `lib/structure.mjs`, `lib/collections.mjs` | Sơ đồ, chuyên mục và danh sách nội dung công khai |
 | `lib/github-cms.mjs` | Xác thực, kiểm tra xung đột, ghi commit và theo dõi triển khai |
 | `server/`, `api/cms.mjs` | Xác thực mật khẩu, cookie phiên, CSRF và API quản trị |
+| `api/contact.mjs`, `server/contact-handler.mjs` | Nhận form và gửi email qua FormSubmit |
 | `components/AdminAccess.jsx` | Màn hình đăng nhập và kiểm tra phiên trước khi vào CMS |
 | `data/migrated-templates.json` | Bố cục chuyên biệt nhập từ bản cũ |
 | `public/assets/` | Ảnh, font, mô hình 3D và tương tác nội dung cũ |
@@ -66,10 +68,10 @@ Trình soạn thảo dùng DOMPurify ở client và sanitize-html khi build. Cá
 
 ## Kiểm tra trình duyệt
 
-`scripts/next-browser-check.cjs` dùng Playwright/Edge đã có trong `.tools/`: kiểm tra bìa 5 giây, menu, tìm kiếm không dấu, gallery, Three.js và màn hình đăng nhập. `scripts/admin-browser-check.cjs` kiểm tra đăng nhập thật, cookie phiên, tải lại, đăng xuất và API không có quyền. Kiểm thử xuất bản/xung đột chạy bằng API mô phỏng để không đăng bài thử lên website. Tệp kết quả và ảnh chụp nằm trong `artifacts/` được bỏ qua bởi Git.
+`scripts/next-browser-check.cjs` dùng Playwright/Edge đã có trong `.tools/`: kiểm tra bìa 5 giây, sơ đồ mới, sản phẩm nổi bật, tìm kiếm không dấu, gallery, form liên hệ và màn hình đăng nhập. `scripts/cms-taxonomy-check.cjs` kiểm tra thêm/xuất bản vào cả 7 nhóm bằng API mô phỏng. `scripts/admin-browser-check.cjs` kiểm tra đăng nhập thật, cookie phiên, tải lại, đăng xuất và API không có quyền. Kiểm thử form mô phỏng dịch vụ email, không gửi email thử tự động. Tệp kết quả và ảnh chụp nằm trong `artifacts/` được bỏ qua bởi Git.
 
 ## Bản cũ
 
 Python generator và snapshot WordPress vẫn được giữ để đối chiếu/migration, không chạy trong pipeline Next.js. `scripts/migrate-next.py` chỉ nhập dữ liệu một lần và từ chối ghi đè CMS hiện có. Dữ liệu nguồn/giấy phép được ghi ở `docs/MIGRATION.md`, các skill tại `docs/SKILLS.md`. Bản mới không thay đổi website WordPress ở tên miền `trairandongtam.vn`.
 
-Biểu mẫu liên hệ vẫn soạn email để người dùng kiểm tra và gửi; không có máy chủ gửi mail, thanh toán hay xác nhận đặt lịch tự động.
+Biểu mẫu trang chủ và `/contact/` chỉ gửi khi khách bấm **Gửi thông tin**, qua API Vercel tới FormSubmit và hộp thư **trairandongtam408@gmail.com**. Chủ hộp thư cần bấm xác nhận kích hoạt FormSubmit một lần sau lượt gửi đầu tiên. Chưa xác minh thư tới Gmail cho đến khi chủ hộp thư kích hoạt và kiểm tra. Lỗi gửi giữ nguyên dữ liệu và có số điện thoại/email dự phòng. Không có thanh toán hay xác nhận đặt lịch tự động.

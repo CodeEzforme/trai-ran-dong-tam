@@ -4,7 +4,7 @@
   "buildCommand": "npm run build",
   "outputDirectory": "out",
   "installCommand": "npm ci",
-  "functions": { "api/cms.mjs": { "maxDuration": 60 } },
+  "functions": { "api/cms.mjs": { "maxDuration": 60 }, "api/contact.mjs": { "maxDuration": 30 } },
   "rewrites": [{ "source": "/api/cms/:path*", "destination": "/api/cms?endpoint=:path*" }],
   "headers": [{ "source": "/admin/:path*", "headers": [{"key":"Cache-Control","value":"no-store"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Referrer-Policy","value":"same-origin"}] }]
 }
