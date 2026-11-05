@@ -177,7 +177,7 @@
     },
     {
       "id": "about-aquaculture",
-      "name": "Đội nuôi thủy đặc sản",
+      "name": "Đội nuôi trồng dược liệu",
       "path": "/doi-nuoi-thuy-dac-san/",
       "kind": "post",
       "section": "about"
@@ -3354,7 +3354,7 @@
     {
       "id": "sitemap-about-aquaculture",
       "path": "/doi-nuoi-thuy-dac-san/",
-      "title": "Đội nuôi thủy đặc sản",
+      "title": "Đội nuôi trồng dược liệu",
       "kind": "category",
       "section": "about",
       "excerpt": "Thông tin và hoạt động của các bộ phận tại Đồng Tâm.",
