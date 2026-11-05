@@ -304,6 +304,23 @@
   ],
   "documents": [
     {
+      "id": "entry-8a091349-ebdd-4cf3-8753-5e038c11cd4a",
+      "path": "/san-pham/noi-dung-moi-11cd4a/",
+      "title": "Thêm hình ảnh mới (Test)",
+      "kind": "product",
+      "excerpt": "sản phẩm mới",
+      "body": "test tét<p></p><br>",
+      "image": "/assets/images/uploads/01-kem-boi-da-cobratofor-8045d57a.webp",
+      "categories": [
+        "products-ocop-local",
+        "section-products"
+      ],
+      "section": "products",
+      "status": "published",
+      "date": "2026-11-05",
+      "featured": true
+    },
+    {
       "id": "entry-a66b8caa-b79c-461f-8b43-7303485c7277",
       "path": "/tin-tuc/noi-dung-moi-5c7277/",
       "title": "Test tiêu đề",
