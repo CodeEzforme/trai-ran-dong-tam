@@ -5,7 +5,7 @@ import RichEditor, { purify } from './RichEditor';
 import ContentFields from './ContentFields';
 import { sections,findSection,sectionFor,socialDefaults } from '../lib/structure.mjs';
 import { siteUrl, slugify, fold, repository } from '../lib/paths.mjs';
-import { kinds, validateContent } from '../lib/model.mjs';
+import { kinds, validateContent, editDocument } from '../lib/model.mjs';
 
 const empty={documents:[],categories:[],settings:{slides:[]}};
 const menu=[['dashboard','Tổng quan','grid'],...sections.map(g=>[g.id,g.label,g.icon]),['page','Trang nội dung khác','file'],['category','Danh mục','grid'],['media','Thư viện ảnh','photo'],['settings','Trang chủ & liên hệ','settings']];
@@ -34,7 +34,7 @@ export default function CMS({api,account,onLogout}){
   },[deployment?.sha,deployment?.done]);
   const doc=data.documents.find(d=>d.id===selected),canEdit=!!user&&!busy;
   function change(updater){setData(updater);setDirty(true);setNotice('');}
-  function updateDoc(patch){change(d=>({...d,documents:d.documents.map(x=>x.id===selected?{...x,...patch}:x)}));}
+  function updateDoc(patch){change(d=>editDocument(d,selected,patch));}
   function updateSettings(patch){change(d=>({...d,settings:{...d.settings,...patch}}));}
   function switchSection(s){setSection(s);setSelected(null);setQuery('');setFilter('all');setMobile(false);}
   async function publish(){

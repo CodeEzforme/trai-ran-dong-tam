@@ -20,6 +20,8 @@ Chọn mục bên trái, tìm nội dung rồi mở để chỉnh. Có tiêu đ�
 
 Thanh bên có **Giới thiệu, Nghiên cứu khoa học, Du lịch sinh thái, Sản phẩm, Vườn thuốc nam, Tin tức, Tuyển dụng**. Mỗi nhóm có nút **Thêm bài viết** hoặc **Thêm sản phẩm**. Trong trình soạn thảo, chọn **Chuyên mục chính** và đánh dấu **Danh mục hiển thị** để đưa bài vào đúng nhánh. Nhánh chưa có bài sẽ có thông báo đang cập nhật; không tự sinh thông tin tuyển dụng, nghiên cứu hay tiêu chuẩn sản xuất.
 
+Đổi **Tiêu đề** của trang/danh mục đang có trong menu rồi lưu sẽ cập nhật tên ở menu, điều hướng Giới thiệu, tiêu đề trang và sơ đồ website sau khi triển khai. Các vị trí này lấy tên từ dữ liệu CMS; URL và thứ tự menu được giữ ổn định. Mục **Tổng quan** là tên ngắn của trang Giới thiệu. Không cần tạo lại bài khi đổi tên danh mục.
+
 Muốn đưa sản phẩm ra trang chủ, mở sản phẩm, đánh dấu **Sản phẩm nổi bật trên trang chủ**, chọn **Xuất bản** rồi lưu. Trang chủ hiển thị tối đa 4 sản phẩm được đánh dấu, theo thứ tự nội dung hiện có.
 
 Đường dẫn của nội dung cũ được khóa để giữ liên kết. Nội dung mới có thể đổi đường dẫn trước khi lưu. Bản nháp không có trang công khai hoặc kết quả tìm kiếm; **repo hiện công khai nên nội dung nháp vẫn có thể đọc trong mã nguồn GitHub**. Không sử dụng CMS này để lưu dữ liệu nội bộ hoặc thông tin bệnh nhân.
