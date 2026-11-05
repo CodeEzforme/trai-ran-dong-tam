@@ -304,6 +304,19 @@
   ],
   "documents": [
     {
+      "id": "entry-d3c9d657-0d6f-4bda-94f4-e487ee74862a",
+      "path": "/noi-dung-moi-74862a/",
+      "title": "Nội dung mới",
+      "kind": "page",
+      "excerpt": "",
+      "body": "<p></p>",
+      "image": "",
+      "categories": [],
+      "section": "tourism",
+      "status": "draft",
+      "date": "2026-11-05"
+    },
+    {
       "id": "entry-c63af539-d172-457e-b747-a3a6a90647c4",
       "path": "/san-pham/noi-dung-moi-0647c4/",
       "title": "Bột rắn lục",
@@ -1430,7 +1443,7 @@
       "title": "Sơ đồ tổ chức",
       "kind": "page",
       "excerpt": "Thông tin nhân sự theo từng bộ phận tại Trại rắn Đồng Tâm.",
-      "body": "<h3>Ban giám đốc</h3>\n<img src=\"/assets/images/f89fd173234b55fa.webp\" alt=\"Nguyễn Hồng Phúc\" width=\"500\" height=\"600\">\n<h2>Nguyễn Hồng Phúc</h2>\n<p>Chính trị viên</p>\n<img src=\"/assets/images/f4476075fac3a4fe.webp\" alt=\"Đàm Huy Hoàng\" width=\"500\" height=\"600\">\n<h2>Đàm Huy Hoàng</h2>\n<p>Giám đốc</p>\n<img src=\"/assets/images/05504f64bea03529.webp\" alt=\"Lê Văn Đua\" width=\"500\" height=\"600\">\n<h2>Lê Văn Đua</h2>\n<p>Phó giám đốc</p>\n<h3>Ban hành chính</h3>\n<img src=\"/assets/images/ab5c5f72529f4ea3.webp\" alt=\"Trần Thị Hạnh\" width=\"500\" height=\"600\">\n<h2>Trần Thị Hạnh</h2>\n<p>Kế toán trưởng - trưởng ban hành chính</p>\n<img src=\"/assets/images/cdf4a20677a834d9.webp\" alt=\"Trần Ngọc Thắm\" width=\"500\" height=\"600\">\n<h2>Trần Ngọc Thắm</h2>\n<p>Thủ quỹ</p>\n<h3>Đội nuôi trồng dược liệu</h3>\n<img src=\"/assets/images/fc9bc73ff0ae21f1.webp\" alt=\"Lương Minh Hải\" width=\"500\" height=\"600\">\n<h2>Lương Minh Hải</h2>\n<p>Phó bộ phận</p>\n<img src=\"/assets/images/a9adb553771b528d.webp\" alt=\"Trần Thị Thơm\" width=\"500\" height=\"600\">\n<h2>Trần Thị Thơm</h2>\n<p>Trưởng bộ phận</p>\n<img src=\"/assets/images/6323d7f48030e88f.webp\" alt=\"Nguyễn Danh Hiếu\" width=\"500\" height=\"600\">\n<h2>Nguyễn Danh Hiếu</h2>\n<p>Nhân viên</p>\n<h3>Bộ phận du lịch</h3>\n<img src=\"/assets/images/f380202c5ab28c46.webp\" alt=\"Mai Thái Hiền\" width=\"500\" height=\"600\">\n<h2>Mai Thái Hiền</h2>\n<p>Phó bộ phận</p>\n<img src=\"/assets/images/d4472f3088d49851.webp\" alt=\"Đinh Thành An\" width=\"500\" height=\"600\">\n<h2>Đinh Thành An</h2>\n<p>Trưởng bộ phận</p>\n<img src=\"/assets/images/5c35c993beb2b4bb.webp\" alt=\"Trần Tuyết Anh\" width=\"500\" height=\"600\">\n<h2>Trần Tuyết Anh</h2>\n<p>Nhân viên</p>",
+      "body": "<h3>Ban giám đốc</h3>\n<img src=\"/assets/images/f89fd173234b55fa.webp\" alt=\"Nguyễn Hồng Phúc\" width=\"500\" height=\"600\">\n<h2>Nguyễn Hồng Phúc</h2>\n<p>Chính trị viên</p>\n<img src=\"/assets/images/f4476075fac3a4fe.webp\" alt=\"Đàm Huy Hoàng\" width=\"500\" height=\"600\">\n<h2>Đàm Huy Hoàng</h2>\n<p>Giám đốc</p>\n<img src=\"/assets/images/05504f64bea03529.webp\" alt=\"Lê Văn Đua\" width=\"500\" height=\"600\">\n<h2>Lê Văn Đua</h2>\n<p>Phó giám đốc</p>\n<h3>Ban hành chính</h3>\n<img src=\"/assets/images/ab5c5f72529f4ea3.webp\" alt=\"Trần Thị Hạnh\" width=\"500\" height=\"600\">\n<h2>Trần Thị Hạnh</h2>\n<p>Kế toán trưởng - trưởng ban hành chính</p>\n<img src=\"/assets/images/cdf4a20677a834d9.webp\" alt=\"Trần Ngọc Thắm\" width=\"500\" height=\"600\">\n<h2>Trần Ngọc Thắm</h2>\n<p>Thủ quỹ</p>\n<h3>Đội nuôi trồng dược liệu</h3>\n<img src=\"/assets/images/fc9bc73ff0ae21f1.webp\" alt=\"Lương Minh Hải\" width=\"500\" height=\"600\">\n<h2>Lương Minh Hải</h2>\n<p>Phó bộ phận</p>\n<img src=\"/assets/images/a9adb553771b528d.webp\" alt=\"Trần Thị Thơm\" width=\"500\" height=\"600\">\n<h2>Trần Thị Thơm</h2>\n<p>Trưởng bộ phận</p><p><br></p>\n<h3>Bộ phận du lịch</h3>\n<img src=\"/assets/images/f380202c5ab28c46.webp\" alt=\"Mai Thái Hiền\" width=\"500\" height=\"600\">\n<h2>Mai Thái Hiền</h2>\n<p>Phó bộ phận</p>\n<img src=\"/assets/images/d4472f3088d49851.webp\" alt=\"Đinh Thành An\" width=\"500\" height=\"600\">\n<h2>Đinh Thành An</h2>\n<p>Trưởng bộ phận</p>\n\n<h2>Trần Tuyết Anh</h2>\n<p><br></p>",
       "image": "",
       "categories": [],
       "status": "published",
