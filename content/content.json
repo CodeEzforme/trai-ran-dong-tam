@@ -304,6 +304,37 @@
   ],
   "documents": [
     {
+      "id": "entry-a66b8caa-b79c-461f-8b43-7303485c7277",
+      "path": "/tin-tuc/noi-dung-moi-5c7277/",
+      "title": "Test tiêu đề",
+      "kind": "post",
+      "excerpt": "test",
+      "body": "123 test<p></p>",
+      "image": "/assets/images/vuon-thuoc-nam-06-nhom-cay-thuoc.webp",
+      "categories": [
+        "section-news",
+        "68"
+      ],
+      "section": "news",
+      "status": "published",
+      "date": "2026-11-05"
+    },
+    {
+      "id": "entry-09e110d9-f38a-4323-99a6-7701bbf8a4c9",
+      "path": "/tin-tuc/noi-dung-moi-f8a4c9/",
+      "title": "Test tiêu đề",
+      "kind": "post",
+      "excerpt": "test",
+      "body": "123 test<p></p>",
+      "image": "",
+      "categories": [
+        "section-news"
+      ],
+      "section": "news",
+      "status": "draft",
+      "date": "2026-11-05"
+    },
+    {
       "id": "entry-8380a544-d755-46f9-a5c5-9c51ddfc4140",
       "path": "/vuon-thuoc-nam/noi-dung-moi-fc4140/",
       "title": "Cây sao",
