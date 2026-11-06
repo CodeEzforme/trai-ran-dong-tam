@@ -2263,12 +2263,13 @@
       "body": "<p>Dùng trong các trường hợp thận dương kém, đau xương khớp, đau dây thần kinh ngoại biên, suy yếu sinh lý, liệt dương, tiết tinh sớm, trí lực, thần kinh suy giảm; Quy cách: 10 lít; 20 lít; 30 lít</p>",
       "image": "/assets/images/6f65db95b595ed0b.webp",
       "categories": [
-        "74"
+        "74",
+        "section-products"
       ],
       "status": "published",
       "date": "2026-11-04",
       "section": "products",
-      "featured": false
+      "featured": true
     },
     {
       "id": "san-pham__ruou-tam-xa-50o",
