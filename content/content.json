@@ -324,6 +324,25 @@
   ],
   "documents": [
     {
+      "id": "entry-54b339fe-9c88-48d2-9232-022c530f1346",
+      "path": "/san-pham/noi-dung-moi-0f1346/",
+      "title": "Kem  mỡ trăn",
+      "kind": "product",
+      "excerpt": "Kem  mỡ trăn",
+      "body": "<h2>Tiếng Việt</h2>\n\n<p><b>Dưỡng da, giúp giữ ẩm da trong các trường hợp: </b></p>\n\n<p>·&nbsp;&nbsp;\nBỏng\nda nhẹ.</p>\n\n<p>·&nbsp;&nbsp;\nDa\nkhô nứt nẻ.</p>\n\n<p><b>Hướng dẫn sử dụng: </b>Thoa mỡ trăn lên vùng da cần tác dụng. Ngày dùng\n2-3 lần.</p>\n\n<h2>English</h2>\n\n<p><b>PYTHON FAT</b></p>\n\n<p><b>Intended Uses: </b>Helps\nnourish and moisturize the skin, especially dry, cracked skin and skin affected\nby minor burns.</p>\n\n<p><b>Directions for Use: </b>Apply\nto the affected area 2 - 3 times daily.</p>\n\n<h2>Русский</h2>\n\n<p><b>ЖИРЫ ПИТОНА</b></p>\n\n<p><b>Для ухода за кожей: </b></p>\n\n<p>·&nbsp;&nbsp;\nпри\nнебольших ожогах кожи.</p>\n\n<p>·&nbsp;&nbsp;\nпри\nсухой и потрескавшейся коже.</p>\n\n<p><b>Способ применения: </b>Нанести небольшое количество жира на необходимый\nучасток кожи. Использовать 2–3 раза в день.</p><p></p>",
+      "image": "/assets/images/uploads/kem-mo-tran-9493c2a5.webp",
+      "categories": [
+        "71",
+        "80",
+        "products-ocop-local",
+        "section-products"
+      ],
+      "section": "products",
+      "status": "published",
+      "date": "2026-11-07",
+      "featured": true
+    },
+    {
       "id": "entry-ece648b4-5a3e-4ae1-bcec-5db3ff1c9686",
       "path": "/san-pham/noi-dung-moi-1c9686/",
       "title": "Cao rắn và cao trăn",
