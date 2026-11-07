@@ -344,6 +344,34 @@
   ],
   "documents": [
     {
+      "id": "entry-6d262d20-3197-49f9-8e61-6bba2d1790c9",
+      "path": "/du-lich-sinh-thai/noi-dung-moi-1790c9/",
+      "title": "Nhà bảo tàng rắn",
+      "kind": "post",
+      "excerpt": "Nhà bảo tàng rắn",
+      "body": "Nhà bảo tàng rắn<p></p>",
+      "image": "/assets/images/uploads/bia-9-8a62787e.webp",
+      "categories": [
+        "tourism-museum"
+      ],
+      "section": "tourism",
+      "status": "published",
+      "date": "2026-11-07"
+    },
+    {
+      "id": "entry-5be46431-2e4e-43d1-98d2-8b079b0b4823",
+      "path": "/noi-dung-moi-0b4823/",
+      "title": "Nội dung mới",
+      "kind": "page",
+      "excerpt": "",
+      "body": "<p></p>",
+      "image": "",
+      "categories": [],
+      "section": "tourism",
+      "status": "draft",
+      "date": "2026-11-07"
+    },
+    {
       "id": "entry-54b339fe-9c88-48d2-9232-022c530f1346",
       "path": "/san-pham/noi-dung-moi-0f1346/",
       "title": "Kem  mỡ trăn",
