@@ -2337,12 +2337,13 @@
       "body": "<p>Dùng trong các trường hợp thận dương kém, đau xương khớp, đau dây thần kinh ngoại biên, suy yếu sinh lý, liệt dương, tiết tinh sớm, trí lực, thần kinh suy giảm; Quy cách: Chai 700 ml; Chai 1 lít</p>",
       "image": "/assets/images/519dbaeb672b0733.webp",
       "categories": [
-        "74"
+        "74",
+        "products-ocop-local"
       ],
       "status": "published",
       "date": "2026-11-04",
       "section": "products",
-      "featured": false
+      "featured": true
     },
     {
       "id": "san-pham__ruou-ngu-xa-50o",
