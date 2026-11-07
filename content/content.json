@@ -2430,18 +2430,19 @@
     {
       "id": "san-pham__kem-duong-da-mo-tran",
       "path": "/san-pham/kem-duong-da-mo-tran/",
-      "title": "Kem dưỡng da mỡ trăn",
+      "title": "Mật Ong",
       "kind": "product",
-      "excerpt": "Trang chủ / Kem dưỡng da mỡ trăn Mỹ phẩm Kem dưỡng da mỡ trăn 88/23/CBMP-TG Ngày 01/12/2023 Liên hệ tư vấn Xem danh mục Thông tin sản phẩm Thông tin chi tiết Sản phẩm liên quan Liê",
-      "body": "<p>KEM DƯỠNG DA MỠ TRĂN<br>\nTHÀNH PHẦN<br>\nAqua; Fat of python; Glucitol; Propantriol; Isopropyltetradecanoate; Octadecanoic acid; Alcohol cetylicus et stearylicus; Cetearyl alcohol; Sorbitan oleate; Dimethicone; Vitamin E (Tocopherol); Caprylyl glycol&amp;Ethylhexylglycerin; Tinh dầu hoa sen (Aetheroleum lotusium); Polysorbat 80; Phenoxyethanol; Trolamine vừa đủ 20 gam.<br>\nDÙNG TRONG CÁC TRƯỜNG HỢP<br>\n– Dưỡng da, giúp giữ ẩm da, giúp tái tạo tế bào da mới trong các trường hợp: bỏng da nhẹ, da khô nứt nẻ.<br>\nHƯỚNG DẪN SỬ DỤNG<br>\n– Làm sạch vùng da cần bôi, bôi kem mỡ trăn lên vùng da cần tác dụng thoa đều để kem thấm hết qua da. Mỗi ngày 3 – 4 lần.<br>\nLƯU Ý<br>\n– Kem mỡ trăn chỉ dùng ngoài da không bôi lên vùng miệng, mí mắt.<br>\n– Không sử dụng cho trẻ em dưới 12 tháng tuổi. Mỡ trăn<br>\nMỡ trăn kích thích tái tạo tế bào, bảo vệ da khỏi vi khuẩn có hại và phục hồi màng lipid trên bề mặt da. Với khả năng kháng viêm, kháng khuẩn giúp ức chế sự phát triển của vi khuẩn gây mụn. Đồng thời nó còn cung cấp độ ẩm, tái tạo tế bào và bảo vệ da khỏi tổn thương, sử dụng để điều trị các vấn đề như nứt nẻ trên tay và chân khi làm việc ở môi trường ẩm ướt.<br>\nVitamin E<br>\nVitamin E là một chất chống oxy hóa, có thể có tác dụng bảo vệ tế bào khỏi hư hại. Có công dụng làm chậm quá trình lão hóa da, giúp da săn chắc và giảm sự xuất hiện nếp nhăn.<br>\nTinh dầu hoa sen<br>\nTinh dầu hoa sen có khả năng nuôi dưỡng da cao, có tác dụng cải thiện sắc tố da, đồng thời nuôi dưỡng làn da từ sâu bên trong. Mang các đặc tính se khít lỗ chân lông, kháng khuẩn và chống viêm đồng thời có mùi hương thanh khiết.</p>",
-      "image": "/assets/images/ff48da1ddcdc7b72.webp",
+      "excerpt": "Mật ong",
+      "body": "<h2>Tiếng Việt</h2><p><b>Dùng trong các trường hợp: </b></p><p>·&nbsp;&nbsp;\nMật\nong nguyên chất 100% rất tốt cho sức khoẻ và sắc đẹp.</p><p>·&nbsp;&nbsp;\nKhắc\nphục tình trạng đau dạ dày.</p><p><b>Hướng dẫn sử dụng: </b>Pha 1 muỗng cà phê mật ong trong 1 cốc nước ấm, uống\nvào buổi sáng, trước khi đi ngủ.</p><h2>English</h2><p><b>PURE HONEY</b></p><p><b>Intended Uses: </b>100%\npure honey is a natural product that offers numerous benefits for health and\nbeauty. Helps relieve stomach discomfort.</p><p><b>Directions for Use: </b>Mix\none teaspoon of honey into a cup of warm water. Drink in the morning and before\nbedtime.</p><h2>Русский</h2><p><b>МЕД ПЧЕЛ</b></p><p><b>ПРИМЕНЯЕТСЯ В СЛУЧАЯХ: </b>100% натуральный мёд обладает многочисленными\nполезными свойствами для здоровья и красоты. Помогает облегчить желудочный\nдискомфорт.</p><p>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n</p><p><b>Способ применения: </b>Смешайте 1 чайную ложку меда с 1 стаканом теплой\nводы, выпейте утром перед сном.</p>",
+      "image": "/assets/images/uploads/09-mat-ong-48a8175c.webp",
       "categories": [
-        "80"
+        "products-ocop-local",
+        "section-products"
       ],
       "status": "published",
       "date": "2026-11-04",
       "section": "products",
-      "featured": false
+      "featured": true
     },
     {
       "id": "san-pham__kem-duong-da-nghe-mo-tran",
