@@ -110,7 +110,7 @@
     },
     {
       "id": "79",
-      "name": "Sản phẩm",
+      "name": "Khác",
       "path": "/danh-muc-san-pham/san-pham/",
       "kind": "product",
       "section": "products"
@@ -3945,11 +3945,11 @@
     {
       "id": "danh-muc-san-pham__san-pham",
       "path": "/danh-muc-san-pham/san-pham/",
-      "title": "Sản phẩm",
+      "title": "Khác",
       "kind": "category",
       "excerpt": "Khám phá sản phẩm được giới thiệu tại Trại rắn Đồng Tâm.",
       "body": "",
-      "image": "/assets/images/61e0f021dd29f37b.webp",
+      "image": "/assets/images/uploads/cobra-thien-nhien-644f6431.webp",
       "categories": [],
       "status": "published",
       "date": "2026-11-04",
