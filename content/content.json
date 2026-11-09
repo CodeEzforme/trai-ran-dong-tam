@@ -2091,10 +2091,12 @@
       "excerpt": "Thông tin liên hệ Trung tâm Nuôi trồng, nghiên cứu, chế biến dược liệu — Trại rắn Đồng Tâm.",
       "body": "",
       "image": "/assets/images/dieu-tri-ran-can-01-tham-kham.webp",
-      "categories": [],
+      "categories": [
+        "entry-3cea2e1c-5ca2-40c4-8c4a-99446517bb75"
+      ],
       "status": "published",
       "date": "2026-11-04",
-      "section": ""
+      "section": "research"
     },
     {
       "id": "to-chuc",
