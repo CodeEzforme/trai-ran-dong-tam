@@ -1904,7 +1904,9 @@
       "excerpt": "Thông tin từ Trại rắn Đồng Tâm.",
       "body": "",
       "image": "",
-      "categories": [],
+      "categories": [
+        "about-organization"
+      ],
       "status": "published",
       "date": "2026-11-04",
       "section": "about"
