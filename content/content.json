@@ -340,9 +340,29 @@
       "path": "/tuyen-dung/",
       "kind": "post",
       "section": "careers"
+    },
+    {
+      "id": "entry-3cea2e1c-5ca2-40c4-8c4a-99446517bb75",
+      "name": "Điều trị rắn cắn ",
+      "path": "/category/danh-muc-17bb75/",
+      "kind": "post",
+      "section": "research"
     }
   ],
   "documents": [
+    {
+      "id": "entry-3cea2e1c-5ca2-40c4-8c4a-99446517bb75",
+      "path": "/category/danh-muc-17bb75/",
+      "title": "Điều trị rắn cắn ",
+      "kind": "category",
+      "excerpt": "Khoa điều trị rắn cắn tại Trại rắn Đồng Tâm",
+      "body": "<p>Khoa Điều trị rắn cắn thuộc Trung tâm Nuôi trồng, Nghiên cứu, Chế biến Dược liệu – Cục Hậu cần, Quân khu 9 (Trại rắn Đồng Tâm) là một trong những bộ phận chuyên môn gắn liền với hoạt động y tế và nghiên cứu về rắn tại Trại rắn Đồng Tâm, tỉnh Đồng Tháp (trước đây thuộc Tiền Giang).</p><p>Khoa có vai trò tiếp nhận, thăm khám và điều trị cho người bị rắn độc cắn, đồng thời góp phần nghiên cứu, ứng dụng huyết thanh kháng nọc rắn và các phương pháp xử trí rắn cắn.</p><h3>1. Chức năng chính của khoa</h3><ul><li><p>Tiếp nhận và cấp cứu người bị rắn cắn.</p></li><li><p>Xác định loại rắn và đánh giá mức độ nhiễm độc.</p></li><li><p>Sử dụng huyết thanh kháng nọc rắn phù hợp khi có chỉ định.</p></li><li><p>Theo dõi các biến chứng như rối loạn đông máu, hoại tử, suy hô hấp.</p></li><li><p>Điều trị và phục hồi sức khỏe cho bệnh nhân sau khi bị rắn độc cắn.</p></li></ul><p></p>",
+      "image": "/assets/images/uploads/bia-9-78036cee.webp",
+      "categories": [],
+      "section": "research",
+      "status": "published",
+      "date": "2026-11-09"
+    },
     {
       "id": "entry-06d83ec6-71e7-4e19-a0f5-0082a5fad659",
       "path": "/vuon-thuoc-nam/noi-dung-moi-fad659/",
