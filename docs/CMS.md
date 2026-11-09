@@ -30,11 +30,17 @@ Muốn đưa sản phẩm ra trang chủ, mở sản phẩm, đánh dấu **Sả
 
 Nội dung cũ được giữ lại; dùng trạng thái nháp khi muốn gỡ hiển thị. Nút xóa áp dụng cho nội dung mới được tạo bằng CMS. Danh mục có trang riêng và có thể gán cho bài viết/sản phẩm trong trình soạn thảo.
 
+Trong **Danh mục**, chọn **Chuyên mục chính** để danh mục đã xuất bản xuất hiện trong menu tương ứng. **Danh mục cha** cho đặt danh mục bên trong một danh mục khác cùng chuyên mục. **Trang mở khi bấm danh mục** cho liên kết tới trang có sẵn thay vì tạo lại nội dung. Ví dụ, **Điều trị rắn cắn** nằm trong **Nghiên cứu khoa học** và mở trang điều trị hiện có. Bản nháp không xuất hiện trong menu; hệ thống chặn chọn danh mục cha tạo vòng lặp.
+
+Để chèn ảnh vào bài, đặt con trỏ trong nội dung, chọn **Chèn ảnh**, rồi chọn ảnh trong thư viện hoặc tải ảnh mới. Ảnh được chèn tại con trỏ; ảnh mới có bản xem trước ngay và được tải lên khi lưu. Nút này cũng dùng được trong chế độ HTML.
+
 Trong **Giới thiệu → Sơ đồ tổ chức**, danh sách nhân sự được chia theo tên bộ phận, ảnh, tên và chức vụ trong phần Nội dung. Đây là nguồn chung cho các trang Ban giám đốc, Ban hành chính, Đội nuôi trồng dược liệu và Bộ phận du lịch. Sửa hồ sơ tại đây để các trang cùng cập nhật; mỗi hồ sơ trùng cả ảnh, tên và chức vụ trong một bộ phận chỉ hiển thị một lần. Các trang bộ phận vẫn có phần nội dung riêng để bổ sung giới thiệu. Chưa có nhân sự của Đội nuôi thủy đặc sản/Xưởng chế biến thì website không tự thêm.
 
 ## Ảnh bìa và thư viện ảnh
 
-Trong **Trang chủ & liên hệ**, sửa lời giới thiệu, chú thích ảnh, đổi/thêm/xóa và đưa ảnh lên trước. Bìa tự chuyển mỗi **5 giây**, kể cả khi rê chuột/đặt focus. Khách có nút tạm dừng và chọn ảnh. Chế độ giảm chuyển động tắt hiệu ứng nhưng giữ lịch đổi ảnh.
+Trong **Trang chủ & liên hệ → Ảnh bìa trang chủ**, đổi/thêm/xóa và đưa ảnh lên trước. Banner hiển thị nguyên khung, không có lớp chữ hoặc nút đè lên ảnh. Tiêu đề website và giới thiệu dùng cho tìm kiếm. Bìa tự chuyển mỗi **5 giây**, kể cả khi rê chuột/đặt focus. Khách có nút tạm dừng và các chấm chọn ảnh; ảnh đang chọn có chấm xanh dài. Chế độ giảm chuyển động tắt hiệu ứng nhưng giữ lịch đổi ảnh.
+
+Mục **Ảnh bìa danh mục** cho đổi ảnh chung ở đầu các chuyên mục chính. Mặc định dùng ảnh cổng Trại rắn do chủ dự án cung cấp. Ảnh này độc lập với ảnh đại diện của từng bài viết.
 
 Phần **Mạng xã hội** cho sửa Facebook, TikTok và Zalo. Các liên kết hiện ở chân trang và phần liên hệ. Tin tức được đưa lên ngay sau ảnh bìa.
 

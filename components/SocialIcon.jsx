@@ -1,0 +1,5 @@
+export default function SocialIcon({name}){
+ if(name==='facebook')return <svg className="nx-social-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#1877f2"/><path fill="#fff" d="M13.5 21v-8h2.7l.4-3h-3.1V8.1c0-.9.2-1.5 1.6-1.5h1.7V3.9c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.4-4 4.1V10H7.8v3h2.6v8z"/></svg>;
+ if(name==='tiktok')return <svg className="nx-social-icon" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#111"/><path fill="#25f4ee" d="M14 4h2.5c.2 2 1.2 3.2 3.2 3.5V10a7 7 0 0 1-3.3-1v6a5 5 0 1 1-4.7-5v2.6a2.4 2.4 0 1 0 2.3 2.4z"/><path fill="#fe2c55" d="M15 4.7h2.5c.2 2 1.2 3.2 3.2 3.5v2.5a7 7 0 0 1-3.3-1v6a5 5 0 1 1-4.7-5v2.6a2.4 2.4 0 1 0 2.3 2.4z"/><path fill="#fff" d="M14.7 4.3h2.1c.2 1.9 1.3 3.2 3.2 3.6v2a7 7 0 0 1-3.3-1v6.4a4.7 4.7 0 1 1-4.7-4.7v2.3a2.4 2.4 0 1 0 2.7 2.4z"/></svg>;
+ return <svg className="nx-social-icon" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#0068ff"/><path d="M5 7h22v15H13l-5 4v-4H5z" fill="#fff"/><text x="7" y="17.8" fill="#0068ff" fontSize="9" fontWeight="700" fontFamily="Arial,sans-serif">Zalo</text></svg>;
+}

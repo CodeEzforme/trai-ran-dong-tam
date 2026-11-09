@@ -1,6 +1,7 @@
 'use client';
 import { useState, useRef, useEffect } from 'react';
 import Icon from './Icon';
+import SocialIcon from './SocialIcon';
 import { siteUrl } from '../lib/paths.mjs';
 import { socialDefaults } from '../lib/structure.mjs';
 function SubLinks({items,path}){
@@ -8,7 +9,7 @@ function SubLinks({items,path}){
 }
 export function SocialLinks({settings}){
  const links={...socialDefaults,...settings.social};
- return <div className="nx-social-links" aria-label="Kết nối với Đồng Tâm">{[['facebook','Facebook'],['tiktok','TikTok'],['zalo','Zalo']].map(([key,label])=><a key={key} href={links[key]} target="_blank" rel="noopener noreferrer">{label}<Icon name="diagonal"/></a>)}</div>;
+ return <div className="nx-social-links" aria-label="Kết nối với Đồng Tâm">{[['facebook','Facebook'],['tiktok','TikTok'],['zalo','Zalo']].map(([key,label])=><a key={key} href={links[key]} target="_blank" rel="noopener noreferrer"><SocialIcon name={key}/><span>{label}</span><Icon name="diagonal"/></a>)}</div>;
 }
 export default function SiteShell({ settings, navigation, logo, path, activeSection, children }) {
   const [mobile, setMobile] = useState(false), [open, setOpen] = useState(-1);

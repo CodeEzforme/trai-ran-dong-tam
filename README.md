@@ -13,7 +13,7 @@ Next.js 16.4.5 App Router, React 19.3.1, CSS responsive. Next.js xuất HTML cho
 
 Giữ các đường dẫn cũ, nội dung và ảnh do chủ dự án đã lưu qua CMS. Bản ngày 05/11/2026 có 227 đường dẫn công khai và `/admin/`, giữ 6 ảnh vườn thuốc và 3 ảnh điều trị. Menu theo sơ đồ mới gồm Trang chủ, Giới thiệu, Nghiên cứu khoa học, Du lịch sinh thái, Sản phẩm, Vườn thuốc nam, Tin tức, Tuyển dụng. Các nhánh cho phép thêm bài từ CMS. Gỡ khu 3D lỗi khỏi giao diện. Xem [sơ đồ và thay đổi trang chủ](docs/SITEMAP-2026-11.md).
 
-Hai ảnh bìa chủ dự án cung cấp tự chuyển mỗi 5 giây; có ảnh thu nhỏ và tạm dừng. Tin mới ngay sau ảnh bìa, tiếp theo là sản phẩm nổi bật, trải nghiệm và form liên hệ. Giao diện ưu tiên ảnh thật và hiển thị tốt từ 360px. Giảm chuyển động tắt fade nhưng vẫn đổi ảnh theo yêu cầu.
+Ảnh bìa do chủ dự án quản lý trong CMS tự chuyển mỗi 5 giây, hiển thị nguyên khung; có chấm chọn ảnh và tạm dừng. Thông tin tham quan nằm dưới ảnh. Tin mới ngay sau ảnh bìa, tiếp theo là sản phẩm nổi bật, trải nghiệm và liên hệ qua email. Giao diện hiển thị tốt từ 360px. Giảm chuyển động tắt fade nhưng vẫn đổi ảnh theo yêu cầu.
 
 ## Chạy dự án
 
