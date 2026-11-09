@@ -138,7 +138,7 @@
     },
     {
       "id": "70",
-      "name": "Sản phẩm",
+      "name": "Tin nổi bật",
       "path": "/category/san-pham/",
       "kind": "post",
       "section": "news"
@@ -3997,7 +3997,7 @@
     {
       "id": "category__san-pham",
       "path": "/category/san-pham/",
-      "title": "Sản phẩm",
+      "title": "Tin nổi bật",
       "kind": "category",
       "excerpt": "Những hoạt động, sự kiện và câu chuyện mới từ Trại rắn Đồng Tâm.",
       "body": "",
