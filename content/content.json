@@ -351,6 +351,21 @@
   ],
   "documents": [
     {
+      "id": "entry-3468c0ae-39ac-4615-b5f3-da0c4896fcf6",
+      "path": "/nghien-cuu-khoa-hoc/noi-dung-moi-96fcf6/",
+      "title": "test",
+      "kind": "post",
+      "excerpt": "test",
+      "body": "test<p></p>",
+      "image": "",
+      "categories": [
+        "entry-3cea2e1c-5ca2-40c4-8c4a-99446517bb75"
+      ],
+      "section": "research",
+      "status": "published",
+      "date": "2026-11-09"
+    },
+    {
       "id": "entry-c7e9db57-5dd6-42e6-9d6e-c225ebd0da57",
       "path": "/nghien-cuu-khoa-hoc/noi-dung-moi-d0da57/",
       "title": "Nội dung mới",
