@@ -166,7 +166,7 @@
     },
     {
       "id": "1",
-      "name": "Uncategorized",
+      "name": "Khác",
       "path": "/category/uncategorized/",
       "kind": "post",
       "section": "news"
@@ -4049,7 +4049,7 @@
     {
       "id": "category__uncategorized",
       "path": "/category/uncategorized/",
-      "title": "Uncategorized",
+      "title": "Khác",
       "kind": "category",
       "excerpt": "Những hoạt động, sự kiện và câu chuyện mới từ Trại rắn Đồng Tâm.",
       "body": "",
