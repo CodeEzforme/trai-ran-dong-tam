@@ -2946,10 +2946,12 @@
       "excerpt": "Trang chủ / Mật ong Thế giới tự nhiên Mật ong 04/2018 SỐ CNATTP: 02/2024/NNPTNT – TG Lên lịch tham quan Xem danh mục Hồ sơ loài Thông tin chi tiết Loài liên quan Liên hệ Đồng Tâm T",
       "body": "<p>Tăng cường sức đề kháng, chống viêm đau dạ dày.<br>\nChai 600 ml</p>",
       "image": "/assets/images/62abf7f7eeac8b1a.webp",
-      "categories": [],
+      "categories": [
+        "79"
+      ],
       "status": "published",
       "date": "2026-11-04",
-      "section": "tourism"
+      "section": "products"
     },
     {
       "id": "san-pham__cao-ran",
