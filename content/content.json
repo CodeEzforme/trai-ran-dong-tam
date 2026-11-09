@@ -347,8 +347,8 @@
       "path": "/category/danh-muc-17bb75/",
       "kind": "post",
       "section": "research",
-      "parentId": "",
-      "targetPath": "/dieu-tri-ran-can/"
+      "parentId": "entry-83b5183b-8f19-4e3f-afda-2de4a61c0d40",
+      "targetPath": "/category/danh-muc-1c0d40/"
     }
   ],
   "documents": [
@@ -394,8 +394,8 @@
       "section": "research",
       "status": "published",
       "date": "2026-11-09",
-      "parentId": "",
-      "targetPath": "/dieu-tri-ran-can/"
+      "parentId": "entry-83b5183b-8f19-4e3f-afda-2de4a61c0d40",
+      "targetPath": "/category/danh-muc-1c0d40/"
     },
     {
       "id": "entry-06d83ec6-71e7-4e19-a0f5-0082a5fad659",
