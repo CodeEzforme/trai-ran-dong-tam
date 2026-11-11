@@ -119,7 +119,7 @@
     },
     {
       "id": "23",
-      "name": "Thực phẩm chức năng",
+      "name": "Thực phẩm",
       "path": "/danh-muc-san-pham/thuc-pham-chuc-nang/",
       "kind": "product",
       "section": "products"
@@ -4143,7 +4143,7 @@
     {
       "id": "danh-muc-san-pham__thuc-pham-chuc-nang",
       "path": "/danh-muc-san-pham/thuc-pham-chuc-nang/",
-      "title": "Thực phẩm chức năng",
+      "title": "Thực phẩm",
       "kind": "category",
       "excerpt": "Khám phá thực phẩm chức năng được giới thiệu tại Trại rắn Đồng Tâm.",
       "body": "",
