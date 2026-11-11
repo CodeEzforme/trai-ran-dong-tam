@@ -322,7 +322,7 @@
     },
     {
       "id": "section-herbs",
-      "name": "Vườn thuốc nam",
+      "name": "Công tác bảo tồn",
       "path": "/vuon-thuoc-nam/",
       "kind": "post",
       "section": "herbs"
@@ -4234,10 +4234,10 @@
     {
       "id": "vuon-thuoc-nam",
       "path": "/vuon-thuoc-nam/",
-      "title": "Vườn thuốc nam",
+      "title": "Công tác bảo tồn",
       "kind": "page",
-      "excerpt": "Khám phá Vườn thuốc nam tại Đồng Tâm qua hình ảnh khu vườn, các nhóm cây thuốc và hoạt động tiếp nhận vườn thuốc mẫu.",
-      "body": "",
+      "excerpt": "Trại rắn Đồng Tâm là cơ sở nuôi dưỡng, nghiên cứu, bảo tồn và khai thác nguồn dược liệu từ động vật, nổi bật với các loài rắn tại khu vực Đồng bằng sông Cửu Long.\nCông tác bảo tồn tại đây có ý nghĩa quan trọng trong việc bảo vệ nguồn gen động vật hoang dã, duy trì đa dạng sinh học, nghiên cứu khoa học và nâng cao nhận thức cộng đồng về bảo vệ động vật hoang dã.",
+      "body": "<h2>Các hoạt động bảo tồn chủ yếu</h2><p><b>1.1. Bảo tồn và nhân nuôi các loài rắn quý hiếm</b></p><ul><li><p>Tổ chức nuôi dưỡng, chăm sóc và duy trì quần thể các loài rắn có giá trị khoa học, sinh thái và dược liệu.</p></li><li><p>Chú trọng bảo tồn nguồn gen của hai loài rắn quý là rắn hổ mang chúa (Ophiophagus hannah) và rắn hổ mang đất (Naja kaouthia).</p></li><li><p>Nghiên cứu đặc điểm sinh học, sinh sản, tập tính và điều kiện sống của các loài rắn để xây dựng quy trình nhân nuôi phù hợp.</p></li><li><p>Duy trì số lượng cá thể bố mẹ và rắn non nhằm góp phần bảo tồn nguồn gen, hạn chế nguy cơ suy giảm quần thể trong tự nhiên.</p></li></ul><p>Theo thông tin được Báo Quân đội nhân dân đăng tải, Trung tâm còn thực hiện các quy trình bảo tồn đối với rắn hổ mang chúa, rắn ráo trâu và rắn lục đuôi đỏ.</p><p>&nbsp;<b>1.2. Bảo tồn nguồn gen cây thuốc và động vật làm dược liệu&nbsp;&nbsp;</b></p><ul><li><p>Xây dựng và duy trì vườn cây thuốc Nam nhằm bảo tồn các loài thực vật có giá trị làm thuốc.</p></li><li><p>Thu thập, trồng, chăm sóc và nghiên cứu các loài cây dược liệu quý.</p></li><li><p>Bảo tồn nguồn gen cây thuốc có giá trị trong y học cổ truyền.</p></li><li><p>Kết hợp nghiên cứu và phát triển các sản phẩm dược liệu phục vụ chăm sóc sức khỏe bộ đội và nhân dân.</p></li></ul><p>Theo thông tin báo chí, vườn dược liệu của Trung tâm từng lưu giữ 12 nhóm thuốc với hơn 100 loài cây.</p><p><b>&nbsp;1.3. Nghiên cứu khoa học và ứng dụng nguồn gen vào y học</b></p><ul><li><p>Nghiên cứu thành phần, đặc tính sinh học và tác dụng của nọc rắn.</p></li><li><p>Nghiên cứu quy trình khai thác, bảo quản và sử dụng nọc rắn an toàn.</p></li><li><p>Ứng dụng nọc rắn trong nghiên cứu sản xuất huyết thanh kháng nọc và các chế phẩm y học.</p></li><li><p>Nghiên cứu bào chế các sản phẩm có nguồn gốc từ nọc rắn, phục vụ điều trị và chăm sóc sức khỏe.</p></li></ul><p>Một hướng nghiên cứu đáng chú ý là đề tài bào chế, đánh giá tác dụng chống viêm và giảm đau của kem Cobratofor từ nọc rắn hổ mang.&nbsp;&nbsp;</p>",
       "image": "/assets/images/vuon-thuoc-nam-05-cong-vuon.webp",
       "categories": [],
       "status": "published",
