@@ -147,7 +147,7 @@
     },
     {
       "id": "68",
-      "name": "Tin mới",
+      "name": "Tin tức",
       "path": "/category/tin-moi/",
       "kind": "post",
       "section": "news"
@@ -4195,7 +4195,7 @@
     {
       "id": "category__tin-moi",
       "path": "/category/tin-moi/",
-      "title": "Tin mới",
+      "title": "Tin tức",
       "kind": "category",
       "excerpt": "Những hoạt động, sự kiện và câu chuyện mới từ Trại rắn Đồng Tâm.",
       "body": "",
