@@ -154,7 +154,7 @@
     },
     {
       "id": "67",
-      "name": "Tin nội bộ",
+      "name": "Video nổi bật",
       "path": "/category/tin-noi-bo/",
       "kind": "post",
       "section": "news"
@@ -4208,7 +4208,7 @@
     {
       "id": "category__tin-noi-bo",
       "path": "/category/tin-noi-bo/",
-      "title": "Tin nội bộ",
+      "title": "Video nổi bật",
       "kind": "category",
       "excerpt": "Những hoạt động, sự kiện và câu chuyện mới từ Trại rắn Đồng Tâm.",
       "body": "",
