@@ -153,13 +153,6 @@
       "section": "news"
     },
     {
-      "id": "entry-8e811514-9636-43b5-9f14-334fee584ff7",
-      "name": "Nội dung mới",
-      "path": "/category/danh-muc-584ff7/",
-      "kind": "post",
-      "section": "news"
-    },
-    {
       "id": "entry-83b5183b-8f19-4e3f-afda-2de4a61c0d40",
       "name": "Tham khảo",
       "path": "/category/danh-muc-1c0d40/",
@@ -407,6 +400,36 @@
     }
   ],
   "documents": [
+    {
+      "id": "entry-944fcabd-ae54-40e6-a342-f35f9f21f132",
+      "path": "/tin-tuc/noi-dung-moi-21f132/",
+      "title": "Nội dung mới",
+      "kind": "post",
+      "excerpt": "",
+      "body": "<p></p>",
+      "image": "",
+      "categories": [
+        "68"
+      ],
+      "section": "news",
+      "status": "draft",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "entry-db58d1af-3480-4f3a-ae12-21c56a3a7b66",
+      "path": "/tin-tuc/noi-dung-moi-3a7b66/",
+      "title": "Nội dung mới",
+      "kind": "post",
+      "excerpt": "",
+      "body": "<p></p>",
+      "image": "",
+      "categories": [
+        "68"
+      ],
+      "section": "news",
+      "status": "draft",
+      "date": "2026-11-13"
+    },
     {
       "id": "entry-c3ce1c3b-f4ff-4a69-b13d-0ac474d730a2",
       "path": "/tin-tuc/noi-dung-moi-d730a2/",
@@ -1340,7 +1363,8 @@
       "categories": [],
       "status": "draft",
       "date": "2026-11-04",
-      "section": ""
+      "section": "",
+      "deletedAt": "2026-11-13T09:42:46.580Z"
     },
     {
       "id": "de-boer",
