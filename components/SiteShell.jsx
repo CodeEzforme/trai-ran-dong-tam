@@ -32,8 +32,8 @@ export default function SiteShell({ settings, navigation, logo, path, activeSect
       <a className="nx-brand" href={siteUrl('/')} aria-label="Trại Rắn Đồng Tâm — Trang chủ"><img src={siteUrl(logo)} alt="Biểu trưng Đồng Tâm" width="49" height="49" /><span>{/^Trại\s+Rắn\s+Đồng\s+Tâm$/iu.test(settings.name.trim())?<><span className="nx-brand-line">Trại Rắn</span><span className="nx-brand-line">Đồng Tâm</span></>:settings.name}<small>{settings.tagline}</small></span></a>
       <nav ref={nav} className={'nx-nav' + (mobile ? ' nx-open' : '')} aria-label="Điều hướng chính" id="nx-navigation">
         {navigation.map(({id,label,path:href,children:items=[]}, i) => <div className={'nx-nav-item' + (open === i ? ' nx-expanded' : '')+(activeSection===id?' nx-current-section':'')} key={href}
-          onPointerEnter={e => { if (e.pointerType === 'mouse' && window.innerWidth > 1180) setOpen(i); }}
-          onPointerLeave={() => { if (window.innerWidth > 1180 && !nav.current?.contains(document.activeElement)) setOpen(-1); }}>
+          onPointerEnter={e => { if (e.pointerType === 'mouse' && window.innerWidth > 1400) setOpen(i); }}
+          onPointerLeave={() => { if (window.innerWidth > 1400 && !nav.current?.contains(document.activeElement)) setOpen(-1); }}>
           <a href={siteUrl(href)} aria-current={path === href ? 'page' : undefined}>{label}</a>
           {!!items.length && <><button type="button" aria-label={'Mở danh mục ' + label} aria-expanded={open === i} aria-controls={'nx-sub-' + i} onClick={e => { e.stopPropagation(); setOpen(open === i ? -1 : i); }}><Icon name="chevron" /></button><div className="nx-subnav" id={'nx-sub-' + i}><SubLinks items={items} path={path}/></div></>}
         </div>)}
