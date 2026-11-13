@@ -132,13 +132,6 @@
       "section": "products"
     },
     {
-      "id": "70",
-      "name": "Tin nổi bật",
-      "path": "/category/san-pham/",
-      "kind": "post",
-      "section": "news"
-    },
-    {
       "id": "69",
       "name": "Sự kiện",
       "path": "/category/su-kien/",
@@ -422,6 +415,21 @@
   ],
   "documents": [
     {
+      "id": "entry-d7b90802-1575-4d44-9e66-8f6f6bdaf92c",
+      "path": "/tin-tuc/noi-dung-moi-daf92c/",
+      "title": "Nội dung mới",
+      "kind": "post",
+      "excerpt": "",
+      "body": "<p></p>",
+      "image": "",
+      "categories": [
+        "68"
+      ],
+      "section": "news",
+      "status": "draft",
+      "date": "2026-11-13"
+    },
+    {
       "id": "entry-2b4cdfd6-6343-4da1-8352-f85db44dcfc1",
       "path": "/category/danh-muc-4dcfc1/",
       "title": "Khác",
@@ -477,7 +485,6 @@
       "categories": [
         "section-news",
         "68",
-        "70",
         "news-other"
       ],
       "section": "news",
@@ -2649,7 +2656,6 @@
       "body": "<img alt=\"img 4316\" height=\"800\" src=\"/assets/images/fbdbae2b3f71714a.webp\" width=\"1200\"> \n\n\n\n\n\n\n\nNgày 27/5/2025, tại Trung tâm NTNCCB dược liệu, Cục Hậu cần – Kỹ thuật, Quân khu 9 (Trại rắn Đồng Tâm), Hội đồng khoa học cấp Bộ Quốc phòng tổ chức đánh giá nghiệm thu kết quả đề tài Khoa học và công nghệ “Nghiên cứu bào chế, đánh giá tác dụng chống viêm giảm đau của kem Cobratofor từ nọc rắn hổ mang”.&nbsp; \n\n\n\n\n\n\n\n<img alt=\"502375610 723673660172750 6598903713163082055 n\" height=\"800\" src=\"/assets/images/5b8cc019347ad2b6.webp\" width=\"1200\">\n<p>Đơn vị chủ trì: Trung tâm NTNCCB dược liệu. Đ/c Thiếu tá, DSCKI Đàm Huy Hoàng làm chủ nhiệm đề tài. Kết quả Hội đồng thông qua nghiệm thu đề tài với kết quả 100% phiếu chấp thuận.</p>\n<img alt=\"500344848 723673716839411 9066985381144797311 n\" height=\"800\" src=\"/assets/images/64b63d9bd5672858.webp\" width=\"1200\">",
       "image": "/assets/images/fbdbae2b3f71714a.webp",
       "categories": [
-        "70",
         "68",
         "67",
         "1",
@@ -4304,7 +4310,8 @@
       "categories": [],
       "status": "draft",
       "date": "2026-11-04",
-      "section": ""
+      "section": "",
+      "deletedAt": "2026-11-13T09:16:47.844Z"
     },
     {
       "id": "category__su-kien",
@@ -4341,7 +4348,7 @@
       "body": "",
       "image": "/assets/images/fbdbae2b3f71714a.webp",
       "categories": [],
-      "status": "draft",
+      "status": "published",
       "date": "2026-11-04",
       "section": ""
     },
