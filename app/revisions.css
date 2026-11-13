@@ -50,3 +50,4 @@
 @media(max-width:700px){.nx-video-grid{grid-template-columns:1fr}.nx-brand>span{font-size:18px}.nx-brand small{font-size:8px}}
 .nx-header .nx-brand{margin-right:12px}.nx-header .nx-brand-line{display:block;line-height:1.15}.nx-header .nx-brand>span{font-size:22px;letter-spacing:-.5px}.nx-header .nx-brand small{margin-top:4px}
 @media(max-width:600px){.nx-header .nx-brand>span{font-size:18px}.nx-header .nx-brand{margin-right:0}}
+.nx-video-source{display:inline-flex;margin-top:10px;color:#316443;text-decoration:underline;font-size:13px}.content-card>.nx-video-player{border-radius:12px 12px 0 0}.content-card>.nx-video-source{margin-left:18px}

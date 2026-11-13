@@ -6,3 +6,4 @@
 .cms-page .cms-checks input{width:14px;height:14px;flex:0 0 14px;padding:0;margin:0}
 @media(prefers-reduced-motion:reduce){.cms-sidebar{transition:none}}
 .cms-row-actions{display:flex;align-items:center;justify-content:flex-end;gap:12px}.cms-page .cms-row-delete{border:1px solid #d7a99b;background:#fff8f4;color:#9d3624;padding:7px 12px;border-radius:6px;white-space:nowrap}.cms-row-delete:disabled{opacity:.45}.cms-row-delete:hover:not(:disabled){background:#fbe4dc}
+.cms-page .nx-video-player{display:block;width:100%;aspect-ratio:16/9;border:0;border-radius:8px;background:#163e2d}.cms-page .nx-video-source{display:inline-block;margin:9px 0 16px;font-size:11px;color:#316443;text-decoration:underline}.cms-preview-dialog .nx-video-preview{margin-block:24px}
