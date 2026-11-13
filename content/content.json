@@ -448,17 +448,19 @@
     {
       "id": "entry-d7b90802-1575-4d44-9e66-8f6f6bdaf92c",
       "path": "/tin-tuc/noi-dung-moi-daf92c/",
-      "title": "Nội dung mới",
+      "title": "test video",
       "kind": "post",
-      "excerpt": "",
+      "excerpt": "...",
       "body": "<p></p>",
       "image": "",
       "categories": [
-        "68"
+        "news-videos",
+        "section-news"
       ],
       "section": "news",
-      "status": "draft",
-      "date": "2026-11-13"
+      "status": "published",
+      "date": "2026-11-13",
+      "videoUrl": "https://youtu.be/WRK8WgeqmvQ?si=bsX6RY6hbBYquBV_"
     },
     {
       "id": "entry-2b4cdfd6-6343-4da1-8352-f85db44dcfc1",
