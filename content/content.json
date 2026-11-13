@@ -386,7 +386,7 @@
     {
       "id": "products-other",
       "path": "/san-pham/khac/",
-      "name": "Khác",
+      "name": "...",
       "section": "products",
       "kind": "product"
     },
@@ -4492,7 +4492,7 @@
     {
       "id": "products-other",
       "path": "/san-pham/khac/",
-      "title": "Khác",
+      "title": "...",
       "section": "products",
       "kind": "category",
       "categories": [],
