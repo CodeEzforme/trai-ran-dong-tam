@@ -29,7 +29,7 @@ export default function SiteShell({ settings, navigation, logo, path, activeSect
     <a href="#main" className="skip-link">Chuyển đến nội dung</a>
     <div className="nx-utility"><div className="nx-container"><span><Icon name="leaf" /> Nơi thiên nhiên gặp gỡ tri thức</span><a href={siteUrl('/contact/')}><Icon name="pin" /> {settings.location}</a><a href={telephone}>{settings.phone}</a></div></div>
     <header className="nx-header"><div className="nx-container nx-header-inner">
-      <a className="nx-brand" href={siteUrl('/')} aria-label="Đồng Tâm — Trang chủ"><img src={siteUrl(logo)} alt="Biểu trưng Đồng Tâm" width="49" height="49" /><span>{settings.name}<small>{settings.tagline}</small></span></a>
+      <a className="nx-brand" href={siteUrl('/')} aria-label="Trại Rắn Đồng Tâm — Trang chủ"><img src={siteUrl(logo)} alt="Biểu trưng Đồng Tâm" width="49" height="49" /><span>{/^Trại\s+Rắn\s+Đồng\s+Tâm$/iu.test(settings.name.trim())?<><span className="nx-brand-line">Trại Rắn</span><span className="nx-brand-line">Đồng Tâm</span></>:settings.name}<small>{settings.tagline}</small></span></a>
       <nav ref={nav} className={'nx-nav' + (mobile ? ' nx-open' : '')} aria-label="Điều hướng chính" id="nx-navigation">
         {navigation.map(({id,label,path:href,children:items=[]}, i) => <div className={'nx-nav-item' + (open === i ? ' nx-expanded' : '')+(activeSection===id?' nx-current-section':'')} key={href}
           onPointerEnter={e => { if (e.pointerType === 'mouse' && window.innerWidth > 1180) setOpen(i); }}
