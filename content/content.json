@@ -410,9 +410,31 @@
       "name": "Khác",
       "section": "news",
       "kind": "post"
+    },
+    {
+      "id": "entry-2b4cdfd6-6343-4da1-8352-f85db44dcfc1",
+      "name": "Khác",
+      "path": "/category/danh-muc-4dcfc1/",
+      "kind": "post",
+      "section": "about",
+      "parentId": "about-organization"
     }
   ],
   "documents": [
+    {
+      "id": "entry-2b4cdfd6-6343-4da1-8352-f85db44dcfc1",
+      "path": "/category/danh-muc-4dcfc1/",
+      "title": "Khác",
+      "kind": "category",
+      "excerpt": "khác",
+      "body": "<p></p>",
+      "image": "",
+      "categories": [],
+      "section": "about",
+      "status": "published",
+      "date": "2026-11-13",
+      "parentId": "about-organization"
+    },
     {
       "id": "entry-00766e7b-a859-4d76-9db3-868cd2f5a501",
       "path": "/gioi-thieu/noi-dung-moi-f5a501/",
