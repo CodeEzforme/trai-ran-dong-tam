@@ -1,7 +1,7 @@
 {
   "version": 1,
   "settings": {
-    "name": "Đồng Tâm",
+    "name": "Trại Rắn Đồng Tâm",
     "tagline": "Trại rắn & du lịch sinh thái",
     "headline": ".",
     "description": "",
@@ -70,7 +70,7 @@
   "categories": [
     {
       "id": "77",
-      "name": "Chim",
+      "name": "Lớp chim",
       "path": "/danh-muc-san-pham/chim/",
       "kind": "product",
       "section": "tourism"
@@ -91,7 +91,7 @@
     },
     {
       "id": "73",
-      "name": "Rắn",
+      "name": "Lớp bò sát",
       "path": "/danh-muc-san-pham/ran/",
       "kind": "product",
       "section": "tourism"
@@ -112,7 +112,7 @@
     },
     {
       "id": "72",
-      "name": "Thú",
+      "name": "Lớp thú",
       "path": "/danh-muc-san-pham/thu/",
       "kind": "product",
       "section": "tourism"
@@ -147,7 +147,7 @@
     },
     {
       "id": "68",
-      "name": "Tin tức",
+      "name": "Tin nổi bật",
       "path": "/category/tin-moi/",
       "kind": "post",
       "section": "news"
@@ -199,35 +199,40 @@
       "name": "Ban giám đốc",
       "path": "/ban-giam-doc/",
       "kind": "post",
-      "section": "about"
+      "section": "about",
+      "parentId": "about-organization"
     },
     {
       "id": "about-administration",
       "name": "Ban hành chính",
       "path": "/ban-hanh-chinh/",
       "kind": "post",
-      "section": "about"
+      "section": "about",
+      "parentId": "about-organization"
     },
     {
       "id": "about-tourism",
       "name": "Bộ phận du lịch",
       "path": "/bo-phan-du-lich/",
       "kind": "post",
-      "section": "about"
+      "section": "about",
+      "parentId": "about-organization"
     },
     {
       "id": "about-aquaculture",
       "name": "Đội nuôi trồng dược liệu",
       "path": "/doi-nuoi-thuy-dac-san/",
       "kind": "post",
-      "section": "about"
+      "section": "about",
+      "parentId": "about-organization"
     },
     {
       "id": "about-factory",
       "name": "Xưởng chế biến",
       "path": "/xuong-che-bien/",
       "kind": "post",
-      "section": "about"
+      "section": "about",
+      "parentId": "about-organization"
     },
     {
       "id": "research-projects",
@@ -346,9 +351,65 @@
       "name": "Điều trị rắn cắn ",
       "path": "/category/danh-muc-17bb75/",
       "kind": "post",
-      "section": "research",
+      "section": "treatment",
       "parentId": "",
       "targetPath": "/dieu-tri-ran-can/"
+    },
+    {
+      "id": "about-other",
+      "path": "/gioi-thieu/khac/",
+      "name": "Khác",
+      "section": "about",
+      "kind": "post"
+    },
+    {
+      "id": "research-other",
+      "path": "/nghien-cuu-khoa-hoc/khac/",
+      "name": "Khác",
+      "section": "research",
+      "kind": "post"
+    },
+    {
+      "id": "herbs-animals",
+      "path": "/vuon-thuoc-nam/con-thuoc/",
+      "name": "Con thuốc",
+      "section": "herbs",
+      "kind": "post"
+    },
+    {
+      "id": "herbs-other",
+      "path": "/vuon-thuoc-nam/khac/",
+      "name": "Khác",
+      "section": "herbs",
+      "kind": "post"
+    },
+    {
+      "id": "products-other",
+      "path": "/san-pham/khac/",
+      "name": "Khác",
+      "section": "products",
+      "kind": "product"
+    },
+    {
+      "id": "tourism-other",
+      "path": "/du-lich-sinh-thai/khac/",
+      "name": "Khác",
+      "section": "tourism",
+      "kind": "post"
+    },
+    {
+      "id": "news-videos",
+      "path": "/tin-tuc/video-noi-bat/",
+      "name": "Video nổi bật",
+      "section": "news",
+      "kind": "post"
+    },
+    {
+      "id": "news-other",
+      "path": "/tin-tuc/khac/",
+      "name": "Khác",
+      "section": "news",
+      "kind": "post"
     }
   ],
   "documents": [
@@ -378,7 +439,8 @@
       "categories": [
         "section-news",
         "68",
-        "70"
+        "70",
+        "news-other"
       ],
       "section": "news",
       "status": "published",
@@ -567,7 +629,7 @@
       "body": "<p>Khoa Điều trị rắn cắn thuộc Trung tâm Nuôi trồng, Nghiên cứu, Chế biến Dược liệu – Cục Hậu cần, Quân khu 9 (Trại rắn Đồng Tâm) là một trong những bộ phận chuyên môn gắn liền với hoạt động y tế và nghiên cứu về rắn tại Trại rắn Đồng Tâm, tỉnh Đồng Tháp (trước đây thuộc Tiền Giang).</p><p>Khoa có vai trò tiếp nhận, thăm khám và điều trị cho người bị rắn độc cắn, đồng thời góp phần nghiên cứu, ứng dụng huyết thanh kháng nọc rắn và các phương pháp xử trí rắn cắn.</p><h3>1. Chức năng chính của khoa</h3><ul><li><p>Tiếp nhận và cấp cứu người bị rắn cắn.</p></li><li><p>Xác định loại rắn và đánh giá mức độ nhiễm độc.</p></li><li><p>Sử dụng huyết thanh kháng nọc rắn phù hợp khi có chỉ định.</p></li><li><p>Theo dõi các biến chứng như rối loạn đông máu, hoại tử, suy hô hấp.</p></li><li><p>Điều trị và phục hồi sức khỏe cho bệnh nhân sau khi bị rắn độc cắn.</p></li></ul><p></p>",
       "image": "/assets/images/uploads/bia-9-78036cee.webp",
       "categories": [],
-      "section": "research",
+      "section": "treatment",
       "status": "published",
       "date": "2026-11-09",
       "parentId": "",
@@ -2306,7 +2368,7 @@
       ],
       "status": "published",
       "date": "2026-11-04",
-      "section": "research"
+      "section": "treatment"
     },
     {
       "id": "to-chuc",
@@ -2421,7 +2483,8 @@
       "body": "<p>Nếu ai đó vẫn nghĩ việc học tập và làm theo tư tưởng, đạo đức, phong cách Hồ Chí Minh chỉ bó hẹp trong những trang nghị quyết hay những cuộc họp hành chính, thì trên các diễn đàn báo chí sinh động thời gian qua sẽ đem lại một góc nhìn hoàn toàn mới. Trên các trang báo và làn sóng phát thanh – truyền hình từ Trung ương đến địa phương, hình ảnh Trại rắn Đồng Tâm — tên gọi thân thương của Trung tâm Nuôi trồng, Nghiên cứu, Chế biến Dược liệu thuộc Cục Hậu cần – Kỹ thuật, Quân khu 9&nbsp; liên tục xuất hiện như một biểu tượng đẹp của tinh thần cống hiến, một điển hình tiên tiến trong phong trào thi đua quyết thắng của Lực lượng vũ trang miền Tây.</p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Sức lan tỏa từ những tác phẩm báo chí thực tế, như bài phóng sự chuyên sâu “Trại rắn Đồng Tâm – vương quốc rắn lớn nhất miền Tây” đăng tải trên báo Quân đội Nhân dân, chuyên mục khoa học quân sự trên Báo Quân khu 9, cùng phóng sự truyền hình “Trại rắn Đồng Tâm – Điểm check-in hút khách dịp Tết” được phát sóng công khai trên kênh truyền hình của Đài Phát thanh và Truyền hình Đồng Tháp, đã chứng minh một thực tế khách quan: tại đơn vị chúng tôi, những giá trị cao đẹp của tư tưởng Hồ Chí Minh đang được cụ thể hóa từng ngày bằng những việc làm thiết thực, sống động giữa đời thường. Hệ thống truyền thông đại chúng đã đồng loạt ghi nhận nỗ lực của tập thể cán bộ, chiến sĩ và những tấm gương “người tốt, việc tốt” thầm lặng trong việc biến một doanh trại quân đội kỷ luật thành một “giảng đường xanh” độc đáo, kết nối nhiệm vụ quốc phòng với y đức cứu người và trách nhiệm bảo tồn thiên nhiên phục vụ nhân dân.</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/f456426bdd9e07e3.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/2c1c5dd413acba64.webp\" width=\"1200\"></figure>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; Cuộc vận động sáng tác và quảng bá các tác phẩm văn học, nghệ thuật, báo chí về chủ đề học tập và làm theo Bác tại đơn vị thời gian qua đã kết tinh nhiều “trái ngọt” tinh thần đáng trân trọng. Qua từng tác phẩm đã được đăng tải và phát sóng, hình ảnh người lính hậu cần Quân khu 9 tại <strong>“Vương quốc rắn lớn nhất miền Tây”</strong> hiện lên không xa cách, khuôn mẫu mà gần gũi, năng động và giàu trách nhiệm với cộng đồng. Mỗi hoạt động trải nghiệm thiên nhiên được chúng tôi tổ chức cho người dân đều trở thành một bài học sinh động về tình yêu môi trường và tình yêu Tổ quốc.</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/bba9d11ae63305ae.webp\" width=\"1200\"></figure>\n<p><em>Học sinh trải nghiệm thực tế, khám phá thiên nhiên tại “giảng đường xanh” Trại rắn Đồng Tâm.</em></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; Thấm nhuần tư tưởng gắn bó máu thịt với nhân dân và tư duy đổi mới của Chủ tịch Hồ Chí Minh, tập thể cán bộ, chiến sĩ tại Trung tâm không lựa chọn cách “đóng cửa cài then” để giữ mình trong khuôn khổ khép kín của một đơn vị quân đội. Thay vào đó, chúng tôi chủ động mở rộng cánh cửa đón hàng trăm nghìn lượt du khách, học sinh, sinh viên mỗi năm, qua đó đưa những giá trị của quốc phòng, khoa học và bảo tồn đến gần hơn với cộng đồng.</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/1d4cf9cb36d7ded6.webp\" width=\"1200\"></figure>\n<p><em>Trại rắn Đồng Tâm trở thành điểm đến trải nghiệm, giáo dục thu hút đông đảo du khách.</em></p>\n<p>Việc biến một trung tâm nghiên cứu khoa học, một nơi bảo tồn nguồn gen bò sát quý hiếm thành một “bảo tàng sống” độc đáo là một cách làm sáng tạo, thể hiện rõ tư duy đổi mới của những người lính hôm nay. Tại nơi được mệnh danh là “Vương quốc rắn lớn nhất miền Tây” này, nhiệm vụ quốc phòng được kết nối hài hòa với phát triển du lịch sinh thái, tạo nên sự cộng hưởng đầy ý nghĩa giữa bảo tồn thiên nhiên, giáo dục cộng đồng và phục vụ nhân dân. Mỗi lối đi rợp bóng mát, mỗi khu vực nuôi dưỡng đều được chăm chút bằng sự tỉ mỉ, trách nhiệm của người lính, tạo nên một không gian bình yên, gần gũi, giúp mỗi người có thêm cơ hội hòa mình vào thiên nhiên và nuôi dưỡng tình yêu đối với môi trường sống.</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/17faa60eff14b60b.webp\" width=\"1200\"></figure>\n<p><em>Khu vực bảo tồn rắn hổ chúa với khuôn viên xanh mát.</em></p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/c9df365d73431b97.webp\" width=\"1200\"></figure>\n<p><em>Không gian xanh mát trong khuôn viên Trại rắn Đồng Tâm.</em></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; Nhưng giá trị cốt lõi làm nên tầm vóc của Trại rắn Đồng Tâm chính là vai trò của một “người gieo hạt” trên cánh đồng giáo dục. Trại rắn không chỉ là nơi để du khách thỏa mãn sự tò mò về thế giới hoang dã, mà còn là một không gian giáo dục trực quan, nơi mỗi chuyến tham quan đều mang đến những bài học ý nghĩa về thiên nhiên và sự sống. Tại đây, những chiến sĩ áo xanh vốn ngày ngày thầm lặng chăm sóc, nuôi dưỡng đàn rắn, nghiên cứu và chiết nọc rắn, lại trở thành những “hướng dẫn viên” mộc mạc nhưng giàu kiến thức và kinh nghiệm.</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/8aeb563dfc552b92.webp\" width=\"1200\"></figure>\n<p><em>Nhân viên Trại rắn Đồng Tâm chăm sóc nuôi dưỡng rắn hổ chúa.</em></p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/63fecdab0e0ad6c1.webp\" width=\"1200\"></figure>\n<p><em>Nhân viên Trại rắn Đồng Tâm thực hiện quy trình lấy nọc rắn dùng làm nguyên liệu&nbsp;sản xuất thuốc.</em></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; Bằng lời kể chân chất, gần gũi và đậm chất phù sa miền Tây, các anh, các chị đã giúp các em học sinh hiểu rằng mỗi loài vật, kể cả những loài rắn độc, đều giữ một vai trò quan trọng trong chuỗi cân bằng của tự nhiên. Từ những câu chuyện giản dị ấy, các em không chỉ hiểu thêm về đặc điểm và tập tính của các loài rắn, mà còn hình thành ý thức tôn trọng sự sống, bảo vệ môi trường và gìn giữ đa dạng sinh học.</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/88e85009bdaa7cc3.webp\" width=\"1200\"></figure>\n<p><em>Cán bộ, chiến sĩ Trại rắn Đồng Tâm trực tiếp hướng dẫn, truyền đạt kiến thức về loài bò sát tại chuồng rắn hổ chúa.</em></p>\n<p>Những bài học ấy được truyền tải một cách tự nhiên, sinh động và không hề giáo điều, để rồi âm thầm thấm sâu vào nhận thức của các thế hệ trẻ, giống như những hạt giống được gieo xuống và từng ngày bén rễ, nảy mầm trong tâm hồn mỗi con người. Chính vì vậy, Trại rắn Đồng Tâm không chỉ nuôi dưỡng những loài rắn quý giá, mà còn góp phần “gieo” vào thế hệ trẻ những hạt giống của tri thức, tình yêu thiên nhiên và trách nhiệm đối với môi trường sống.</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/c700424f07f019cf.webp\" width=\"1200\"></figure>\n<p><em>Hình ảnh cận cảnh loài trăn gấm quý hiếm được nhân giống, bảo tồn nguồn gen nghiêm ngặt và tham gia vào hoạt động tương tác an toàn cùng du khách.</em></p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/a5eb0fc76a004b55.webp\" width=\"1200\"></figure>\n<p><em>Du khách trải nghiêm tương tác với các loại thú hiền lành.</em></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; Đặc biệt, phía sau mỗi bước chân của du khách tại Trại rắn Đồng Tâm là hình ảnh những người lính Bộ đội Cụ Hồ đang ngày ngày làm việc bằng sự tận tụy và trách nhiệm. Với chúng tôi, học và làm theo Bác không phải là những điều xa vời, mà bắt đầu từ chính cách ứng xử với nhân dân: gần gũi, chân thành, chu đáo và luôn đặt sự an toàn, hài lòng của du khách lên hàng đầu. Từ cách đón tiếp niềm nở, hướng dẫn tận tình đến việc giữ gìn cảnh quan sạch đẹp, xây dựng môi trường tham quan văn minh, không để rác thải làm ảnh hưởng đến cảnh quan, tất cả đều cho thấy một thái độ phục vụ nghiêm túc và có trách nhiệm. Những điều tưởng chừng rất nhỏ ấy lại tạo nên ấn tượng lớn, bởi du khách có thể nhìn thấy và cảm nhận trực tiếp phẩm chất của người lính trong một không gian đời thường, gần gũi với nhân dân.</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/af23b2973e126950.webp\" width=\"1200\"></figure>\n<p><em>Các kỹ thuật viên thầm lặng làm việc trong phòng thí nghiệm, tỉ mỉ thực hiện quy trình chiết tách nọc rắn phục vụ cho y học cứu người.</em></p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/09bb33da83dfed3a.webp\" width=\"1200\"></figure>\n<p><em>Giữ gìn cảnh quan sạch đẹp, xây dưng môi trường tham quan văn minh.</em></p>\n<p>&nbsp;&nbsp;&nbsp;&nbsp; Hành trình phát triển du lịch sinh thái gắn với giáo dục truyền thống tại Trại rắn Đồng Tâm vì thế vẫn còn nhiều điều để kỳ vọng. Ở nơi này, những “nhà giáo quân hàm xanh” vẫn âm thầm chăm sóc từng khu vực, bảo tồn các loài vật, đón tiếp và hướng dẫn du khách, đồng thời truyền cho thế hệ trẻ những hiểu biết về thiên nhiên và trách nhiệm với cộng đồng. Chính từ những việc làm bền bỉ ấy, Trại rắn Đồng Tâm từng ngày tạo dựng một không gian vừa mang giá trị khoa học, vừa có ý nghĩa giáo dục và văn hóa. Sống có trách nhiệm, làm việc tận tâm, phục vụ nhân dân bằng những việc làm cụ thể và luôn tìm cách đổi mới để đáp ứng tốt hơn nhu cầu của cộng đồng– đó chính là cách tập thể đơn vị thể hiện lòng kính yêu đối với Bác Hồ. Và cũng từ những điều bình dị ấy, Trại rắn Đồng Tâm đang góp thêm một câu chuyện đẹp về hình ảnh người lính trong thời bình, về nghĩa tình quân dân và về cách những giá trị tốt đẹp có thể được giữ gìn, bồi đắp qua từng ngày trên mảnh đất Tây Nam.</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/812ee38223b6c531.webp\" width=\"1200\"></figure>\n<p><em>Trại rắn Đồng Tâm – điểm kết nối giữa nghiên cứu khoa học, bảo tồn thiên nhiên, giáo dục cộng đồng và phục vụ nhân dân.</em></p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/c6d8a00c95b6b3f6.webp\" width=\"1200\"></figure>\n<p><em>Tập thể cán bộ, chiến sĩ và nhân viên Trung tâm Nuôi trồng, Nghiên cứu, Chế biến Dược liệu sum vầy, rạng rỡ giữa không gian xanh mướt của đơn vị, biểu thị quyết tâm tiếp tục giữ vững phẩm chất Bộ đội Cụ Hồ và cống hiến hết mình vì sự nghiệp phục vụ nhân dân.</em></p>",
       "image": "/assets/images/f456426bdd9e07e3.webp",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2026-09-28",
@@ -2436,7 +2499,8 @@
       "body": "<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/ec92f9dfeb0376f4.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/8e59bfd4fd1145f1.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/5edf0bc259f3c0ab.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/1b77701b02e69698.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/a847e958c3bce430.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/44c9b6be5702aa68.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/b755d2ce589397bd.webp\" width=\"1200\"></figure>",
       "image": "/assets/images/ec92f9dfeb0376f4.webp",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2026-09-01",
@@ -2451,7 +2515,8 @@
       "body": "<figure>📣</figure>\n<p>LOA LOA LOA! KHỞI ĐỘNG HÀNH TRÌNH ĐI CHƠI LỄ 2/9 CÙNG VỚI CÁC DỊCH VỤ VÀ TIỂU CẢNH MỚI TOANH TẠI TRẠI RẮN ĐỒNG TÂM NHA CẢ NHÀ ƠIIII</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/ebf64a69c6a3b580.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/1485af6159b234a2.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/6b86e7bdef8ec1e6.webp\" width=\"1200\"></figure>\n<p>🚨 Báo động: Có hình xinh của ai vào nhận đi nàoo 📸✨</p>\n<p>Không khí Quốc khánh 2/9 tại Trại rắn Đồng Tâm những ngày đầu tiên đã nhộn nhịp rồi! 🎉</p>\n<p>Các tiểu cảnh trang trí mới đã kịp hoàn thiện để du khách tha hồ check-in, sống ảo và mang về một album ảnh xinh xắn</p>\n<p>Ai đang có lịch về miền Tây dịp 2/9 thì nhớ ghé Trại rắn tuổi thơ nha! ❤️</p>\n<p>Đến chơi là có trải nghiệm, có kỷ niệm… và quan trọng là có hình xinh mang về! 😆📸</p>\n<p>Chúc mọi người một kỳ nghỉ lễ 2/9 thật vui vẻ cùng Trại rắn Đồng Tâm nhée ❤️</p>\n<p><a href=\"https://www.facebook.com/hashtag/trairandongtam?__cft__[0]=AZjYkSTCyKksP8yiaVVDOFQg37CwK13RkI3pd5QcheZrj5pq2QZA5opP8lM0d47aF7b-wRhdL86T7EVW4D7b2zMOAQkEv1dcUPwkmPlZjl-Oe1g9LbW8ekidSDHlBWJFqZSZq2UnBmU&amp;__tn__=*NK-R\">#TraiRanDongTam</a> <a href=\"https://www.facebook.com/hashtag/quockhanh29?__cft__[0]=AZjYkSTCyKksP8yiaVVDOFQg37CwK13RkI3pd5QcheZrj5pq2QZA5opP8lM0d47aF7b-wRhdL86T7EVW4D7b2zMOAQkEv1dcUPwkmPlZjl-Oe1g9LbW8ekidSDHlBWJFqZSZq2UnBmU&amp;__tn__=*NK-R\">#QuocKhanh29</a> <a href=\"https://www.facebook.com/hashtag/checkindongtam?__cft__[0]=AZjYkSTCyKksP8yiaVVDOFQg37CwK13RkI3pd5QcheZrj5pq2QZA5opP8lM0d47aF7b-wRhdL86T7EVW4D7b2zMOAQkEv1dcUPwkmPlZjl-Oe1g9LbW8ekidSDHlBWJFqZSZq2UnBmU&amp;__tn__=*NK-R\">#CheckinDongTam</a> <a href=\"https://www.facebook.com/hashtag/dulichmientay?__cft__[0]=AZjYkSTCyKksP8yiaVVDOFQg37CwK13RkI3pd5QcheZrj5pq2QZA5opP8lM0d47aF7b-wRhdL86T7EVW4D7b2zMOAQkEv1dcUPwkmPlZjl-Oe1g9LbW8ekidSDHlBWJFqZSZq2UnBmU&amp;__tn__=*NK-R\">#DuLichMienTay</a> <a href=\"https://www.facebook.com/hashtag/tr%E1%BA%A1ir%E1%BA%AFntu%E1%BB%95ith%C6%A1?__cft__[0]=AZjYkSTCyKksP8yiaVVDOFQg37CwK13RkI3pd5QcheZrj5pq2QZA5opP8lM0d47aF7b-wRhdL86T7EVW4D7b2zMOAQkEv1dcUPwkmPlZjl-Oe1g9LbW8ekidSDHlBWJFqZSZq2UnBmU&amp;__tn__=*NK-R\">#TrạiRắnTuổiThơ</a> <a href=\"https://www.facebook.com/hashtag/2thang9?__cft__[0]=AZjYkSTCyKksP8yiaVVDOFQg37CwK13RkI3pd5QcheZrj5pq2QZA5opP8lM0d47aF7b-wRhdL86T7EVW4D7b2zMOAQkEv1dcUPwkmPlZjl-Oe1g9LbW8ekidSDHlBWJFqZSZq2UnBmU&amp;__tn__=*NK-R\">#2Thang9</a></p>",
       "image": "/assets/images/ebf64a69c6a3b580.webp",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2026-09-01",
@@ -2466,7 +2531,8 @@
       "body": "<p>Trung tâm NTNCCBDL, Cục Hậu cần – Kỹ thuật, Quân khu 9:</p>\n<p>Chiều ngày 08/8, tại Trung tâm Nuôi trồng, nghiên cứu, chế biến dược liệu Cục Hậu cần – Kỹ thuật Quân khu 9, Viện Y học cổ truyền Quân đội phối hợp với Trung tâm tổ chức Hội nghị chuyển giao, tiếp nhận và đưa vào quản lý, sử dụng “Vườn thuốc mẫu” tuyến cơ sở.</p>\n<figure><img alt=\"1786345518799 7612128086102192422 7612128086102192422 8ffce7726e3245effe835a06cdd7aa7a\" height=\"800\" src=\"/assets/images/a353b25609793f33.webp\" width=\"1200\"></figure>\n<p>“Vườn thuốc mẫu” tuyến cơ sở là sản phẩm đề tài KCB-CT.18 thuộc Chương trình KCB-CT được triển khai tại Trung tâm Nuôi trồng, nghiên cứu, chế biến dược liệu.</p>\n<figure><img alt=\"1786345518794 7612128086102192422 7612128086102192422 80c642691f81d7d5410b13ff7218eb87\" height=\"800\" src=\"/assets/images/fc786e8327a8d1f4.webp\" width=\"1200\"></figure>\n<p>Tại hội nghị, Viện Y học cổ truyền Quân đội đã bàn giao cho Trung tâm toàn bộ vườn thuốc mẫu tuyến sư đoàn, danh mục chi tiết 168 loài cây thuốc, cơ sở vật chất, hạ tầng kỹ thuật và hồ sơ kèm theo.</p>\n<figure><img alt=\"1786345518775 7612128086102192422 7612128086102192422 3a722855e08af52b5963d190436b61c8\" height=\"800\" src=\"/assets/images/71a0c019256f6f49.webp\" width=\"1200\"></figure>\n<figure><img alt=\"1786345518778 7612128086102192422 7612128086102192422 44f3d400085d383f5ba88e884c1fff62\" height=\"800\" src=\"/assets/images/801161fb4f89c75a.webp\" width=\"1200\"></figure>\n<figure><img alt=\"1786345518781 7612128086102192422 7612128086102192422 0c2626e781d95649127932997fcc9478\" height=\"800\" src=\"/assets/images/c30824fd1046b993.webp\" width=\"1200\"></figure>\n<p> Sản phẩm của đề tài mục đích phục vụ công tác bảo tồn nguồn gen cây thuốc, đào tạo, huấn luyện, nghiên cứu khoa học, tuyên truyền, phổ biến kiến thức, chăm sóc sức khỏe bộ đội và nhân dân./.</p>\n<p>TUYẾT ANH (Trung tâm NTNCCBDL, – Lính Quân khu 9)</p>\n<p>​#LQK9</p>",
       "image": "/assets/images/a353b25609793f33.webp",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2026-08-10",
@@ -2481,7 +2547,8 @@
       "body": "<h2>Nội dung đang được cập nhật</h2><p>Bài viết này chưa có nội dung chi tiết trên website gốc.</p>",
       "image": "/assets/images/f456426bdd9e07e3.webp",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2025-12-25",
@@ -2496,7 +2563,8 @@
       "body": "<h2>❤️‍🔥Sản phẩm Trại rắn Đồng Tâm đang có mặt tại “Lễ hội Văn hoá – Du lịch Làng cổ Đông Hoà Hiệp lần thứ VI năm 2025”❤️‍🔥</h2>\n<figure><img alt=\"592265950 873147721892009 3631190741705950769 n\" height=\"800\" src=\"/assets/images/36c81144bc53d087.webp\" width=\"1200\"></figure>\n<figure><img alt=\"593758751 873147768558671 2484129399749430342 n\" height=\"800\" src=\"/assets/images/7b5b21d94a83a202.webp\" width=\"1200\"></figure>\n<figure><img alt=\"594313986 873147731892008 616399526000198964 n\" height=\"800\" src=\"/assets/images/34c07111e35dfb4c.webp\" width=\"1200\"></figure>",
       "image": "/assets/images/36c81144bc53d087.webp",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2025-12-08",
@@ -2511,7 +2579,8 @@
       "body": "<h3>\n\t\t\t\t\t\tTrung tâm nuôi trồng nghiên cứu chế biến dược liệu (Trại rắn Đồng Tâm)<br>\n</h3>\n<p>\t\t\t\t\t(Trại rắn Đồng Tâm) phối hợp với Bệnh viện quân y 120 tổ chức khám bệnh, cấp thuốc miễn phí, tặng 300 phần quà cho gia đình chính sách, thương binh, liệt sĩ, người có công với cách mạng, hộ nghèo ở xã Vĩnh Viễn, Tp.Cần Thơ.<br>\nQua đó, góp phần thực hiện tốt chính sách hậu phương Quân đội, công tác đền ơn đáp nghĩa; thắt chặt tình đoàn kết với đơn vị bạn, chính quyền và nhân dân địa phương./.</p>\n<figure><img alt=\"593692748 874732778400170 661684971318525924 n\" height=\"800\" src=\"/assets/images/563e69f1f6415df2.webp\" width=\"1200\"></figure>\n<figure><img alt=\"594968961 874732601733521 154188544393608122 n\" height=\"800\" src=\"/assets/images/501cad0515ced737.webp\" width=\"1200\"></figure>\n<figure><img alt=\"593868107 874732661733515 2800793099753132576 n\" height=\"800\" src=\"/assets/images/1e75305a1dedb179.webp\" width=\"1200\"></figure>",
       "image": "/assets/images/563e69f1f6415df2.webp",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2025-12-08",
@@ -2526,7 +2595,8 @@
       "body": "<p>👉 Trung tâm chào đón gần 1000 sinh viên của Trường Đại học Văn Hiến và Đại học Nha Trang.</p>\n<p>👉Vừa học vừa chơi chỉ có thể ở Trại rắn Đồng Tâm</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/1d4c147f52c837e1.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/52d6ae44047be8c7.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/e72f12c0e51e17fc.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/5bfccd22a923ff09.webp\" width=\"1200\"></figure>",
       "image": "/assets/images/1d4c147f52c837e1.webp",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2025-12-07",
@@ -2545,7 +2615,8 @@
         "68",
         "67",
         "1",
-        "research-projects"
+        "research-projects",
+        "news-other"
       ],
       "status": "published",
       "date": "2025-10-10",
@@ -2560,7 +2631,8 @@
       "body": "<figure><img alt=\"📸\" height=\"800\" src=\"/assets/fallback.svg\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/9a9da1209fc00190.webp\" width=\"1200\"></figure>\n<p>Hi ! Cả nhà mình chuẩn bị Trung thu đến đâu rồi nè?🐇</p>\n<p>👉Mời cả nhà ngắm nhìn một góc Trung thu chill chill tại Trại rắn Đồng Tâm nha 📸</p>\n<p>☎️Hotline: 0397787878</p>\n<p>🏝️Google Maps: <a href=\"https://maps.app.goo.gl/oeFbSb4GbxJTQJny7?g_st=ipc&amp;fbclid=IwZXh0bgNhZW0CMTAAYnJpZBEweWtUMmFqUWZLRk0zMm9oQgEeJ_aArTWgM1SL4Afg3inU5ncScDP6ALmfH6sSImHN_QSEnB_3soK06LDqyfU_aem_ZTBlPxMlIIBASZqpin_jKQ\">https://maps.app.goo.gl/oeFbSb4GbxJTQJny7?g_st=ipc</a></p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/b457748ec3b847fb.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/c050e879b0f7714e.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/9b527dc85d72c2fc.webp\" width=\"1200\"></figure>",
       "image": "/assets/fallback.svg",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2025-10-01",
@@ -2575,7 +2647,8 @@
       "body": "<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/d32fe25394a7764b.webp\" width=\"1200\"></figure>\n<p>Sản phẩm Trại rắn Đồng Tâm đang có mặt tại “Không gian trưng bày giới thiệu sản phẩm OCOP, sản phẩm tiểu thủ công nghiệp tiêu biểu tỉnh Đồng Tháp”❤️‍🔥</p>\n<p>⏰Thời gian: từ 29/9/2025 – 05/10/2025</p>\n<p>📌Địa điểm: Quảng trường Hùng Vương, phường Đạo Thạnh, tỉnh Đồng Tháp.</p>\n<p>☎️Hotline: 0397787878</p>\n<p>👉Kính mời quý khách đến tham quan và mua sắm các sản phẩm chăm sóc sức khoẻ của Trại rắn Đồng Tâm 📣</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/2bb3e8b13d86db6c.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/12af723e06dfe044.webp\" width=\"1200\"></figure>",
       "image": "/assets/images/d32fe25394a7764b.webp",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2025-10-01",
@@ -2590,7 +2663,8 @@
       "body": "<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/1de544405f40c90a.webp\" width=\"1200\"></figure>\n<p>Dùng trong các trường hợp:</p>\n<p>Làm giảm triệu chứng đau và viêm như: đau mỏi khớp gối, khớp cổ tay, cổ chân, khuỷu tay, đau cơ, đau dây thần kinh toạ, đau lưng đơn thuần, hội chứng cổ vai gáy, bong gân hoặc nhức mỏi tại chỗ do vận động quá độ.</p>\n<p>📌Hướng dẫn sử dụng:</p>\n<p>Bôi một lượng kem vừa đủ lên chỗ đau và xoa bóp kỹ cho kem Cobratofor thấm qua da phát huy hiệu quả giảm đau. Ngày dùng 3 – 4 lần.</p>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/ba92263bf058bdcc.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/45d2387a56256f85.webp\" width=\"1200\"></figure>\n<figure><img alt=\"image\" height=\"800\" src=\"/assets/images/1de3779a74f068c2.webp\" width=\"1200\"></figure>",
       "image": "/assets/images/1de544405f40c90a.webp",
       "categories": [
-        "1"
+        "1",
+        "news-other"
       ],
       "status": "published",
       "date": "2025-10-01",
@@ -4067,7 +4141,7 @@
     {
       "id": "danh-muc-san-pham__chim",
       "path": "/danh-muc-san-pham/chim/",
-      "title": "Chim",
+      "title": "Lớp chim",
       "kind": "category",
       "excerpt": "Khám phá chim được giới thiệu tại Trại rắn Đồng Tâm.",
       "body": "",
@@ -4106,7 +4180,7 @@
     {
       "id": "danh-muc-san-pham__ran",
       "path": "/danh-muc-san-pham/ran/",
-      "title": "Rắn",
+      "title": "Lớp bò sát",
       "kind": "category",
       "excerpt": "Khám phá rắn được giới thiệu tại Trại rắn Đồng Tâm.",
       "body": "",
@@ -4145,7 +4219,7 @@
     {
       "id": "danh-muc-san-pham__thu",
       "path": "/danh-muc-san-pham/thu/",
-      "title": "Thú",
+      "title": "Lớp thú",
       "kind": "category",
       "excerpt": "Khám phá thú được giới thiệu tại Trại rắn Đồng Tâm.",
       "body": "",
@@ -4190,7 +4264,7 @@
       "body": "",
       "image": "/assets/images/fbdbae2b3f71714a.webp",
       "categories": [],
-      "status": "published",
+      "status": "draft",
       "date": "2026-11-04",
       "section": ""
     },
@@ -4210,7 +4284,7 @@
     {
       "id": "category__tin-moi",
       "path": "/category/tin-moi/",
-      "title": "Tin tức",
+      "title": "Tin nổi bật",
       "kind": "category",
       "excerpt": "Những hoạt động, sự kiện và câu chuyện mới từ Trại rắn Đồng Tâm.",
       "body": "",
@@ -4229,7 +4303,7 @@
       "body": "",
       "image": "/assets/images/fbdbae2b3f71714a.webp",
       "categories": [],
-      "status": "published",
+      "status": "draft",
       "date": "2026-11-04",
       "section": ""
     },
@@ -4242,7 +4316,7 @@
       "body": "",
       "image": "/assets/images/f456426bdd9e07e3.webp",
       "categories": [],
-      "status": "published",
+      "status": "draft",
       "date": "2026-11-04",
       "section": ""
     },
@@ -4362,6 +4436,110 @@
       "categories": [],
       "status": "published",
       "date": "2026-11-05"
+    },
+    {
+      "id": "about-other",
+      "path": "/gioi-thieu/khac/",
+      "title": "Khác",
+      "section": "about",
+      "kind": "category",
+      "categories": [],
+      "body": "",
+      "image": "",
+      "excerpt": "",
+      "status": "published",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "research-other",
+      "path": "/nghien-cuu-khoa-hoc/khac/",
+      "title": "Khác",
+      "section": "research",
+      "kind": "category",
+      "categories": [],
+      "body": "",
+      "image": "",
+      "excerpt": "",
+      "status": "published",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "herbs-animals",
+      "path": "/vuon-thuoc-nam/con-thuoc/",
+      "title": "Con thuốc",
+      "section": "herbs",
+      "kind": "category",
+      "categories": [],
+      "body": "",
+      "image": "",
+      "excerpt": "",
+      "status": "published",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "herbs-other",
+      "path": "/vuon-thuoc-nam/khac/",
+      "title": "Khác",
+      "section": "herbs",
+      "kind": "category",
+      "categories": [],
+      "body": "",
+      "image": "",
+      "excerpt": "",
+      "status": "published",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "products-other",
+      "path": "/san-pham/khac/",
+      "title": "Khác",
+      "section": "products",
+      "kind": "category",
+      "categories": [],
+      "body": "",
+      "image": "",
+      "excerpt": "",
+      "status": "published",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "tourism-other",
+      "path": "/du-lich-sinh-thai/khac/",
+      "title": "Khác",
+      "section": "tourism",
+      "kind": "category",
+      "categories": [],
+      "body": "",
+      "image": "",
+      "excerpt": "",
+      "status": "published",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "news-videos",
+      "path": "/tin-tuc/video-noi-bat/",
+      "title": "Video nổi bật",
+      "section": "news",
+      "kind": "category",
+      "categories": [],
+      "body": "",
+      "image": "",
+      "excerpt": "",
+      "status": "published",
+      "date": "2026-11-13"
+    },
+    {
+      "id": "news-other",
+      "path": "/tin-tuc/khac/",
+      "title": "Khác",
+      "section": "news",
+      "kind": "category",
+      "categories": [],
+      "body": "",
+      "image": "",
+      "excerpt": "",
+      "status": "published",
+      "date": "2026-11-13"
     }
   ]
 }

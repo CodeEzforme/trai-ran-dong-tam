@@ -16,7 +16,7 @@ test('new published categories join the selected section and can nest under anot
 test('linked menu categories keep the original treatment page and photographs',()=>{
  let data=add(fixture(),'treatment-shortcut');data=editDocument(data,'treatment-shortcut',{targetPath:'/dieu-tri-ran-can/'});validateContent(data);
  const node=navigationFor(data).find(g=>g.id==='research').children.find(c=>c.id==='treatment-shortcut');assert.equal(node.path,'/dieu-tri-ran-can/');
- const doc=data.documents.find(d=>d.path==='/dieu-tri-ran-can/');assert.equal(managedDocument(doc,{data,templates,cleanBody,prefixHtml:html=>html}),null);
+ const doc=data.documents.find(d=>d.path==='/dieu-tri-ran-can/');const html=managedDocument(doc,{data,templates,cleanBody,prefixHtml:html=>html});assert(html.includes('dieu-tri-ran-can-01-tham-kham.webp'));assert(!html.includes('Liên hệ trung tâm'));
 });
 test('category cycles, invalid parent groups and unknown targets are rejected before publishing',()=>{
  const cyclic=add(add(fixture(),'first-test','second-test'),'second-test','first-test');assert.throws(()=>validateContent(cyclic),/vòng lặp/);
