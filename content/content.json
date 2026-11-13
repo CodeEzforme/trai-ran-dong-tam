@@ -447,8 +447,9 @@
         "about-organization"
       ],
       "section": "about",
-      "status": "published",
-      "date": "2026-11-13"
+      "status": "draft",
+      "date": "2026-11-13",
+      "deletedAt": "2026-11-13T08:34:45.659Z"
     },
     {
       "id": "entry-95485558-7b3f-4fac-ab05-c2657f0ccee5",

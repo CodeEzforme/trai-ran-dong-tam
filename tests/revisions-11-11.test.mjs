@@ -6,7 +6,7 @@ import {navigationFor,collectionFor} from '../lib/structure.mjs';
 import {publishedVideos,videoSource} from '../lib/video.mjs';
 test('requested menu hierarchy and marked removals survive public rendering',()=>{
  const nav=navigationFor(content);assert.deepEqual(nav.map(s=>s.label),['Trang chủ','Giới thiệu','Nghiên cứu khoa học','Điều trị rắn cắn','Công tác bảo tồn','Sản phẩm','Du lịch sinh thái','Tin tức','Tuyển dụng']);
- assert.equal(nav[1].children.find(c=>c.id==='about-organization').children.length,5);
+ const departments=nav[1].children.find(c=>c.id==='about-organization').children;for(const id of ['about-directors','about-administration','about-tourism','about-aquaculture','about-factory'])assert(departments.some(d=>d.id===id));
  for(const [path,removed]of [['/bang-gia-dich-vu/','service-note'],['/dieu-tri-ran-can/','Liên hệ trung tâm'],['/vuon-thuoc-nam/','06-nhom-cay-thuoc']])assert(!renderDocument(content.documents.find(d=>d.path===path)).includes(removed));
 });
 test('new treatment and recruitment posts reach their collections while drafts stay hidden',()=>{
