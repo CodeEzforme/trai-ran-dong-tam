@@ -146,13 +146,6 @@
       "section": "news"
     },
     {
-      "id": "67",
-      "name": "Video nổi bật",
-      "path": "/category/tin-noi-bo/",
-      "kind": "post",
-      "section": "news"
-    },
-    {
       "id": "1",
       "name": "Khác",
       "path": "/category/uncategorized/",
@@ -414,6 +407,21 @@
     }
   ],
   "documents": [
+    {
+      "id": "entry-c3ce1c3b-f4ff-4a69-b13d-0ac474d730a2",
+      "path": "/tin-tuc/noi-dung-moi-d730a2/",
+      "title": "Nội dung mới",
+      "kind": "post",
+      "excerpt": "",
+      "body": "<p></p>",
+      "image": "",
+      "categories": [
+        "68"
+      ],
+      "section": "news",
+      "status": "draft",
+      "date": "2026-11-13"
+    },
     {
       "id": "entry-d7b90802-1575-4d44-9e66-8f6f6bdaf92c",
       "path": "/tin-tuc/noi-dung-moi-daf92c/",
@@ -2657,7 +2665,6 @@
       "image": "/assets/images/fbdbae2b3f71714a.webp",
       "categories": [
         "68",
-        "67",
         "1",
         "research-projects",
         "news-other"
@@ -4348,9 +4355,10 @@
       "body": "",
       "image": "/assets/images/fbdbae2b3f71714a.webp",
       "categories": [],
-      "status": "published",
+      "status": "draft",
       "date": "2026-11-04",
-      "section": ""
+      "section": "",
+      "deletedAt": "2026-11-13T09:39:13.252Z"
     },
     {
       "id": "category__uncategorized",
