@@ -386,7 +386,7 @@
     {
       "id": "news-other",
       "path": "/tin-tuc/khac/",
-      "name": "Khác",
+      "name": "Khác.",
       "section": "news",
       "kind": "post"
     },
@@ -4608,7 +4608,7 @@
     {
       "id": "news-other",
       "path": "/tin-tuc/khac/",
-      "title": "Khác",
+      "title": "Khác.",
       "section": "news",
       "kind": "category",
       "categories": [],
