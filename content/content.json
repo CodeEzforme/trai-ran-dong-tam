@@ -353,6 +353,21 @@
   ],
   "documents": [
     {
+      "id": "entry-95485558-7b3f-4fac-ab05-c2657f0ccee5",
+      "path": "/nghien-cuu-khoa-hoc/noi-dung-moi-0ccee5/",
+      "title": "test đtrc",
+      "kind": "post",
+      "excerpt": "test đtrc",
+      "body": "test đtrc<p></p>",
+      "image": "/assets/images/dieu-tri-ran-can-01-tham-kham.webp",
+      "categories": [
+        "entry-3cea2e1c-5ca2-40c4-8c4a-99446517bb75"
+      ],
+      "section": "research",
+      "status": "published",
+      "date": "2026-11-13"
+    },
+    {
       "id": "entry-766e5070-9a8f-4323-89a4-441e387de825",
       "path": "/tin-tuc/noi-dung-moi-7de825/",
       "title": " BẠN ĐÃ BIẾT GÌ VỀ LOÀI VƯỢN CÁO CÓ CHIẾC ĐUÔI SỌC ĐỘC ĐÁO NÀY?",
