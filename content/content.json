@@ -392,7 +392,7 @@
     },
     {
       "id": "entry-2b4cdfd6-6343-4da1-8352-f85db44dcfc1",
-      "name": "Khoa điều trị rắn",
+      "name": "Khoa điều trị rắn cắn",
       "path": "/category/danh-muc-4dcfc1/",
       "kind": "post",
       "section": "about",
@@ -484,9 +484,9 @@
     {
       "id": "entry-2b4cdfd6-6343-4da1-8352-f85db44dcfc1",
       "path": "/category/danh-muc-4dcfc1/",
-      "title": "Khoa điều trị rắn",
+      "title": "Khoa điều trị rắn cắn",
       "kind": "category",
-      "excerpt": "Khoa điều trị rắn",
+      "excerpt": "Khoa điều trị rắn cắn",
       "body": "<p></p>",
       "image": "",
       "categories": [],
