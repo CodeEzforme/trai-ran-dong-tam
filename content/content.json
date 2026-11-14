@@ -392,7 +392,7 @@
     },
     {
       "id": "entry-2b4cdfd6-6343-4da1-8352-f85db44dcfc1",
-      "name": "Khác",
+      "name": "Khoa điều trị rắn",
       "path": "/category/danh-muc-4dcfc1/",
       "kind": "post",
       "section": "about",
@@ -484,9 +484,9 @@
     {
       "id": "entry-2b4cdfd6-6343-4da1-8352-f85db44dcfc1",
       "path": "/category/danh-muc-4dcfc1/",
-      "title": "Khác",
+      "title": "Khoa điều trị rắn",
       "kind": "category",
-      "excerpt": "khác",
+      "excerpt": "Khoa điều trị rắn",
       "body": "<p></p>",
       "image": "",
       "categories": [],
