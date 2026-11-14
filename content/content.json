@@ -41,6 +41,11 @@
         "caption": "Khám phá Đồng Tâm"
       },
       {
+        "image": "/assets/images/uploads/bia-9-8a62787e.webp",
+        "mobile": "/assets/images/uploads/bia-9-8a62787e.webp",
+        "caption": "Khám phá Đồng Tâm"
+      },
+      {
         "image": "/assets/images/uploads/bia-6-aa6d640d.webp",
         "mobile": "/assets/images/uploads/bia-6-aa6d640d.webp",
         "caption": "Khám phá Đồng Tâm"
@@ -48,16 +53,6 @@
       {
         "image": "/assets/images/uploads/bia-7-2eb898cc.webp",
         "mobile": "/assets/images/uploads/bia-7-2eb898cc.webp",
-        "caption": "Khám phá Đồng Tâm"
-      },
-      {
-        "image": "/assets/images/uploads/bia-9-8a62787e.webp",
-        "mobile": "/assets/images/uploads/bia-9-8a62787e.webp",
-        "caption": "Khám phá Đồng Tâm"
-      },
-      {
-        "image": "/assets/images/uploads/trai-ran-dong-tam-doan-ket-phat-trien-3fe8f9d8.webp",
-        "mobile": "/assets/images/uploads/trai-ran-dong-tam-doan-ket-phat-trien-3fe8f9d8.webp",
         "caption": "Khám phá Đồng Tâm"
       }
     ],
@@ -400,6 +395,22 @@
     }
   ],
   "documents": [
+    {
+      "id": "entry-b4c819fa-b9fa-4825-b375-0a40cf32e5cd",
+      "path": "/tin-tuc/noi-dung-moi-32e5cd/",
+      "title": "Nội dung mới",
+      "kind": "post",
+      "excerpt": "",
+      "body": "<p></p>",
+      "image": "",
+      "categories": [
+        "68"
+      ],
+      "section": "news",
+      "status": "draft",
+      "date": "2026-11-14",
+      "videoUrl": ""
+    },
     {
       "id": "entry-203e818d-2707-4952-a8ca-2be606527928",
       "path": "/tin-tuc/noi-dung-moi-527928/",
