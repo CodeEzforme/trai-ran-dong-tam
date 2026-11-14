@@ -264,7 +264,7 @@
     },
     {
       "id": "products-ocop-local",
-      "name": "Một số sản phẩm OCOP địa phương",
+      "name": "Sản phẩm OCOP Đồng Tâm",
       "path": "/san-pham-ocop/",
       "kind": "product",
       "section": "products"
@@ -2313,7 +2313,7 @@
     {
       "id": "san-pham-ocop",
       "path": "/san-pham-ocop/",
-      "title": "Một số sản phẩm OCOP địa phương",
+      "title": "Sản phẩm OCOP Đồng Tâm",
       "kind": "page",
       "excerpt": "Khám phá không gian trưng bày, giới thiệu sản phẩm OCOP của Đồng Tâm.",
       "body": "",
