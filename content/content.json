@@ -105,7 +105,7 @@
     },
     {
       "id": "79",
-      "name": "Khác",
+      "name": "Một số sản phẩm OCOP địa phương",
       "path": "/danh-muc-san-pham/san-pham/",
       "kind": "product",
       "section": "products"
@@ -4302,7 +4302,7 @@
     {
       "id": "danh-muc-san-pham__san-pham",
       "path": "/danh-muc-san-pham/san-pham/",
-      "title": "Khác",
+      "title": "Một số sản phẩm OCOP địa phương",
       "kind": "category",
       "excerpt": "Khám phá sản phẩm được giới thiệu tại Trại rắn Đồng Tâm.",
       "body": "",
