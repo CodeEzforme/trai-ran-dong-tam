@@ -523,8 +523,9 @@
         "entry-3cea2e1c-5ca2-40c4-8c4a-99446517bb75"
       ],
       "section": "research",
-      "status": "published",
-      "date": "2026-11-13"
+      "status": "draft",
+      "date": "2026-11-13",
+      "deletedAt": "2026-11-14T02:00:48.098Z"
     },
     {
       "id": "entry-766e5070-9a8f-4323-89a4-441e387de825",
@@ -699,8 +700,9 @@
         "entry-3cea2e1c-5ca2-40c4-8c4a-99446517bb75"
       ],
       "section": "research",
-      "status": "published",
-      "date": "2026-11-09"
+      "status": "draft",
+      "date": "2026-11-09",
+      "deletedAt": "2026-11-14T02:00:50.866Z"
     },
     {
       "id": "entry-c7e9db57-5dd6-42e6-9d6e-c225ebd0da57",
