@@ -353,7 +353,7 @@
     {
       "id": "products-other",
       "path": "/san-pham/khac/",
-      "name": "Khác",
+      "name": "Một số sản phẩm OCOP địa phương",
       "section": "products",
       "kind": "product"
     },
@@ -4659,13 +4659,13 @@
     {
       "id": "products-other",
       "path": "/san-pham/khac/",
-      "title": "Khác",
+      "title": "Một số sản phẩm OCOP địa phương",
       "section": "products",
       "kind": "category",
       "categories": [],
       "body": "",
       "image": "",
-      "excerpt": "Các sản phẩm khác",
+      "excerpt": "Một số sản phẩm OCOP địa phương",
       "status": "published",
       "date": "2026-11-13"
     },
