@@ -31,11 +31,6 @@
         "caption": "Chào đón một ngày khám phá"
       },
       {
-        "image": "/assets/images/uploads/bia-3-9cd4219f.webp",
-        "mobile": "/assets/images/uploads/bia-3-9cd4219f.webp",
-        "caption": "Khám phá Đồng Tâm"
-      },
-      {
         "image": "/assets/images/uploads/anh-bia-giu-nguyen-noi-dung-1916x821-98b1e9f6.webp",
         "mobile": "/assets/images/uploads/anh-bia-giu-nguyen-noi-dung-1916x821-98b1e9f6.webp",
         "caption": "Khám phá Đồng Tâm"
@@ -53,6 +48,11 @@
       {
         "image": "/assets/images/uploads/bia-7-2eb898cc.webp",
         "mobile": "/assets/images/uploads/bia-7-2eb898cc.webp",
+        "caption": "Khám phá Đồng Tâm"
+      },
+      {
+        "image": "/assets/images/uploads/bia-3-9cd4219f.webp",
+        "mobile": "/assets/images/uploads/bia-3-9cd4219f.webp",
         "caption": "Khám phá Đồng Tâm"
       }
     ],
