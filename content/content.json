@@ -77,7 +77,7 @@
     },
     {
       "id": "78",
-      "name": "Khác",
+      "name": "Động vật rừng thông thường",
       "path": "/danh-muc-san-pham/khac/",
       "kind": "product",
       "section": "tourism"
@@ -5377,7 +5377,7 @@
     {
       "id": "danh-muc-san-pham__khac",
       "path": "/danh-muc-san-pham/khac/",
-      "title": "Khác",
+      "title": "Động vật rừng thông thường",
       "kind": "category",
       "excerpt": "Khám phá khác được giới thiệu tại Trại rắn Đồng Tâm.",
       "body": "",
