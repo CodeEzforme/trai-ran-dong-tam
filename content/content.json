@@ -70,7 +70,7 @@
   "categories": [
     {
       "id": "77",
-      "name": "Loài nguy cấp, quý, hiếm được ưu tiên bảo vệ",
+      "name": "Nhóm Cites",
       "path": "/danh-muc-san-pham/chim/",
       "kind": "product",
       "section": "tourism"
@@ -5364,9 +5364,9 @@
     {
       "id": "danh-muc-san-pham__chim",
       "path": "/danh-muc-san-pham/chim/",
-      "title": "Loài nguy cấp, quý, hiếm được ưu tiên bảo vệ",
+      "title": "Nhóm Cites",
       "kind": "category",
-      "excerpt": "Loài thuộc Danh mục loài nguy cấp, quý, hiếm được ưu tiên bảo vệ\n(theo TT 85/2025/TT-BNNMT)",
+      "excerpt": "Công ước về buôn bán quốc tế các loài hoang dã nguy cấp",
       "body": "",
       "image": "",
       "categories": [],
