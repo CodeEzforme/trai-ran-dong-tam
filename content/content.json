@@ -3446,9 +3446,10 @@
         "78",
         "tourism-wildlife"
       ],
-      "status": "published",
+      "status": "draft",
       "date": "2026-11-04",
-      "section": "tourism"
+      "section": "tourism",
+      "deletedAt": "2026-11-26T08:31:13.836Z"
     },
     {
       "id": "chuot-lang",
@@ -3735,9 +3736,10 @@
         "78",
         "tourism-wildlife"
       ],
-      "status": "published",
+      "status": "draft",
       "date": "2026-11-04",
-      "section": "tourism"
+      "section": "tourism",
+      "deletedAt": "2026-11-26T08:30:56.764Z"
     },
     {
       "id": "hoang-nam-bo",
