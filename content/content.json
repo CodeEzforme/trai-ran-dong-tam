@@ -3171,7 +3171,8 @@
       "categories": [],
       "section": "tourism",
       "status": "draft",
-      "date": "2026-11-07"
+      "date": "2026-11-07",
+      "deletedAt": "2026-11-27T00:51:03.756Z"
     },
     {
       "id": "entry-54b339fe-9c88-48d2-9232-022c530f1346",
@@ -3283,7 +3284,8 @@
       "categories": [],
       "section": "tourism",
       "status": "draft",
-      "date": "2026-11-05"
+      "date": "2026-11-05",
+      "deletedAt": "2026-11-27T00:51:10.932Z"
     },
     {
       "id": "entry-c63af539-d172-457e-b747-a3a6a90647c4",
@@ -3339,9 +3341,10 @@
       "body": "",
       "image": "",
       "categories": [],
-      "status": "published",
+      "status": "draft",
       "date": "2026-11-04",
-      "section": ""
+      "section": "",
+      "deletedAt": "2026-11-27T00:51:13.476Z"
     },
     {
       "id": "ngua-lun-pony",
