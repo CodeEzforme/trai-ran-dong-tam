@@ -423,8 +423,9 @@
         "78"
       ],
       "section": "tourism",
-      "status": "published",
-      "date": "2026-11-27"
+      "status": "draft",
+      "date": "2026-11-27",
+      "deletedAt": "2026-11-27T01:59:46.245Z"
     },
     {
       "id": "entry-146b5bfc-cb6f-4d74-9c45-76e7d2d974d3",
